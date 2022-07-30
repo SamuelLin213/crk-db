@@ -2,7 +2,7 @@
   "name": "crk-db",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://samuellin213.github.io/crk-db/public",
+  "homepage": "https://samuellin213.github.io/crk-db/",
   "dependencies": {
     "-": "^0.0.1",
     "@testing-library/jest-dom": "^5.16.4",
