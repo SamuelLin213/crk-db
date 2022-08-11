@@ -106,7 +106,7 @@ class Searchbar extends React.Component
                 <a className="discordIcon" href="https://discordapp.com/users/474649200622043138" rel="noopener noreferrer" target="_blank" title="Contact me on Discord!"><FontAwesomeIcon icon={faDiscord} /></a>
               </div>    
               <div className="headerRight">
-                <input type="text" id="searchBarId" placeholder="Search for decor..." onKeyDown={checkName} onKeyUp={checkName}></input> 
+                <input className="searchText" type="text" id="searchBarId" placeholder="Search through decors..." onKeyDown={checkName} onKeyUp={checkName}></input> 
                   
                 {/*select menu for themes*/}
                 <select name="themes" id="themeList" onChange={searchFunc}>
@@ -175,14 +175,27 @@ function searchFunc() {
   
     for(let i = 0; i < gridItems.length; i++)
     {
+      let noteValue = gridItems[i].querySelector('.noteContent');
+      let noteText = "";
+
       if(searchKey)
       {
         gridElem = gridItems[i].querySelector('.decorName');
         let txtValue = gridElem.textContent || gridElem.innerText;
         
+        if(noteValue)
+        {
+          noteText = noteValue.textContent;
+        }
+        
         if (txtValue.replace(/\s/g, "").toUpperCase().indexOf(searchKey.replace(/\s/g, "").toUpperCase()) > -1) {
           bools[0] = true;
-        } else {
+        } 
+        else if(noteText !== "" && (noteText.replace(/\s/g, "").toUpperCase().indexOf(searchKey.replace(/\s/g, "").toUpperCase()) > -1))
+        {
+          bools[0] = true;
+        }
+        else {
           bools[0] = false;
         }      
       }

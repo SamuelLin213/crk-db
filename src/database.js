@@ -52,7 +52,7 @@ const decorArray = [
         theme: "Crispy Cookie Town",
         size: "2x2",
         points: 10,
-        tags: ["Pump"],
+        tags: [],
         url: '/regular_decor/cct/cct6.png',
         note: ""    
     },
@@ -61,7 +61,7 @@ const decorArray = [
         theme: "Crispy Cookie Town",
         size: "4x4",
         points: 15,
-        tags: ["Rack"],
+        tags: [],
         url: '/regular_decor/cct/cct7.png',
         note: ""    
     },
@@ -106,7 +106,7 @@ const decorArray = [
         theme: "Crispy Cookie Town",
         size: "4x4",
         points: 15,
-        tags: ["Swing", "Cookie Decor"],
+        tags: ["Cookie Decor"],
         url: '/regular_decor/cct/cct12.png',
         note: "Cookie Decor for Strawberry Cookie or Gingerbrave Cookie"    
     },
@@ -125,7 +125,7 @@ const decorArray = [
         theme: "Camping Time",
         size: "2x2",
         points: 11,
-        tags: ["Hanger"],
+        tags: [],
         url: '/regular_decor/ct/ct1.png',
         note: ""    
     },
@@ -152,7 +152,7 @@ const decorArray = [
         theme: "Camping Time",
         size: "2x2",
         points: 11,
-        tags: ["Stool", "Cookie Interaction"],
+        tags: ["Cookie Interaction"],
         url: '/regular_decor/ct/ct4.png',
         note: ""    
     },
@@ -161,7 +161,7 @@ const decorArray = [
         theme: "Camping Time",
         size: "4x4",
         points: 16,
-        tags: ["Hammock"],
+        tags: [],
         url: '/regular_decor/ct/ct5.png',
         note: ""    
     },
@@ -360,7 +360,7 @@ const decorArray = [
         theme: "Land of Peace & Healing",
         size: "8x8",
         points: 400,
-        tags: ["Wafflebot", "Cookie Decor"],
+        tags: ["Cookie Decor"],
         url: '/regular_decor/lph/lph19.png',
         note: "Cookie Decor for Strawberry Crepe Cookie"    
     },
@@ -378,7 +378,7 @@ const decorArray = [
         theme: "Land of Peace & Healing",
         size: "8x8",
         points: 400,
-        tags: ["Building", "Cookie Decor"],
+        tags: ["Building", "Cookie Decor", "Ancient"],
         url: '/regular_decor/lph/lph21.png',
         note: "Cookie Decor for Pure Vanilla Cookie"    
     },
@@ -514,7 +514,7 @@ const decorArray = [
         theme: "Parfaedia Fantasy",
         size: "4x4",
         points: 35,
-        tags: ["Magic"],
+        tags: [],
         url: '/regular_decor/pf/pf14.png',
         note: ""    
     },
@@ -523,7 +523,7 @@ const decorArray = [
         theme: "Parfaedia Fantasy",
         size: "4x4",
         points: 36,
-        tags: ["Magic"],
+        tags: [],
         url: '/regular_decor/pf/pf15.png',
         note: ""    
     },
@@ -541,7 +541,7 @@ const decorArray = [
         theme: "Parfaedia Fantasy",
         size: "8x8",
         points: 40,
-        tags: ["Shop", "Magic", "Food"],
+        tags: ["Shop", "Food"],
         url: '/regular_decor/pf/pf17.png',
         note: ""    
     },
@@ -550,7 +550,7 @@ const decorArray = [
         theme: "Parfaedia Fantasy",
         size: "8x8",
         points: 400,
-        tags: ["Food", "Magic", "Cookie Decor"],
+        tags: ["Food", "Cookie Decor"],
         url: '/regular_decor/pf/pf18.png',
         note: "Cookie Decor for Latte Cookie"    
     },
@@ -559,7 +559,7 @@ const decorArray = [
         theme: "Parfaedia Fantasy",
         size: "8x8",
         points: 400,
-        tags: ["Booth", "Cookie Decor"],
+        tags: ["Cookie Decor"],
         url: '/regular_decor/pf/pf19.png',
         note: "Cookie Decor for Almond Cookie"    
     },
@@ -987,7 +987,7 @@ const decorArray = [
         theme: "Lunar New Year",
         size: "4x4",
         points: 30,
-        tags: ["Wall", "Asia"],
+        tags: ["Wall"],
         url: '/regular_decor/lny/lny3.png',
         note: ""    
     },
@@ -996,7 +996,7 @@ const decorArray = [
         theme: "Lunar New Year",
         size: "4x4",
         points: 30,
-        tags: ["Jar"],
+        tags: [],
         url: '/regular_decor/lny/lny4.png',
         note: ""    
     },
@@ -1005,7 +1005,7 @@ const decorArray = [
         theme: "Lunar New Year",
         size: "4x4",
         points: 30,
-        tags: ["Asia"],
+        tags: [],
         url: '/regular_decor/lny/lny5.png',
         note: ""    
     },
@@ -1032,7 +1032,7 @@ const decorArray = [
         theme: "Lunar New Year",
         size: "4x4",
         points: 30,
-        tags: ["Bench", "Asia", "Cookie Interaction"],
+        tags: ["Bench", "Cookie Interaction"],
         url: '/regular_decor/lny/lny8.png',
         note: ""    
     },
@@ -1041,7 +1041,7 @@ const decorArray = [
         theme: "Lunar New Year",
         size: "4x4",
         points: 30,
-        tags: ["Table", "Asia", "Cookie Interaction"],
+        tags: ["Table", "Cookie Interaction"],
         url: '/regular_decor/lny/lny9.png',
         note: ""    
     },
@@ -1050,7 +1050,7 @@ const decorArray = [
         theme: "Lunar New Year",
         size: "8x8",
         points: 36,
-        tags: ["Asia"],
+        tags: [],
         url: '/regular_decor/lny/lny10.png',
         note: ""    
     },
@@ -1059,7 +1059,7 @@ const decorArray = [
         theme: "Lunar New Year",
         size: "8x8",
         points: 35,
-        tags: ["Asia"],
+        tags: [],
         url: '/regular_decor/lny/lny11.png',
         note: ""    
     },
@@ -1068,7 +1068,7 @@ const decorArray = [
         theme: "Lunar New Year",
         size: "8x8",
         points: 40,
-        tags: ["Asia", "Building", "Cookie Interaction"],
+        tags: ["Building", "Cookie Interaction"],
         url: '/regular_decor/lny/lny12.png',
         note: ""    
     },
@@ -1077,7 +1077,7 @@ const decorArray = [
         theme: "Lunar New Year",
         size: "8x8",
         points: 400,
-        tags: ["Swing", "Cookie Decor"],
+        tags: ["Cookie Decor"],
         url: '/regular_decor/lny/lny13.png',
         note: "Cookie Decor for Kumiho Cookie"    
     },
@@ -1432,7 +1432,7 @@ const decorArray = [
         theme: "Witches & Ghosts",
         size: "4x4",
         points: 21,
-        tags: ["Stone"],
+        tags: [],
         url: '/regular_decor/wg/wg2.png',
         note: ""    
     },
@@ -1441,7 +1441,7 @@ const decorArray = [
         theme: "Witches & Ghosts",
         size: "8x8",
         points: 28,
-        tags: ["Magic"],
+        tags: [],
         url: '/regular_decor/wg/wg3.png',
         note: ""    
     },
@@ -1450,7 +1450,7 @@ const decorArray = [
         theme: "Witches & Ghosts",
         size: "8x8",
         points: 28,
-        tags: ["Stone"],
+        tags: [],
         url: '/regular_decor/wg/wg4.png',
         note: ""    
     },
@@ -1478,7 +1478,7 @@ const decorArray = [
         theme: "Blade & Magic",
         size: "4x4",
         points: 22,
-        tags: ["Rack", "Weapon"],
+        tags: ["Weapon"],
         url: '/regular_decor/bm/bm1.png',
         note: ""    
     },
@@ -1487,7 +1487,7 @@ const decorArray = [
         theme: "Blade & Magic",
         size: "4x4",
         points: 22,
-        tags: ["Magic"],
+        tags: [],
         url: '/regular_decor/bm/bm2.png',
         note: ""    
     },
@@ -1550,7 +1550,7 @@ const decorArray = [
         theme: "Blade & Magic",
         size: "4x4",
         points: 30,
-        tags: ["Stone", "Bench", "Cookie Interaction"],
+        tags: ["Bench", "Cookie Interaction"],
         url: '/regular_decor/bm/bm9.png',
         note: ""    
     },
@@ -1577,7 +1577,7 @@ const decorArray = [
         theme: "Blade & Magic",
         size: "6x6",
         points: 38,
-        tags: ["Tower", "Magic", "Telescope"],
+        tags: ["Tower"],
         url: '/regular_decor/bm/bm12.png',
         note: ""    
     },
@@ -1586,7 +1586,7 @@ const decorArray = [
         theme: "Blade & Magic",
         size: "2x2",
         points: 20,
-        tags: ["Magic"],
+        tags: [],
         url: '/regular_decor/bm/bm13.png',
         note: ""    
     },
@@ -1595,7 +1595,7 @@ const decorArray = [
         theme: "Blade & Magic",
         size: "8x8",
         points: 240,
-        tags: ["Magic", "Cookie Decor"],
+        tags: ["Cookie Decor"],
         url: '/regular_decor/bm/bm14.png',
         note: "Cookie Decor for both Wizard Cookie and Alchemist Cookie"    
     },
@@ -1613,7 +1613,7 @@ const decorArray = [
         theme: "Blade & Magic",
         size: "8x8",
         points: 400,
-        tags: ["Tent", "Stone", "Cookie Decor"],
+        tags: ["Tent", "Cookie Decor"],
         url: '/regular_decor/bm/bm16.png',
         note: "Cookie Decor for Eclair Cookie"    
     },
@@ -1851,7 +1851,7 @@ const decorArray = [
         theme: "Luxurious Juice Salon",
         size: "8x8",
         points: 400,
-        tags: ["Cookie Decor", "Magic"],
+        tags: ["Cookie Decor"],
         url: '/regular_decor/ljs/ljs15.png',
         note: "Cookie Decor for Espresso Cookie"    
     },
@@ -2133,7 +2133,7 @@ const decorArray = [
         theme: "St. Pastry Order",
         size: "4x4",
         points: 36,
-        tags: ["Candle", "Shrine"],
+        tags: ["Candle"],
         url: '/regular_decor/spo/spo3.png',
         note: ""    
     },
@@ -2506,7 +2506,7 @@ const decorArray = [
         theme: "Pew-Pew Arcade",
         size: "4x4",
         points: 28,
-        tags: ["Machine", "Candy"],
+        tags: ["Machine"],
         url: '/regular_decor/ppa/ppa3.png',
         note: ""    
     },
@@ -2661,7 +2661,7 @@ const decorArray = [
         theme: "Starry Night",
         size: "4x4",
         points: 29,
-        tags: ["Stairs"],
+        tags: [],
         url: '/regular_decor/sn/sn6.png',
         note: ""    
     },
@@ -2725,7 +2725,7 @@ const decorArray = [
         theme: "Industrial Adventure",
         size: "4x4",
         points: 30,
-        tags: ["Aircraft"],
+        tags: [],
         url: '/regular_decor/ia/ia5.png',
         note: ""    
     },
@@ -2761,7 +2761,7 @@ const decorArray = [
         theme: "Industrial Adventure",
         size: "16x16",
         points: 500,
-        tags: ["Landmark", "Aircraft"],
+        tags: ["Landmark", ],
         url: '/regular_decor/ia/ia9.png',
         note: ""    
     },
@@ -3159,7 +3159,7 @@ const decorArray = [
         theme: "Summer Music Festival",
         size: "2x2",
         points: 20,
-        tags: ["Cookie Interaction", "Chair"],
+        tags: ["Cookie Interaction"],
         url: '/regular_decor/smf/smf1.png',
         note: ""    
     },
@@ -3475,7 +3475,7 @@ const decorArray = [
         theme: "Hollyberry Garden Carnival",
         size: "8x8",
         points: 400,
-        tags: ["Cookie Decor"],
+        tags: ["Cookie Decor", "Ancient"],
         url: '/regular_decor/hgc/hgc26.png',
         note: "Cookie Decor for Hollyberry Cookie"    
     },
@@ -3630,7 +3630,7 @@ const decorArray = [
         theme: "Abundant Harvest Festival",
         size: "8x8",
         points: 36,
-        tags: ["Bridge", "Asia", "Water"],
+        tags: ["Bridge", "Water"],
         url: '/regular_decor/ahf/ahf3.png',
         note: ""    
     },
@@ -3648,7 +3648,7 @@ const decorArray = [
         theme: "Abundant Harvest Festival",
         size: "6x6",
         points: 32,
-        tags: ["Food", "Asia"],
+        tags: ["Food"],
         url: '/regular_decor/ahf/ahf5.png',
         note: ""    
     },
@@ -3657,7 +3657,7 @@ const decorArray = [
         theme: "Abundant Harvest Festival",
         size: "4x4",
         points: 30,
-        tags: ["Asia"],
+        tags: [],
         url: '/regular_decor/ahf/ahf6.png',
         note: ""    
     },
@@ -3666,7 +3666,7 @@ const decorArray = [
         theme: "Abundant Harvest Festival",
         size: "8x8",
         points: 36,
-        tags: ["Asia", "Cookie Interaction"],
+        tags: ["Cookie Interaction"],
         url: '/regular_decor/ahf/ahf7.png',
         note: ""    
     },
@@ -3884,7 +3884,7 @@ const decorArray = [
         theme: "Sweet & Creepy",
         size: "2x2",
         points: 20,
-        tags: ["Stone"],
+        tags: [],
         url: '/regular_decor/sc/sc9.png',
         note: ""    
     },
@@ -4013,7 +4013,7 @@ const decorArray = [
         points: 35,
         tags: ["Cart", "Food", "Collab"],
         url: '/limited_decor/kfj/kfj8.png',
-        note: "Collaboration with e-mart; only available only on the e-mart app"    
+        note: "Collaboration with e-mart; only available on the e-mart app"    
     },
     /*Start of Cozy Snowfall Village*/
     {
@@ -4202,7 +4202,7 @@ const decorArray = [
         theme: "Jolly Year-End Festivities",
         size: "8x8",
         points: 36,
-        tags: ["Food"],
+        tags: ["Food", "Fountain"],
         url: '/regular_decor/jyf/jyf6.png',
         note: ""    
     },
@@ -4437,7 +4437,7 @@ const decorArray = [
         theme: "Kingdom of the Unwavering",
         size: "4x4",
         points: 30,
-        tags: ["Instrument"],
+        tags: ["Music"],
         url: '/regular_decor/ku/ku15.png',
         note: ""    
     },
@@ -4455,7 +4455,7 @@ const decorArray = [
         theme: "Kingdom of the Unwavering",
         size: "2x2",
         points: 20,
-        tags: ["Lamp", "Stone"],
+        tags: ["Lamp"],
         url: '/regular_decor/ku/ku17.png',
         note: ""    
     },
@@ -4469,7 +4469,7 @@ const decorArray = [
         note: ""    
     },
     {
-        name: "Purple Blazier",
+        name: "Purple Brazier",
         theme: "Kingdom of the Unwavering",
         size: "2x2",
         points: 20,
@@ -4536,7 +4536,7 @@ const decorArray = [
         theme: "Kingdom of the Unwavering",
         size: "4x4",
         points: 30,
-        tags: ["Statue", "Stone"],
+        tags: ["Statue"],
         url: '/regular_decor/ku/ku26.png',
         note: ""    
     },
@@ -4590,7 +4590,7 @@ const decorArray = [
         theme: "Kingdom of the Unwavering",
         size: "8x8",
         points: 400,
-        tags: ["Cookie Decor"],
+        tags: ["Cookie Decor", "Ancient"],
         url: '/regular_decor/ku/ku32.png',
         note: "Cookie Decor for Dark Cacao Cookie"    
     },
@@ -4736,7 +4736,7 @@ const decorArray = [
         theme: "First Steps Towards Peace",
         size: "4x4",
         points: 30,
-        tags: ["Tree"],
+        tags: ["Greenery"],
         url: '/regular_decor/fstp/fstp3.png',
         note: ""    
     },
@@ -4944,7 +4944,7 @@ const decorArray = [
         theme: "The Republic's Azure Streets",
         size: "8x8",
         points: 400,
-        tags: ["Cookie Decor"],
+        tags: ["Cookie Decor", "Fountain"],
         url: '/regular_decor/tras/tras14.png',
         note: "Cookie Decor for Oyster Cookie"    
     },
@@ -5352,7 +5352,7 @@ const decorArray = [
         theme: "World of Magic & Dreams",
         size: "4x4",
         points: 32,
-        tags: ["Stand", "Food", "Collab"],
+        tags: ["Food", "Collab"],
         url: '/limited_decor/wmd/wmd20.png',
         note: ""    
     },
@@ -5433,7 +5433,7 @@ const decorArray = [
         theme: "World of Magic & Dreams",
         size: "8x8",
         points: 36,
-        tags: ["Collab"],
+        tags: ["Collab", "Fountain"],
         url: '/limited_decor/wmd/wmd29.png',
         note: ""    
     },
