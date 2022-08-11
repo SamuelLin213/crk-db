@@ -4,6 +4,13 @@
     flex: 1 0 auto;
 }
 
+.discordIcon {
+    font-size: 1.5em;
+    padding: 12px 0px;
+    margin-right: 30px;
+    color: white;
+}
+
 .searchBar {  
     width: 100%;
     overflow: hidden;
@@ -45,13 +52,6 @@
     padding: 0;
     padding-right: 20px;
     height: 60px;
-}
-  
-.fab {
-    font-size: 1.5em;
-    padding: 12px 0px;
-    margin-right: 30px;
-    color: white;
 }
 
 .searchBar input, .searchBar select, .searchBar div {

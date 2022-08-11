@@ -2,6 +2,8 @@ import React from 'react'
 import './Searchbar.css';
 import {decorArray, themeArray, sizeArray, tagsArray} from './database'
 import Tile from "./Tile.js"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faDiscord } from '@fortawesome/free-brands-svg-icons'
 
 var _ = require('lodash');
 let numResults = decorArray.length;
@@ -101,7 +103,7 @@ class Searchbar extends React.Component
             <div className="searchBarFilters">
               <div className="headerLeft">
                 <img className="crkLogo" src={process.env.PUBLIC_URL + "/logo.png"} alt="CRK logo"></img>
-                <a href="https://discordapp.com/users/474649200622043138" rel="noopener noreferrer" target="_blank" title="Contact me on Discord!"><i className='fab fa-discord'></i></a>
+                <a className="discordIcon" href="https://discordapp.com/users/474649200622043138" rel="noopener noreferrer" target="_blank" title="Contact me on Discord!"><FontAwesomeIcon icon={faDiscord} /></a>
               </div>    
               <div className="headerRight">
                 <input type="text" id="searchBarId" placeholder="Search for decor..." onKeyDown={checkName} onKeyUp={checkName}></input> 
