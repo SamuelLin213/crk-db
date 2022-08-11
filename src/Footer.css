@@ -1,0 +1,23 @@
+.footerLess {
+    margin-top:  20px;
+  }
+  
+.footerMore {
+  margin-top: 20px;
+}
+
+footer {
+  background-color: #d63642;
+  padding: 20px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  position: relative;
+  bottom: 0px;
+  width: 100%;
+  flex-shrink: 0;
+
+  z-index: 999;
+}

@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/crk-db/static/css/main.b894a496.css",
+    "main.js": "/crk-db/static/js/main.e6daca26.js",
+    "static/media/cutter.png": "/crk-db/static/media/cutter.fa40ca00deba64741f8c.png",
+    "index.html": "/crk-db/index.html",
+    "main.b894a496.css.map": "/crk-db/static/css/main.b894a496.css.map",
+    "main.e6daca26.js.map": "/crk-db/static/js/main.e6daca26.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b894a496.css",
+    "static/js/main.e6daca26.js"
+  ]
+}

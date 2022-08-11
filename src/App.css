@@ -1,0 +1,29 @@
+@font-face { font-family: crBold; src: url('../public/CookieRun\ Bold_en.ttf'); } 
+
+* {
+  box-sizing: border-box;
+  font-family: crBold;
+  -webkit-margin-before:0em;
+  -webkit-margin-after:0em;
+}
+
+body {
+  background-color: #fdbf1f;
+  background-image: url(../public/cutter.png);
+  background-repeat: repeat;
+  margin: 0px;
+  padding: 0px;
+}
+
+.pageContent 
+{
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#root {
+    width: 100%;
+    height: 100vh;
+}

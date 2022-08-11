@@ -1,0 +1,189 @@
+.decorTile {
+    margin: 0 20px;
+    text-align: center;
+    font-size: 0px;
+}
+
+.decorName {
+    z-index: 999;
+    position: relative;
+    margin: 0 auto; 
+    text-align: center;
+    line-height: 50px;
+    height: 0px;
+    font-size: 13px;
+  
+    color: #fff;
+    width: 100%;
+  
+    padding: 0;
+}
+
+.borderImg {
+    width: 100%;
+    height: 50px;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    z-index: 2;
+}
+
+.flexTile {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+    font-size: 0px;
+    margin-bottom: -2px;
+}
+
+.imageContainer {
+    position: relative;
+    width: 50%;
+}
+
+.tileImage {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+
+.regularTile {
+    background-image: url(../public/decorBackground.png);
+}
+
+.disneyTile {
+    background-image: url(../public/disneyBackground.png);
+}
+
+.decorImage {
+    position: absolute;
+  
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    text-align: center;
+  
+    z-index: 2;
+    max-width: 80%;
+    height: auto;
+}
+
+.image16 {
+    max-height: 70%;
+    max-width: 100%;
+}
+.image12 {
+    max-height: 70%;
+    max-width: 100%;
+}
+.image8 {
+    max-height: 60%;
+    max-width: 90%;
+}
+.image6 {
+    max-height: 70%;
+    max-width: 100%;
+}
+.image4 {
+    max-height: 70%;
+}
+.image3 {
+    max-height: 45%;
+}
+.image2 {
+    max-height: 50%;
+}
+
+.tileInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-right: auto;
+    font-size: 12px;
+    padding: 0px;
+    margin: 0px;
+    
+    width: 50%; 
+}
+
+.regularInfo {
+    background-color: #d6cfc7;
+}
+
+.disneyInfo {
+    background-color: #c7caed;
+}
+
+.tileInfo .decorTheme, .tileInfo .decorSize, .tileInfo .decorPoint{
+    padding: 5px;
+}
+
+.decorPoints {
+    padding-left: 7px;
+}
+
+.tagLogo {
+    height: 12px;
+    margin: auto;
+}
+
+.tagClass {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+    font-size: 10px;
+}
+
+.decorTag {
+    background-color: #fbe673;
+    width: auto;
+    margin: 0px;
+    padding: 0px;
+    color: black;
+    border-radius: 10px;
+  
+    margin: 3px;
+    padding: 5px;
+    height: auto;
+    display: flex;
+}
+
+.tagLogo, .tagText {
+    margin: 0px;
+    padding: 0px;
+    height: 15px;
+}
+
+.tagText {
+    margin-top: 2px;
+}
+
+
+
+.noteClass {
+    display: flex;
+    margin: 5px;
+    font-size: 8px;
+}
+  
+.noteText {
+    background-color: silver;
+    height: 20px;
+    padding: 5px;
+    border-radius: 10px;
+}
+  
+.noteContent {
+    padding: 5px 0px;
+} 
