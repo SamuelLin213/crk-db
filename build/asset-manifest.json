@@ -1,14 +1,17 @@
 {
   "files": {
-    "main.css": "/crk-db/static/css/main.b894a496.css",
-    "main.js": "/crk-db/static/js/main.e6daca26.js",
-    "static/media/cutter.png": "/crk-db/static/media/cutter.fa40ca00deba64741f8c.png",
-    "index.html": "/crk-db/index.html",
-    "main.b894a496.css.map": "/crk-db/static/css/main.b894a496.css.map",
-    "main.e6daca26.js.map": "/crk-db/static/js/main.e6daca26.js.map"
+    "main.css": "./static/css/main.de5f2fac.css",
+    "main.js": "./static/js/main.0ad177b7.js",
+    "static/media/disneyBackground.png": "./static/media/disneyBackground.16e8189d4fee13bc7fe5.png",
+    "static/media/decorBackground.png": "./static/media/decorBackground.aeca3642ee5922be8328.png",
+    "static/media/CookieRun Bold_en.ttf": "./static/media/CookieRun Bold_en.b0ed3d7a068a67090e43.ttf",
+    "static/media/cutter.png": "./static/media/cutter.fa40ca00deba64741f8c.png",
+    "index.html": "./index.html",
+    "main.de5f2fac.css.map": "./static/css/main.de5f2fac.css.map",
+    "main.0ad177b7.js.map": "./static/js/main.0ad177b7.js.map"
   },
   "entrypoints": [
-    "static/css/main.b894a496.css",
-    "static/js/main.e6daca26.js"
+    "static/css/main.de5f2fac.css",
+    "static/js/main.0ad177b7.js"
   ]
 }

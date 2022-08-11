@@ -2,7 +2,6 @@ import React from 'react'
 import './Searchbar.css';
 import {decorArray, themeArray, sizeArray, tagsArray} from './database'
 import Tile from "./Tile.js"
-import { update } from 'lodash';
 
 var _ = require('lodash');
 let numResults = decorArray.length;
@@ -13,7 +12,7 @@ const findElement = (searchKey, array) => {
 
   for(let x = 0; x < array.length; x++)
   {
-    if(array[x].name.toLowerCase() == key.toString().toLowerCase())
+    if(array[x].name.toLowerCase() === key.toString().toLowerCase())
     {
       return x;
     }
@@ -29,20 +28,13 @@ const updateResults = () =>
 
   for(let x = 0; x < gridItems.length; x++)
   {
-    if(gridItems[x].style.display != "none")
+    if(gridItems[x].style.display !== "none")
     {
       
       let index = findElement(gridItems[x].querySelector('.decorName').textContent, decorArray);
       
       results.push(decorArray[index]);
     }
-  }
-}
-
-const displayNames = (element) => {
-  for(let x = 0; x < element.length; x++)
-  {
-    console.log(element[x].querySelector('.decorName').textContent);
   }
 }
 
@@ -61,7 +53,6 @@ class Searchbar extends React.Component
   pointFilter()
   {
     let checkBox = document.getElementById('pointFilter');
-    let element = document.querySelector('.decorGrid').getElementsByClassName('decorTile');
 
     if(checkBox.checked)
     {
@@ -95,7 +86,7 @@ class Searchbar extends React.Component
     const result = document.querySelector('.resultNum');
     result.textContent = ("Results: " + decorArray.length);
     
-    if(param == null)
+    if(param === null)
     {
       document.getElementById("pointFilter").checked = false;
     }
@@ -194,17 +185,10 @@ function searchFunc() {
         }      
       }
       let val = document.querySelector('#tagList').value;
-      if(val != "select")
+      if(val !== "select")
       {
         gridElem = gridItems[i].querySelector('.tagClass');
         let txtValue = gridElem.textContent || gridElem.innerText;
-  
-        let landmark = document.querySelector('.landmarkLogo');
-        let water = document.querySelector('.waterLogo');
-        let cd = document.querySelector('.cdLogo');
-        let ci = document.querySelector('.ciLogo');
-        let ep = document.querySelector('.epLogo');
-        let item = gridItems[i].querySelector('.decorName').innerText;
         
         let childrenElem = gridElem.children;
   
@@ -213,29 +197,27 @@ function searchFunc() {
         {
           childrenArr = childrenArr.concat(Array.from(childrenElem[x].firstChild.classList));
         }
-  
-        let elem = gridElem.querySelector(".decorTag");
         
-        if (txtValue.toLowerCase().indexOf(val) > -1 || val == "select") {
+        if (txtValue.toLowerCase().indexOf(val) > -1 || val === "select") {
           bools[3] = true;
         } 
-        else if(val == 'landmark' && childrenArr.indexOf('landmarkLogo') != -1)
+        else if(val === 'landmark' && childrenArr.indexOf('landmarkLogo') !== -1)
         {
           bools[3] = true;
         }
-        else if(val == 'water' && childrenArr.indexOf('waterLogo') != -1)
+        else if(val === 'water' && childrenArr.indexOf('waterLogo') !== -1)
         {
           bools[3] = true;
         }
-        else if(val == 'cookie decor' && childrenArr.indexOf('cdLogo') != -1)
+        else if(val === 'cookie decor' && childrenArr.indexOf('cdLogo') !== -1)
         {
           bools[3] = true;
         }
-        else if(val == 'cookie interaction' && childrenArr.indexOf('ciLogo') != -1)
+        else if(val === 'cookie interaction' && childrenArr.indexOf('ciLogo') !== -1)
         {
           bools[3] = true;
         }
-        else if(val == 'disney crystals' && childrenArr.indexOf('epLogo') != -1)
+        else if(val === 'disney crystals' && childrenArr.indexOf('epLogo') !== -1)
         {
           bools[3] = true;
         }
@@ -244,22 +226,22 @@ function searchFunc() {
         }
       }
       val = document.querySelector('#themeList').value;
-      if(val != 'select')
+      if(val !== 'select')
       {
         gridElem = gridItems[i].querySelector('.decorTheme');
         let txtValue = gridElem.textContent || gridElem.innerText;
-        if (txtValue.toLowerCase().indexOf(val) > -1 || val == "select") {
+        if (txtValue.toLowerCase().indexOf(val) > -1 || val === "select") {
           bools[1] = true;
         } else {
           bools[1] = false;
         }
       }
       val = document.querySelector('#sizeList').value;
-      if(val != 'select')
+      if(val !== 'select')
       {
         gridElem = gridItems[i].querySelector('.decorSize');
         let txtValue = gridElem.textContent || gridElem.innerText;
-        if (txtValue.toLowerCase().indexOf(val) > -1 || val == "select") {
+        if (txtValue.toLowerCase().indexOf(val) > -1 || val === "select") {
           bools[2] = true;
         } else {
           bools[2] = false;
@@ -297,14 +279,14 @@ function searchFunc() {
 // }
 
 function checkName(event) {
-if(event.keyCode == 13)
+if(event.keyCode === 13)
 {
     event.preventDefault();
 }
 
 let elem = document.getElementById('tagList');
 let value = elem.value;
-if(value != 'select')
+if(value !== 'select')
 {
     searchFunc(value, 4);
 }

@@ -1,9 +1,9 @@
 import React from 'react'
 import './Footer.css';
-import {decorArray, themeArray, sizeArray, tagsArray} from './database'
+import {decorArray} from './database'
 
 const Footer = () => {
-    if(decorArray.length % 4 == 0)
+    if(decorArray.length % 4 === 0)
     {
       return (
         <footer className="footerLess">

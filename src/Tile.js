@@ -4,7 +4,7 @@ import "./Tile.css"
 const TileInfo = (props) => {
   let decor = props.decor;
 
-  if(decor.theme == "World of Magic & Dreams")
+  if(decor.theme === "World of Magic & Dreams")
   {
     return (
       <div className="tileInfo disneyInfo">
@@ -50,7 +50,7 @@ const Tile = props => {
 const TileImage = (props) => {
   let theme = props.theme;
   
-  if(theme == 'World of Magic & Dreams')
+  if(theme === 'World of Magic & Dreams')
   {
     return (
       <div className="tileImage disneyTile">
@@ -69,7 +69,7 @@ const TileImage = (props) => {
 function RenderTop(props) {
     let theme = props.theme;
   
-    if(theme == "World of Magic & Dreams")
+    if(theme === "World of Magic & Dreams")
     {
       return <img className="borderImg" src={process.env.PUBLIC_URL + "/disneyTop.png"} alt="Border Top"></img> 
     }
@@ -82,7 +82,7 @@ function RenderTop(props) {
 function RenderBottom(props) {
     let theme = props.theme;
   
-    if(theme == "World of Magic & Dreams")
+    if(theme === "World of Magic & Dreams")
     {
       return <img className="borderImg" src={process.env.PUBLIC_URL + "/disneyBottom.png"} alt="Border Bottom"></img> 
     }
@@ -95,59 +95,59 @@ function RenderBottom(props) {
 const DecorImage = (props) => {
     let size = props.decor.size;
   
-    if(size == "16x16")
+    if(size === "16x16")
     {
       return (
         <div>
-          <img className="decorImage image16" src={process.env.PUBLIC_URL + props.decor.url}></img>
+          <img alt="16x16" className="decorImage image16" src={process.env.PUBLIC_URL + props.decor.url}></img>
         </div>
       )
     }
-    else if(size == "12x12")
+    else if(size === "12x12")
     {
       return (
         <div>
-          <img className="decorImage image12" src={process.env.PUBLIC_URL + props.decor.url}></img>
+          <img alt="12x12" className="decorImage image12" src={process.env.PUBLIC_URL + props.decor.url}></img>
         </div>
       )
     }
-    else if(size == "8x8")
+    else if(size === "8x8")
     {
       return (
         <div>
-          <img className="decorImage image8" src={process.env.PUBLIC_URL + props.decor.url}></img>
+          <img alt="8x8" className="decorImage image8" src={process.env.PUBLIC_URL + props.decor.url}></img>
         </div>
       )
     }
-    else if(size == "6x6")
+    else if(size === "6x6")
     {
       return (
         <div>
-          <img className="decorImage image6" src={process.env.PUBLIC_URL + props.decor.url}></img>
+          <img alt="6x6" className="decorImage image6" src={process.env.PUBLIC_URL + props.decor.url}></img>
         </div>
       )
     }
-    else if(size == "4x4")
+    else if(size === "4x4")
     {
       return (
         <div>
-          <img className="decorImage image4" src={process.env.PUBLIC_URL + props.decor.url}></img>
+          <img alt="4x4" className="decorImage image4" src={process.env.PUBLIC_URL + props.decor.url}></img>
         </div>
       )
     }
-    else if(size == "3x3")
+    else if(size === "3x3")
     {
       return (
         <div>
-          <img className="decorImage image3" src={process.env.PUBLIC_URL + props.decor.url}></img>
+          <img alt="3x3" className="decorImage image3" src={process.env.PUBLIC_URL + props.decor.url}></img>
         </div>
       )
     }
-    else if(size == "2x2")
+    else if(size === "2x2")
     {
       return (
         <div>
-          <img className="decorImage image2" src={process.env.PUBLIC_URL + props.decor.url}></img>
+          <img  alt="2x2" className="decorImage image2" src={process.env.PUBLIC_URL + props.decor.url}></img>
         </div>
       )
     }
@@ -174,23 +174,23 @@ const TagShape = props => {
 function TagIcon(props) {
     let icon = props.iconDisplay;
     let array = props.tagArray;
-    if(icon.toLowerCase() == 'landmark' && array.indexOf(icon) != -1)
+    if(icon.toLowerCase() === 'landmark' && array.indexOf(icon) !== -1)
     {
       return <div className="decorTag"><img className="tagLogo landmarkLogo" src={process.env.PUBLIC_URL + "/landmark.png"} alt="Landmark logo"></img></div> 
     }
-    else if(icon.toLowerCase() == 'water' && array.indexOf(icon) != -1)
+    else if(icon.toLowerCase() === 'water' && array.indexOf(icon) !== -1)
     {
       return <div className="decorTag"><img className="tagLogo waterLogo" src={process.env.PUBLIC_URL + "/water.png"} alt="Water logo"></img></div>
     }
-    else if(icon.toLowerCase() == 'cookie decor' && array.indexOf(icon) != -1)
+    else if(icon.toLowerCase() === 'cookie decor' && array.indexOf(icon) !== -1)
     {
       return <div className="decorTag"><img className="tagLogo cdLogo" src={process.env.PUBLIC_URL + "/cookieDecor.png"} alt="Cookie Decor logo"></img></div>
     }
-    else if(icon.toLowerCase() == 'cookie interaction' && array.indexOf(icon) != -1)
+    else if(icon.toLowerCase() === 'cookie interaction' && array.indexOf(icon) !== -1)
     {
       return <div className="decorTag"><img className="tagLogo ciLogo" src={process.env.PUBLIC_URL + "/cookieInteraction.png"} alt="Cookie Interaction logo"></img></div>
     }
-    else if(icon.toLowerCase() == 'disney crystals' && array.indexOf(icon) != -1)
+    else if(icon.toLowerCase() === 'disney crystals' && array.indexOf(icon) !== -1)
     {
       return <div className="decorTag"><img className="tagLogo epLogo" src={process.env.PUBLIC_URL + "/production.png"} alt="Event Production logo"></img></div>
     }
@@ -202,7 +202,7 @@ function TagIcon(props) {
 
     
 const Note = (props) => {
-    if(props.note != "")
+    if(props.note !== "")
     {
         return (
         <div className="noteClass">

@@ -5487,7 +5487,7 @@ const decorArray = [
         theme: "World of Magic & Dreams",
         size: "8x8",
         points: 160,
-        tags: ["Cooke Decor", "Collab"],
+        tags: ["Cookie Decor", "Collab"],
         url: '/limited_decor/wmd/wmd35.png',
         note: "Cookie Decor for Cinderella Cookie"    
     },

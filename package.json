@@ -2,7 +2,7 @@
   "name": "crk-db",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/crk-db/",
+  "homepage": ".",
   "dependencies": {
     "-": "^0.0.1",
     "@babel/standalone": "^7.18.9",
