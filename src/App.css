@@ -5,12 +5,15 @@
   font-family: crBold;
   -webkit-margin-before:0em;
   -webkit-margin-after:0em;
+
+  margin: 0px;
+  padding: 0px;
 }
 
 body {
   background-color: #fdbf1f;
   background-image: url(../public/cutter.png);
-  background-repeat: repeat;
+  background-repeat: space;
   margin: 0px;
   padding: 0px;
 }

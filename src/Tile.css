@@ -1,5 +1,5 @@
 .decorTile {
-    margin: 0 20px;
+    margin: 0 1.5vw;
     text-align: center;
     font-size: 0px;
 }
@@ -9,9 +9,9 @@
     position: relative;
     margin: 0 auto; 
     text-align: center;
-    line-height: 50px;
+    line-height: 4vw;
     height: 0px;
-    font-size: 13px;
+    font-size: 1.1vw;
   
     color: #fff;
     width: 100%;
@@ -21,7 +21,7 @@
 
 .borderImg {
     width: 100%;
-    height: 50px;
+    height: 4vw;
     padding: 0;
     margin: 0;
     position: relative;
@@ -32,7 +32,8 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 200px;
+    height: 15vw;
+    width: 100%;
     margin: 0;
     padding: 0;
     font-size: 0px;
@@ -109,7 +110,7 @@
     flex-direction: column;
     align-items: start;
     margin-right: auto;
-    font-size: 12px;
+    font-size: 0.8vw;
     padding: 0px;
     margin: 0px;
     
@@ -125,36 +126,32 @@
 }
 
 .tileInfo .decorTheme, .tileInfo .decorSize, .tileInfo .decorPoint{
-    padding: 5px;
+    padding: 0.5vw;
 }
 
 .decorPoints {
-    padding-left: 7px;
-}
-
-.tagLogo {
-    height: 12px;
-    margin: auto;
+    padding-left: 0.7vw;
 }
 
 .tagClass {
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: 90%;
     flex-wrap: wrap;
-    font-size: 10px;
+    font-size: 0.7vw;
+
+    margin-top: 0.7vw;
+    margin-left: 0.3vw;
 }
 
 .decorTag {
     background-color: #fbe673;
     width: auto;
-    margin: 0px;
-    padding: 0px;
     color: black;
     border-radius: 10px;
   
-    margin: 3px;
-    padding: 5px;
+    margin: 0.2vw;
+    padding: 0.3vw;
     height: auto;
     display: flex;
 }
@@ -162,28 +159,144 @@
 .tagLogo, .tagText {
     margin: 0px;
     padding: 0px;
-    height: 15px;
+    height: 1vw;
 }
 
 .tagText {
-    margin-top: 2px;
+    display: flex;
+    align-items: center;
 }
-
-
 
 .noteClass {
     display: flex;
-    margin: 5px;
-    font-size: 8px;
+    margin: 0.5vw;
+    font-size: 0.6vw;
 }
   
 .noteText {
     background-color: silver;
-    height: 20px;
-    padding: 5px;
+    height: 1.2vw;
+    padding: 0.5vw;
+    display: flex;
+    align-items: center;
     border-radius: 10px;
 }
   
 .noteContent {
-    padding: 5px 0px;
+    padding-top: 0.3vw;
 } 
+
+@media screen and (max-width: 1024px)
+{     
+    .decorName {
+        line-height: 4.5vw;
+    }
+    
+    .flexTile {
+        height: 20vw;
+    }
+    
+    .tileInfo {
+        font-size: 1.3vw;
+    }
+    
+    .tileInfo .decorTheme, .tileInfo .decorSize, .tileInfo .decorPoint{
+        padding: 1vw;
+    }
+    
+    .decorPoints {
+        padding-left: 1.2vw;
+    }
+    
+    .tagClass {
+        font-size: 1.0vw;
+    
+        margin-top: 1vw;
+        margin-left: 0.8vw;
+    }
+
+    .decorTag {      
+        margin: 0.2vw;
+        padding: 0.3vw;
+    }
+
+    .tagLogo {
+        height: 1.3vw;
+    }
+    
+    .tagText{
+        height: 1.5vw;
+    }
+    
+    .noteClass {
+        margin: 0.5vw;
+        font-size: 0.7vw;
+    }
+      
+    .noteText {
+        height: 1.2vw;
+        padding: 0.5vw;
+    }
+}
+
+@media screen and (max-width: 768px)
+{     
+    .decorName {
+        line-height: 5.5vw;
+        font-size: 1.3vw;
+    }
+    
+    .flexTile {
+        height: 30vw;
+    }
+
+    .borderImg {
+        height: 5vw;
+    }
+    
+    .tileInfo {
+        font-size: 1.5vw;
+    }
+    
+    .tileInfo .decorTheme, .tileInfo .decorSize, .tileInfo .decorPoint{
+        padding: 1.5vw;
+    }
+    
+    .decorPoints {
+        padding-left: 1.8vw;
+    }
+    
+    .tagClass {
+        font-size: 1.3vw;
+    
+        margin-top: 2vw;
+        margin-left: 1.3vw;
+    }
+
+    .decorTag {      
+        margin: 0.3vw;
+        padding: 0.7vw;
+    }
+
+    .tagLogo {
+        height: 1.3vw;
+    }
+    
+    .tagText{
+        height: 1.5vw;
+    }
+    
+    .noteClass {
+        margin: 1.5vw;
+        font-size: 1.2vw;
+    }
+      
+    .noteText {
+        height: 1.2vw;
+        padding: 0.5vw;
+    }
+
+    .noteContent {
+        padding-top: 0vw;
+    } 
+}

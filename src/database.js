@@ -5148,24 +5148,24 @@ const decorArray = [
         note: "Given during Pre-Registration Event or from purchasing the Art Book Package"    
     },
     /*Start of Arena*/
-    {
-        name: "Greenish Red Dragon Statue",
-        theme: "Arena",
-        size: "8x8",
-        points: 33,
-        tags: ["Statue"],
-        url: '/limited_decor/arena/a1.png',
-        note: "reach Master in Brave Season 1"    
-    },
-    {
-        name: "Legendary Black Knight",
-        theme: "Arena",
-        size: "8x8",
-        points: 33,
-        tags: ["Statue"],
-        url: '/limited_decor/arena/a2.png',
-        note: "reach Master in Brave Season 2"    
-    },
+    // {
+    //     name: "Greenish Red Dragon Statue",
+    //     theme: "Arena",
+    //     size: "8x8",
+    //     points: 33,
+    //     tags: ["Statue"],
+    //     url: '/limited_decor/arena/a1.png',
+    //     note: "reach Master in Brave Season 1"    
+    // },
+    // {
+    //     name: "Legendary Black Knight",
+    //     theme: "Arena",
+    //     size: "8x8",
+    //     points: 33,
+    //     tags: ["Statue"],
+    //     url: '/limited_decor/arena/a2.png',
+    //     note: "reach Master in Brave Season 2"    
+    // },
     // {
     //     name: "",
     //     theme: "Arena",
@@ -5615,7 +5615,8 @@ const decorArray = [
 // },
 
 const themeArray = [
-    "Arena",
+    // "Arena",
+    // "Kingdom Pass",
     "Ovenbreak",
     "Crispy Cookie Town",
     "Camping Time",
