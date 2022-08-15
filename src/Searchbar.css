@@ -4,8 +4,6 @@
     flex: 1 0 auto;
 }
 
-
-
 header {
     width: 100%;
 }
@@ -35,6 +33,10 @@ header {
 
 input, select{
     font-size: 1vw;
+}
+
+.pointsFilter input{
+    -webkit-appearance: none;
 }
 
 .headerLeft {
@@ -125,7 +127,7 @@ input, select{
     }
 
     .searchBarFilters {
-        padding: 7vw 0px;
+        padding: 6vw 0px;
         flex-direction: column;
     }  
 
@@ -140,7 +142,10 @@ input, select{
     }
 
     .resultNum {
-        padding: 3vw 0px;
+        padding: 2vw 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .pointText {
@@ -168,15 +173,16 @@ input, select{
     }
 
     .searchBarFilters {
-        padding: 8vw 0px;
+        padding-bottom: 8vw;
     }  
 
     .headerLeft {
         padding: 5vw;
+        margin: 0;
     }  
 
     .resultNum {
-        padding: 4vw 0px;
+        padding: 2vw 0px;
     }
 }
 
@@ -184,6 +190,10 @@ input, select{
 {            
     input, select{
         font-size: 1.2vw;
+    }
+
+    .searchBarFilters {
+        padding-bottom: 8vw;
     }
 }
 

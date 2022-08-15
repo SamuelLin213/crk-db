@@ -81,18 +81,20 @@ class Searchbar extends React.Component
   resetTiles = (param = null) => {
     let grid = document.querySelector('.decorGrid');
     let gridItems = grid.getElementsByClassName('decorTile');
-  
+
+    // if(param === null)
+    // {
+    //   document.getElementById("pointFilter").checked = false;
+
+    //   this.pointFilter();
+    // }
+
     for (let i = 0; i < gridItems.length; i++) {
       gridItems[i].style.display = "";
     }
     const result = document.querySelector('.resultNum');
     result.textContent = ("Results: " + decorArray.length);
-    
-    if(param === null)
-    {
-      document.getElementById("pointFilter").checked = false;
-    }
-}
+  }
 
   render()
   {
@@ -136,10 +138,10 @@ class Searchbar extends React.Component
                 </select>
 
                 { /*filter by largest decor points*/}
-                <div className="pointsFilter">
+                {/* <div className="pointsFilter">
                   <input type="checkbox" id="pointFilter" name="pointFilter" onChange={()=>this.pointFilter()}></input>
                   <label htmlFor="pointFilter" className="pointText">Filter All By Descending Decor Points</label>
-                </div>        
+                </div>         */}
 
                 {/*reset for filters*/}
                 <input type="reset" value="Clear Filters" onClick={()=>this.resetTiles()}></input>
@@ -163,12 +165,12 @@ function searchFunc() {
     let gridItems = grid.getElementsByClassName('decorTile');
     let gridElem;
 
-    let checkBox = document.getElementById('pointFilter');
+    // let checkBox = document.getElementById('pointFilter');
 
-    if(checkBox.checked)
-    {
-      console.log("Checked!");
-    }
+    // if(checkBox.checked)
+    // {
+    //   console.log("Checked!");
+    // }
   
     numResults = 0;
   
