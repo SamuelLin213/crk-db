@@ -1,14 +1,8 @@
-.footerLess {
-    margin-top:  20px;
-  }
-  
-.footerMore {
-  margin-top: 20px;
-}
-
 footer {
   background-color: #d63642;
-  padding: 20px;
+  padding: 1.5vw;
+  margin-top: 2vw;
+  font-size: 1.2vw;
 
   display: flex;
   justify-content: space-between;
