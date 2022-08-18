@@ -9,7 +9,7 @@ const decorArray = [
         points: 0,
         tags: ["Ground"],
         url: '/regular_decor/cct/cct1.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Soda Stream",
@@ -18,8 +18,8 @@ const decorArray = [
         points: 0,
         tags: ["Water"],
         url: '/regular_decor/cct/cct2.png',
-        note: ""    
-    }, 
+        note: ""
+    },
     {
         name: "Village Lane",
         theme: "Crispy Cookie Town",
@@ -27,8 +27,8 @@ const decorArray = [
         points: 0,
         tags: ["Ground"],
         url: '/regular_decor/cct/cct3.png',
-        note: ""    
-    },   
+        note: ""
+    },
     {
         name: "Cracker Flowerbed",
         theme: "Crispy Cookie Town",
@@ -36,7 +36,7 @@ const decorArray = [
         points: 10,
         tags: ["Greenery", "Cookie Interaction"],
         url: '/regular_decor/cct/cct4.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Choco Stick Streetlight",
@@ -45,7 +45,7 @@ const decorArray = [
         points: 10,
         tags: ["Lamp"],
         url: '/regular_decor/cct/cct5.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Candy Standpipe",
@@ -54,7 +54,7 @@ const decorArray = [
         points: 10,
         tags: [],
         url: '/regular_decor/cct/cct6.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Choco Stick Drying Rack",
@@ -63,7 +63,7 @@ const decorArray = [
         points: 15,
         tags: [],
         url: '/regular_decor/cct/cct7.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Pretzel Fence",
@@ -72,7 +72,7 @@ const decorArray = [
         points: 15,
         tags: ["Fence"],
         url: '/regular_decor/cct/cct8.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Roll Cake Flowerbed",
@@ -81,7 +81,7 @@ const decorArray = [
         points: 15,
         tags: ["Greenery", "Cookie Interaction"],
         url: '/regular_decor/cct/cct9.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Choco Gazebo",
@@ -90,7 +90,7 @@ const decorArray = [
         points: 15,
         tags: ["Bench", "Cookie Interaction"],
         url: '/regular_decor/cct/cct10.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Roll Cake Garden Table",
@@ -99,7 +99,7 @@ const decorArray = [
         points: 15,
         tags: ["Table", "Cookie Interaction", "Food"],
         url: '/regular_decor/cct/cct11.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Berry Churros Swing",
@@ -108,7 +108,7 @@ const decorArray = [
         points: 15,
         tags: ["Cookie Decor"],
         url: '/regular_decor/cct/cct12.png',
-        note: "Cookie Decor for Strawberry Cookie or Gingerbrave Cookie"    
+        note: "Cookie Decor for Strawberry Cookie or Gingerbrave Cookie"
     },
     {
         name: "Tick Tock Clock Tower",
@@ -117,7 +117,7 @@ const decorArray = [
         points: 170,
         tags: ["Landmark", "Tower"],
         url: '/regular_decor/cct/cct13.png',
-        note: ""    
+        note: ""
     },
     /* Start of Camping Time */
     {
@@ -127,7 +127,7 @@ const decorArray = [
         points: 11,
         tags: [],
         url: '/regular_decor/ct/ct1.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Sweet Stick Firewood",
@@ -136,7 +136,7 @@ const decorArray = [
         points: 11,
         tags: ["Fire"],
         url: '/regular_decor/ct/ct2.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Basket of Berries",
@@ -145,7 +145,7 @@ const decorArray = [
         points: 11,
         tags: ["Food"],
         url: '/regular_decor/ct/ct3.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Comfy Candy Stool",
@@ -154,7 +154,7 @@ const decorArray = [
         points: 11,
         tags: ["Cookie Interaction"],
         url: '/regular_decor/ct/ct4.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Jellybelt Hammock",
@@ -163,7 +163,7 @@ const decorArray = [
         points: 16,
         tags: [],
         url: '/regular_decor/ct/ct5.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Pancake Tent",
@@ -172,7 +172,7 @@ const decorArray = [
         points: 16,
         tags: ["Tent"],
         url: '/regular_decor/ct/ct6.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Jellysteak BBQ",
@@ -181,7 +181,7 @@ const decorArray = [
         points: 16,
         tags: ["Food"],
         url: '/regular_decor/ct/ct7.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Long-lasting Campfire",
@@ -190,7 +190,7 @@ const decorArray = [
         points: 16,
         tags: ["Fire", "Cookie Interaction"],
         url: '/regular_decor/ct/ct8.png',
-        note: ""    
+        note: ""
     },
     /*Start of Land of Peace & Healing*/
     {
@@ -200,7 +200,7 @@ const decorArray = [
         points: 20,
         tags: ["Greenery"],
         url: '/regular_decor/lph/lph1.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Bed of Blooming Lilies",
@@ -209,7 +209,7 @@ const decorArray = [
         points: 20,
         tags: ["Greenery", "Cookie Interaction"],
         url: '/regular_decor/lph/lph2.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Cream Mead Stall",
@@ -218,7 +218,7 @@ const decorArray = [
         points: 30,
         tags: ["Cart", "Food"],
         url: '/regular_decor/lph/lph3.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Cream Eclair Wall",
@@ -227,7 +227,7 @@ const decorArray = [
         points: 30,
         tags: ["Wall"],
         url: '/regular_decor/lph/lph4.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Stained Glass Conservatory",
@@ -236,7 +236,7 @@ const decorArray = [
         points: 36,
         tags: ["Building"],
         url: '/regular_decor/lph/lph5.png',
-        note: ""    
+        note: ""
     },
     {
         name: "White Choclate Fence",
@@ -245,7 +245,7 @@ const decorArray = [
         points: 30,
         tags: ["Fence"],
         url: '/regular_decor/lph/lph6.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Honey Waffle Table",
@@ -254,7 +254,7 @@ const decorArray = [
         points: 30,
         tags: ["Table", "Cookie Interaction", "Food"],
         url: '/regular_decor/lph/lph7.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Sleeping Vanilla Orchard",
@@ -263,7 +263,7 @@ const decorArray = [
         points: 30,
         tags: ["Greenery", "Cookie Interaction"],
         url: '/regular_decor/lph/lph8.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Vanilla Kingdom Gates",
@@ -272,7 +272,7 @@ const decorArray = [
         points: 36,
         tags: ["Gate"],
         url: '/regular_decor/lph/lph9.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Good Old Clothesline",
@@ -281,7 +281,7 @@ const decorArray = [
         points: 30,
         tags: [],
         url: '/regular_decor/lph/lph10.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Wafer Laundry Basket",
@@ -290,7 +290,7 @@ const decorArray = [
         points: 20,
         tags: [],
         url: '/regular_decor/lph/lph11.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Cream Sheep",
@@ -299,7 +299,7 @@ const decorArray = [
         points: 20,
         tags: ["Animal"],
         url: '/regular_decor/lph/lph12.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Bed of Primroses",
@@ -308,7 +308,7 @@ const decorArray = [
         points: 20,
         tags: ["Greenery", "Cookie Interaction"],
         url: '/regular_decor/lph/lph13.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Candy Cane Wheelchair",
@@ -317,7 +317,7 @@ const decorArray = [
         points: 20,
         tags: ["Cookie Interaction"],
         url: '/regular_decor/lph/lph14.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Peaceful Dreamer's Statue",
@@ -326,7 +326,7 @@ const decorArray = [
         points: 20,
         tags: ["Statue"],
         url: '/regular_decor/lph/lph15.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Vanilla Eclair Bench",
@@ -335,7 +335,7 @@ const decorArray = [
         points: 30,
         tags: ["Bench", "Cookie Interaction"],
         url: '/regular_decor/lph/lph16.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Vanilla Sandwich Table",
@@ -344,7 +344,7 @@ const decorArray = [
         points: 30,
         tags: ["Table", "Cookie Interaction"],
         url: '/regular_decor/lph/lph17.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Simmering Bread Cauldron",
@@ -353,7 +353,7 @@ const decorArray = [
         points: 30,
         tags: ["Food"],
         url: '/regular_decor/lph/lph18.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Wafflebot Workshop",
@@ -362,7 +362,7 @@ const decorArray = [
         points: 400,
         tags: ["Cookie Decor"],
         url: '/regular_decor/lph/lph19.png',
-        note: "Cookie Decor for Strawberry Crepe Cookie"    
+        note: "Cookie Decor for Strawberry Crepe Cookie"
     },
     {
         name: "Crow Tree",
@@ -371,7 +371,7 @@ const decorArray = [
         points: 400,
         tags: ["Greenery", "Cookie Decor"],
         url: '/regular_decor/lph/lph20.png',
-        note: "Cookie Decor for Black Raisin Cookie"    
+        note: "Cookie Decor for Black Raisin Cookie"
     },
     {
         name: "Vanilla Orchid Garden",
@@ -380,7 +380,7 @@ const decorArray = [
         points: 400,
         tags: ["Building", "Cookie Decor", "Ancient"],
         url: '/regular_decor/lph/lph21.png',
-        note: "Cookie Decor for Pure Vanilla Cookie"    
+        note: "Cookie Decor for Pure Vanilla Cookie"
     },
     {
         name: "Vanilla Sanatorium",
@@ -389,7 +389,7 @@ const decorArray = [
         points: 440,
         tags: ["Landmark", "Building"],
         url: '/regular_decor/lph/lph22.png',
-        note: ""    
+        note: ""
     },
     /*Start of Parfaedia Fantasy*/
     {
@@ -399,7 +399,7 @@ const decorArray = [
         points: 0,
         tags: ["Water"],
         url: '/regular_decor/pf/pf1.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Hard Almond Tiles",
@@ -408,7 +408,7 @@ const decorArray = [
         points: 0,
         tags: ["Ground"],
         url: '/regular_decor/pf/pf2.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Cinnamon Sprinkle Road",
@@ -417,7 +417,7 @@ const decorArray = [
         points: 0,
         tags: ["Ground"],
         url: '/regular_decor/pf/pf3.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Vanilla Soft Serve Tree",
@@ -426,7 +426,7 @@ const decorArray = [
         points: 20,
         tags: ["Greenery"],
         url: '/regular_decor/pf/pf4.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Choco Soft Serve Tree",
@@ -435,7 +435,7 @@ const decorArray = [
         points: 20,
         tags: ["Greenery"],
         url: '/regular_decor/pf/pf5.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Banana Soft Serve Tree",
@@ -444,7 +444,7 @@ const decorArray = [
         points: 20,
         tags: ["Greenery"],
         url: '/regular_decor/pf/pf6.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Strawberry Soft Serve Tree",
@@ -453,7 +453,7 @@ const decorArray = [
         points: 20,
         tags: ["Greenery"],
         url: '/regular_decor/pf/pf7.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Highly Suspicious Wizard",
@@ -462,7 +462,7 @@ const decorArray = [
         points: 20,
         tags: ["Gnome"],
         url: '/regular_decor/pf/pf8.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Potted Mandragora",
@@ -471,7 +471,7 @@ const decorArray = [
         points: 25,
         tags: ["Greenery"],
         url: '/regular_decor/pf/pf9.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Snowy Blue Light Lamp",
@@ -480,7 +480,7 @@ const decorArray = [
         points: 20,
         tags: ["Lamp"],
         url: '/regular_decor/pf/pf10.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Blue Light Lamp",
@@ -489,7 +489,7 @@ const decorArray = [
         points: 20,
         tags: ["Lamp"],
         url: '/regular_decor/pf/pf11.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Almond Biscuit Bench",
@@ -498,7 +498,7 @@ const decorArray = [
         points: 30,
         tags: ["Bench", "Cookie Interaction"],
         url: '/regular_decor/pf/pf12.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Mysterious Passage",
@@ -507,7 +507,7 @@ const decorArray = [
         points: 35,
         tags: [],
         url: '/regular_decor/pf/pf13.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Ink Cap Alembic",
@@ -516,7 +516,7 @@ const decorArray = [
         points: 35,
         tags: [],
         url: '/regular_decor/pf/pf14.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Magic Ingredient Shelf",
@@ -525,7 +525,7 @@ const decorArray = [
         points: 36,
         tags: [],
         url: '/regular_decor/pf/pf15.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Sweetberry Parfait Table",
@@ -534,7 +534,7 @@ const decorArray = [
         points: 35,
         tags: ["Table", "Food", "Cookie Interaction"],
         url: '/regular_decor/pf/pf16.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Flying Teaspoon Shop",
@@ -543,7 +543,7 @@ const decorArray = [
         points: 40,
         tags: ["Shop", "Food"],
         url: '/regular_decor/pf/pf17.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Latte Atelier",
@@ -552,7 +552,7 @@ const decorArray = [
         points: 400,
         tags: ["Food", "Cookie Decor"],
         url: '/regular_decor/pf/pf18.png',
-        note: "Cookie Decor for Latte Cookie"    
+        note: "Cookie Decor for Latte Cookie"
     },
     {
         name: "Almond St. 8, Phone Booth",
@@ -561,7 +561,7 @@ const decorArray = [
         points: 400,
         tags: ["Cookie Decor"],
         url: '/regular_decor/pf/pf19.png',
-        note: "Cookie Decor for Almond Cookie"    
+        note: "Cookie Decor for Almond Cookie"
     },
     {
         name: "Cream Puff Attic",
@@ -570,7 +570,7 @@ const decorArray = [
         points: 400,
         tags: ["Building", "Cookie Decor"],
         url: '/regular_decor/pf/pf20.png',
-        note: "Cookie Decor for Cream Puff Cookie"    
+        note: "Cookie Decor for Cream Puff Cookie"
     },
     {
         name: "Parfaitarium",
@@ -579,7 +579,7 @@ const decorArray = [
         points: 440,
         tags: ["Landmark", "Building"],
         url: '/regular_decor/pf/pf21.png',
-        note: ""    
+        note: ""
     },
     /*Start of Happy Farm*/
     {
@@ -589,7 +589,7 @@ const decorArray = [
         points: 0,
         tags: ["Water"],
         url: '/regular_decor/hf/hf1.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Biscuitstone Tile",
@@ -598,7 +598,7 @@ const decorArray = [
         points: 0,
         tags: ["Ground"],
         url: '/regular_decor/hf/hf2.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Biscuitstone Road",
@@ -607,7 +607,7 @@ const decorArray = [
         points: 0,
         tags: ["Ground"],
         url: '/regular_decor/hf/hf3.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Biscuit Hay Sheaf",
@@ -616,7 +616,7 @@ const decorArray = [
         points: 11,
         tags: [],
         url: '/regular_decor/hf/hf4.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Jellybean Cart",
@@ -625,7 +625,7 @@ const decorArray = [
         points: 11,
         tags: ["Food", "Cart"],
         url: '/regular_decor/hf/hf5.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Cream Biscuit Fence",
@@ -634,7 +634,7 @@ const decorArray = [
         points: 17,
         tags: ["Fence"],
         url: '/regular_decor/hf/hf6.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Biscuit Horsie",
@@ -643,7 +643,7 @@ const decorArray = [
         points: 17,
         tags: ["Animal"],
         url: '/regular_decor/hf/hf7.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Blueberry Cart",
@@ -652,7 +652,7 @@ const decorArray = [
         points: 17,
         tags: ["Cart", "Food"],
         url: '/regular_decor/hf/hf8.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Biscuit Hay Wagon",
@@ -661,7 +661,7 @@ const decorArray = [
         points: 17,
         tags: ["Cart"],
         url: '/regular_decor/hf/hf9.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Round Bee Hive",
@@ -670,7 +670,7 @@ const decorArray = [
         points: 17,
         tags: ["Food"],
         url: '/regular_decor/hf/hf10.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Fluffy Bread Cart",
@@ -679,7 +679,7 @@ const decorArray = [
         points: 22,
         tags: ["Cart", "Cookie Interaction"],
         url: '/regular_decor/hf/hf11.png',
-        note: ""    
+        note: ""
     },
     /*Start of Acorn Village*/
     {
@@ -689,7 +689,7 @@ const decorArray = [
         points: 12,
         tags: ["Greenery"],
         url: '/regular_decor/av/av1.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Acorn Vine Lamp",
@@ -698,7 +698,7 @@ const decorArray = [
         points: 12,
         tags: ["Lamp"],
         url: '/regular_decor/av/av2.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Autumnal Acorn Lamp",
@@ -707,7 +707,7 @@ const decorArray = [
         points: 12,
         tags: ["Lamp"],
         url: '/regular_decor/av/av3.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Simple Rope Fence",
@@ -716,7 +716,7 @@ const decorArray = [
         points: 17,
         tags: ["Fence"],
         url: '/regular_decor/av/av4.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Waffle Acorn Storage",
@@ -725,7 +725,7 @@ const decorArray = [
         points: 17,
         tags: [],
         url: '/regular_decor/av/av5.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Acorn Oak",
@@ -734,7 +734,7 @@ const decorArray = [
         points: 17,
         tags: ["Greenery"],
         url: '/regular_decor/av/av6.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Acorn House",
@@ -743,7 +743,7 @@ const decorArray = [
         points: 17,
         tags: ["Building"],
         url: '/regular_decor/av/av7.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Clover Cookie's Forset Music Festival",
@@ -752,7 +752,7 @@ const decorArray = [
         points: 180,
         tags: ["Greenery", "Cookie Decor"],
         url: '/regular_decor/av/av8.png',
-        note: "Cookie Decor for Clover Cookie"    
+        note: "Cookie Decor for Clover Cookie"
     },
     /*Start for Gnome's Life*/
     {
@@ -762,7 +762,7 @@ const decorArray = [
         points: 12,
         tags: ["Gnome"],
         url: '/regular_decor/gl/gl1.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Tripped Over Sugar Gnome",
@@ -771,8 +771,8 @@ const decorArray = [
         points: 12,
         tags: ["Gnome"],
         url: '/regular_decor/gl/gl2.png',
-        note: ""    
-    },        
+        note: ""
+    },
     {
         name: "Torch Sugar Gnome",
         theme: "Gnome's Life",
@@ -780,8 +780,8 @@ const decorArray = [
         points: 12,
         tags: ["Gnome"],
         url: '/regular_decor/gl/gl3.png',
-        note: ""    
-    },    
+        note: ""
+    },
     {
         name: "Standing Sugar Gnome",
         theme: "Gnome's Life",
@@ -789,7 +789,7 @@ const decorArray = [
         points: 12,
         tags: ["Gnome"],
         url: '/regular_decor/gl/gl4.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Reading Sugar Gnome",
@@ -798,8 +798,8 @@ const decorArray = [
         points: 12,
         tags: ["Gnome"],
         url: '/regular_decor/gl/gl5.png',
-        note: ""    
-    },        
+        note: ""
+    },
     {
         name: "Mustache Sugar Gnome",
         theme: "Gnome's Life",
@@ -807,8 +807,8 @@ const decorArray = [
         points: 12,
         tags: ["Gnome"],
         url: '/regular_decor/gl/gl6.png',
-        note: ""    
-    },  
+        note: ""
+    },
     /*Start of Market Square*/
     {
         name: "Chocostone Tile",
@@ -817,7 +817,7 @@ const decorArray = [
         points: 0,
         tags: ["Ground"],
         url: '/regular_decor/ms/ms1.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Chocostone Road",
@@ -826,7 +826,7 @@ const decorArray = [
         points: 0,
         tags: ["Ground"],
         url: '/regular_decor/ms/ms2.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Jampie Bench",
@@ -835,7 +835,7 @@ const decorArray = [
         points: 13,
         tags: ["Bench", "Cookie Interaction"],
         url: '/regular_decor/ms/ms3.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Cotton Candy Cart",
@@ -844,7 +844,7 @@ const decorArray = [
         points: 19,
         tags: ["Food", "Cart"],
         url: '/regular_decor/ms/ms4.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Berry Box",
@@ -853,7 +853,7 @@ const decorArray = [
         points: 19,
         tags: ["Food"],
         url: '/regular_decor/ms/ms5.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Honeycomb Box",
@@ -862,7 +862,7 @@ const decorArray = [
         points: 19,
         tags: ["Food"],
         url: '/regular_decor/ms/ms6.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Veggie Basket",
@@ -871,7 +871,7 @@ const decorArray = [
         points: 19,
         tags: ["Food"],
         url: '/regular_decor/ms/ms7.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Roll Cake Cutting Board",
@@ -880,7 +880,7 @@ const decorArray = [
         points: 19,
         tags: ["Food"],
         url: '/regular_decor/ms/ms8.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Lemon Drink Container",
@@ -889,7 +889,7 @@ const decorArray = [
         points: 19,
         tags: ["Food"],
         url: '/regular_decor/ms/ms9.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Milk Cart",
@@ -898,7 +898,7 @@ const decorArray = [
         points: 19,
         tags: ["Food", "Cart"],
         url: '/regular_decor/ms/ms10.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Omurice Table",
@@ -907,7 +907,7 @@ const decorArray = [
         points: 19,
         tags: ["Food", "Table", "Cookie Interaction"],
         url: '/regular_decor/ms/ms11.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Jampie Table",
@@ -916,7 +916,7 @@ const decorArray = [
         points: 19,
         tags: ["Table", "Cookie Interaction"],
         url: '/regular_decor/ms/ms12.png',
-        note: ""    
+        note: ""
     },
     {
         name: "This'n'That' Emporium",
@@ -925,7 +925,7 @@ const decorArray = [
         points: 25,
         tags: ["Shop"],
         url: '/regular_decor/ms/ms13.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Colorful Flower Shop",
@@ -934,7 +934,7 @@ const decorArray = [
         points: 25,
         tags: ["Shop", "Greenery"],
         url: '/regular_decor/ms/ms14.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Fresh Veggie Shop",
@@ -943,7 +943,7 @@ const decorArray = [
         points: 25,
         tags: ["Shop", "Food"],
         url: '/regular_decor/ms/ms15.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Jelly Meat Stall",
@@ -952,7 +952,7 @@ const decorArray = [
         points: 25,
         tags: ["Shop", "Food"],
         url: '/regular_decor/ms/ms16.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Caramel Fountain",
@@ -961,7 +961,7 @@ const decorArray = [
         points: 25,
         tags: ["Fountain"],
         url: '/regular_decor/ms/ms17.png',
-        note: ""    
+        note: ""
     },
     /*Start of Lunar New Year*/
     {
@@ -971,7 +971,7 @@ const decorArray = [
         points: 0,
         tags: ["Ground"],
         url: '/regular_decor/lny/lny1.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Kite Sugar Gnome",
@@ -980,7 +980,7 @@ const decorArray = [
         points: 20,
         tags: ["Gnome"],
         url: '/regular_decor/lny/lny2.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Jujube Rice Cake Wall",
@@ -989,7 +989,7 @@ const decorArray = [
         points: 30,
         tags: ["Wall"],
         url: '/regular_decor/lny/lny3.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Persimmon Jar",
@@ -998,7 +998,7 @@ const decorArray = [
         points: 30,
         tags: [],
         url: '/regular_decor/lny/lny4.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Painted Folding Screen",
@@ -1007,7 +1007,7 @@ const decorArray = [
         points: 30,
         tags: [],
         url: '/regular_decor/lny/lny5.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Migwa Cedar",
@@ -1016,7 +1016,7 @@ const decorArray = [
         points: 30,
         tags: ["Greenery"],
         url: '/regular_decor/lny/lny6.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Jelly Pine Tree",
@@ -1025,7 +1025,7 @@ const decorArray = [
         points: 30,
         tags: ["Greenery"],
         url: '/regular_decor/lny/lny7.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Yakgwa Bench",
@@ -1034,7 +1034,7 @@ const decorArray = [
         points: 30,
         tags: ["Bench", "Cookie Interaction"],
         url: '/regular_decor/lny/lny8.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Yakgwa Table",
@@ -1043,7 +1043,7 @@ const decorArray = [
         points: 30,
         tags: ["Table", "Cookie Interaction"],
         url: '/regular_decor/lny/lny9.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Lucky Palanquin",
@@ -1052,7 +1052,7 @@ const decorArray = [
         points: 36,
         tags: [],
         url: '/regular_decor/lny/lny10.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Sujeonggwa Pond",
@@ -1061,7 +1061,7 @@ const decorArray = [
         points: 35,
         tags: [],
         url: '/regular_decor/lny/lny11.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Dagwa Pavilion",
@@ -1070,7 +1070,7 @@ const decorArray = [
         points: 40,
         tags: ["Building", "Cookie Interaction"],
         url: '/regular_decor/lny/lny12.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Spirit Fox Swing",
@@ -1079,7 +1079,7 @@ const decorArray = [
         points: 400,
         tags: ["Cookie Decor"],
         url: '/regular_decor/lny/lny13.png',
-        note: "Cookie Decor for Kumiho Cookie"    
+        note: "Cookie Decor for Kumiho Cookie"
     },
     /*Start of Atlas of Trees*/
     {
@@ -1089,7 +1089,7 @@ const decorArray = [
         points: 20,
         tags: ["Greenery", "Cookie Interaction"],
         url: '/regular_decor/aot/aot1.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Red Berry Bush",
@@ -1098,9 +1098,9 @@ const decorArray = [
         points: 20,
         tags: ["Greenery"],
         url: '/regular_decor/aot/aot2.png',
-        note: ""    
+        note: ""
     },
-    
+
     {
         name: "Jolly Snowfruit Tree",
         theme: "Atlas of Trees",
@@ -1108,7 +1108,7 @@ const decorArray = [
         points: 20,
         tags: ["Greenery"],
         url: '/regular_decor/aot/aot3.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Frosted Pine Tree",
@@ -1117,7 +1117,7 @@ const decorArray = [
         points: 20,
         tags: ["Greenery"],
         url: '/regular_decor/aot/aot4.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Jolly Round Tree",
@@ -1126,7 +1126,7 @@ const decorArray = [
         points: 20,
         tags: ["Greenery"],
         url: '/regular_decor/aot/aot5.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Autumn Willow Tree",
@@ -1135,7 +1135,7 @@ const decorArray = [
         points: 20,
         tags: ["Greenery"],
         url: '/regular_decor/aot/aot6.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Autumn Tree with a Clover",
@@ -1144,7 +1144,7 @@ const decorArray = [
         points: 20,
         tags: ["Greenery"],
         url: '/regular_decor/aot/aot7.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Amber Autumn Tree",
@@ -1153,7 +1153,7 @@ const decorArray = [
         points: 20,
         tags: ["Greenery"],
         url: '/regular_decor/aot/aot8.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Autumn Clover Leaf Tree",
@@ -1162,7 +1162,7 @@ const decorArray = [
         points: 20,
         tags: ["Greenery"],
         url: '/regular_decor/aot/aot9.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Palm Maple Tree",
@@ -1171,7 +1171,7 @@ const decorArray = [
         points: 20,
         tags: ["Greenery"],
         url: '/regular_decor/aot/aot10.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Eerie Dried-up Tree",
@@ -1180,7 +1180,7 @@ const decorArray = [
         points: 20,
         tags: ["Greenery"],
         url: '/regular_decor/aot/aot11.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Sleeping Sage Stump",
@@ -1189,7 +1189,7 @@ const decorArray = [
         points: 20,
         tags: ["Greenery"],
         url: '/regular_decor/aot/aot12.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Resting Tree Stump",
@@ -1198,7 +1198,7 @@ const decorArray = [
         points: 20,
         tags: ["Greenery", "Cookie Interaction"],
         url: '/regular_decor/aot/aot13.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Ivied Stump",
@@ -1207,7 +1207,7 @@ const decorArray = [
         points: 20,
         tags: ["Greenery", "Cookie Interaction"],
         url: '/regular_decor/aot/aot14.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Sleeping Log",
@@ -1216,7 +1216,7 @@ const decorArray = [
         points: 20,
         tags: ["Greenery", "Cookie Interaction"],
         url: '/regular_decor/aot/aot15.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Young Evergreen Tree",
@@ -1225,7 +1225,7 @@ const decorArray = [
         points: 20,
         tags: ["Greenery"],
         url: '/regular_decor/aot/aot16.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Tapered Garden Tree",
@@ -1234,7 +1234,7 @@ const decorArray = [
         points: 20,
         tags: ["Greenery"],
         url: '/regular_decor/aot/aot17.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Rebellious Tree",
@@ -1243,7 +1243,7 @@ const decorArray = [
         points: 20,
         tags: ["Greenery"],
         url: '/regular_decor/aot/aot18.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Clover Leaf Tree",
@@ -1252,7 +1252,7 @@ const decorArray = [
         points: 20,
         tags: ["Greenery"],
         url: '/regular_decor/aot/aot19.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Verdant Ginkogo Tree",
@@ -1261,7 +1261,7 @@ const decorArray = [
         points: 20,
         tags: ["Greenery"],
         url: '/regular_decor/aot/aot20.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Pointy Pine Tree",
@@ -1270,7 +1270,7 @@ const decorArray = [
         points: 20,
         tags: ["Greenery"],
         url: '/regular_decor/aot/aot21.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Fluffy Pine Tree",
@@ -1279,7 +1279,7 @@ const decorArray = [
         points: 20,
         tags: ["Greenery"],
         url: '/regular_decor/aot/aot22.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Shaggy Evergreen Tree",
@@ -1288,7 +1288,7 @@ const decorArray = [
         points: 20,
         tags: ["Greenery"],
         url: '/regular_decor/aot/aot23.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Lie Detector Tree",
@@ -1297,7 +1297,7 @@ const decorArray = [
         points: 20,
         tags: ["Greenery"],
         url: '/regular_decor/aot/aot24.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Round Evergreen Tree",
@@ -1306,7 +1306,7 @@ const decorArray = [
         points: 20,
         tags: ["Greenery"],
         url: '/regular_decor/aot/aot25.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Frightened Dried-up Tree",
@@ -1315,7 +1315,7 @@ const decorArray = [
         points: 20,
         tags: ["Greenery"],
         url: '/regular_decor/aot/aot26.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Exhausted Dried-up Tree",
@@ -1324,7 +1324,7 @@ const decorArray = [
         points: 20,
         tags: ["Greenery"],
         url: '/regular_decor/aot/aot27.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Large Willow Tree",
@@ -1333,7 +1333,7 @@ const decorArray = [
         points: 20,
         tags: ["Greenery"],
         url: '/regular_decor/aot/aot28.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Mushroom-adorned Tree",
@@ -1342,7 +1342,7 @@ const decorArray = [
         points: 20,
         tags: ["Greenery"],
         url: '/regular_decor/aot/aot29.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Sheltering Garden Tree",
@@ -1351,7 +1351,7 @@ const decorArray = [
         points: 20,
         tags: ["Greenery"],
         url: '/regular_decor/aot/aot30.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Big Tree with a Clover",
@@ -1360,7 +1360,7 @@ const decorArray = [
         points: 20,
         tags: ["Greenery"],
         url: '/regular_decor/aot/aot31.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Big Tree with a Mushroom",
@@ -1369,7 +1369,7 @@ const decorArray = [
         points: 20,
         tags: ["Greenery"],
         url: '/regular_decor/aot/aot32.png',
-        note: ""    
+        note: ""
     },
     /*Start of Tea Cup Hamlet*/
     {
@@ -1379,7 +1379,7 @@ const decorArray = [
         points: 20,
         tags: ["Greenery", "Cookie Interaction"],
         url: '/regular_decor/tch/tch1.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Blue Sage Tea Cup House",
@@ -1388,7 +1388,7 @@ const decorArray = [
         points: 20,
         tags: ["Building"],
         url: '/regular_decor/tch/tch2.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Cherry Teapot House",
@@ -1397,7 +1397,7 @@ const decorArray = [
         points: 20,
         tags: ["Building"],
         url: '/regular_decor/tch/tch3.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Cherry Tea Cup House",
@@ -1406,7 +1406,7 @@ const decorArray = [
         points: 20,
         tags: ["Building"],
         url: '/regular_decor/tch/tch4.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Creamer Pond",
@@ -1415,7 +1415,7 @@ const decorArray = [
         points: 20,
         tags: ["Water"],
         url: '/regular_decor/tch/tch5.png',
-        note: ""    
+        note: ""
     },
     /*Start of Witches & Ghosts*/
     {
@@ -1425,7 +1425,7 @@ const decorArray = [
         points: 21,
         tags: ["Greenery"],
         url: '/regular_decor/wg/wg1.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Gloomy Mausoleum",
@@ -1434,7 +1434,7 @@ const decorArray = [
         points: 21,
         tags: [],
         url: '/regular_decor/wg/wg2.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Witch's Oven Photo Zone",
@@ -1443,7 +1443,7 @@ const decorArray = [
         points: 28,
         tags: [],
         url: '/regular_decor/wg/wg3.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Bleak Sugar Cemetery",
@@ -1452,7 +1452,7 @@ const decorArray = [
         points: 28,
         tags: [],
         url: '/regular_decor/wg/wg4.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Blackberry Cookie's Midnight Fireplace",
@@ -1461,7 +1461,7 @@ const decorArray = [
         points: 240,
         tags: ["Cookie Decor"],
         url: '/regular_decor/wg/wg5.png',
-        note: "Cookie Decor for both Blackberry Cookie and Onion Cookie"    
+        note: "Cookie Decor for both Blackberry Cookie and Onion Cookie"
     },
     {
         name: "Eerie Haunted House",
@@ -1470,7 +1470,7 @@ const decorArray = [
         points: 200,
         tags: ["Landmark", "Building"],
         url: '/regular_decor/wg/wg6.png',
-        note: ""    
+        note: ""
     },
     /*Start of Blade & Magic*/
     {
@@ -1480,7 +1480,7 @@ const decorArray = [
         points: 22,
         tags: ["Weapon"],
         url: '/regular_decor/bm/bm1.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Magic Tome",
@@ -1489,7 +1489,7 @@ const decorArray = [
         points: 22,
         tags: [],
         url: '/regular_decor/bm/bm2.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Bear Jelly Black Knight",
@@ -1498,7 +1498,7 @@ const decorArray = [
         points: 22,
         tags: ["Statue"],
         url: '/regular_decor/bm/bm3.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Epic Puppet Show",
@@ -1507,7 +1507,7 @@ const decorArray = [
         points: 29,
         tags: ["Cookie Interaction"],
         url: '/regular_decor/bm/bm4.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Sage's Round Table",
@@ -1516,7 +1516,7 @@ const decorArray = [
         points: 38,
         tags: ["Table", "Cookie Interaction"],
         url: '/regular_decor/bm/bm5.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Green Territory's Banner",
@@ -1525,7 +1525,7 @@ const decorArray = [
         points: 20,
         tags: ["Banner"],
         url: '/regular_decor/bm/bm6.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Excavated Warrior's Statue",
@@ -1534,7 +1534,7 @@ const decorArray = [
         points: 30,
         tags: ["Statue"],
         url: '/regular_decor/bm/bm7.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Red Territory's Banner",
@@ -1543,7 +1543,7 @@ const decorArray = [
         points: 20,
         tags: ["Banner"],
         url: '/regular_decor/bm/bm8.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Warrior's Stone Bench",
@@ -1552,7 +1552,7 @@ const decorArray = [
         points: 30,
         tags: ["Bench", "Cookie Interaction"],
         url: '/regular_decor/bm/bm9.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Blue Territory's Banner",
@@ -1561,7 +1561,7 @@ const decorArray = [
         points: 20,
         tags: ["Banner"],
         url: '/regular_decor/bm/bm10.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Morning Training Ground",
@@ -1570,7 +1570,7 @@ const decorArray = [
         points: 30,
         tags: ["Weapon"],
         url: '/regular_decor/bm/bm11.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Magical Blue Pointy Hat Tower",
@@ -1579,7 +1579,7 @@ const decorArray = [
         points: 38,
         tags: ["Tower"],
         url: '/regular_decor/bm/bm12.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Magic Wisp",
@@ -1588,7 +1588,7 @@ const decorArray = [
         points: 20,
         tags: [],
         url: '/regular_decor/bm/bm13.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Curious Laboratory",
@@ -1597,7 +1597,7 @@ const decorArray = [
         points: 240,
         tags: ["Cookie Decor"],
         url: '/regular_decor/bm/bm14.png',
-        note: "Cookie Decor for both Wizard Cookie and Alchemist Cookie"    
+        note: "Cookie Decor for both Wizard Cookie and Alchemist Cookie"
     },
     {
         name: "Madeleine Cookie's Altar",
@@ -1606,7 +1606,7 @@ const decorArray = [
         points: 300,
         tags: ["Cookie Decor"],
         url: '/regular_decor/bm/bm15.png',
-        note: "Cookie Decor for Madeleine Cookie"    
+        note: "Cookie Decor for Madeleine Cookie"
     },
     {
         name: "Excavation Tent",
@@ -1615,7 +1615,7 @@ const decorArray = [
         points: 400,
         tags: ["Tent", "Cookie Decor"],
         url: '/regular_decor/bm/bm16.png',
-        note: "Cookie Decor for Eclair Cookie"    
+        note: "Cookie Decor for Eclair Cookie"
     },
     {
         name: "Molten Magma Mountain",
@@ -1624,7 +1624,7 @@ const decorArray = [
         points: 230,
         tags: ["Landmark"],
         url: '/regular_decor/bm/bm17.png',
-        note: ""    
+        note: ""
     },
     /*Start of Kingdom of Snow & Ice*/
     {
@@ -1634,7 +1634,7 @@ const decorArray = [
         points: 0,
         tags: ["Ground"],
         url: '/regular_decor/ksi/ksi1.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Frosty Tiles",
@@ -1643,7 +1643,7 @@ const decorArray = [
         points: 0,
         tags: ["Ground"],
         url: '/regular_decor/ksi/ksi2.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Slippery Ice Road",
@@ -1652,7 +1652,7 @@ const decorArray = [
         points: 0,
         tags: ["Ground"],
         url: '/regular_decor/ksi/ksi3.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Snowy Tree",
@@ -1661,7 +1661,7 @@ const decorArray = [
         points: 23,
         tags: ["Greenery"],
         url: '/regular_decor/ksi/ksi4.png',
-        note: ""    
+        note: ""
     },
     {
         name: "De-iceing Tools",
@@ -1670,7 +1670,7 @@ const decorArray = [
         points: 23,
         tags: [],
         url: '/regular_decor/ksi/ksi5.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Strawberry Snowman",
@@ -1679,7 +1679,7 @@ const decorArray = [
         points: 23,
         tags: [],
         url: '/regular_decor/ksi/ksi6.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Mint Choco Snowman",
@@ -1688,7 +1688,7 @@ const decorArray = [
         points: 23,
         tags: [],
         url: '/regular_decor/ksi/ksi7.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Ice Cream Igloo",
@@ -1697,7 +1697,7 @@ const decorArray = [
         points: 30,
         tags: ["Building"],
         url: '/regular_decor/ksi/ksi8.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Snow Sugar Cookie's Winter Guest",
@@ -1706,7 +1706,7 @@ const decorArray = [
         points: 300,
         tags: ["Cookie Decor"],
         url: '/regular_decor/ksi/ksi9.png',
-        note: "Cookie Decor for Snow Sugar Cookie"    
+        note: "Cookie Decor for Snow Sugar Cookie"
     },
     {
         name: "Everwinter Snow Globe",
@@ -1715,7 +1715,7 @@ const decorArray = [
         points: 260,
         tags: ["Landmark"],
         url: '/regular_decor/ksi/ksi10.png',
-        note: ""    
+        note: ""
     },
     /*Start of Luxurious Juice Salon*/
     {
@@ -1725,7 +1725,7 @@ const decorArray = [
         points: 0,
         tags: ["Ground"],
         url: '/regular_decor/ljs/ljs1.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Modern Choco Menu Board",
@@ -1734,7 +1734,7 @@ const decorArray = [
         points: 16,
         tags: [],
         url: '/regular_decor/ljs/ljs2.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Golden Cheese Plant",
@@ -1743,7 +1743,7 @@ const decorArray = [
         points: 16,
         tags: ["Greenery"],
         url: '/regular_decor/ljs/ljs3.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Luxurious Croissant Sofa",
@@ -1752,7 +1752,7 @@ const decorArray = [
         points: 16,
         tags: ["Cookie Interaction"],
         url: '/regular_decor/ljs/ljs4.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Caramel Butter Gramophone",
@@ -1761,7 +1761,7 @@ const decorArray = [
         points: 16,
         tags: ["Music"],
         url: '/regular_decor/ljs/ljs5.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Stained-Glass Pattern",
@@ -1770,7 +1770,7 @@ const decorArray = [
         points: 23,
         tags: [],
         url: '/regular_decor/ljs/ljs6.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Cheese Pie Table",
@@ -1779,7 +1779,7 @@ const decorArray = [
         points: 23,
         tags: ["Table"],
         url: '/regular_decor/ljs/ljs7.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Luxurious Mille-feuille Shelf",
@@ -1788,7 +1788,7 @@ const decorArray = [
         points: 23,
         tags: [],
         url: '/regular_decor/ljs/ljs8.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Cacaoken Aging Barrel",
@@ -1797,7 +1797,7 @@ const decorArray = [
         points: 23,
         tags: ["Food"],
         url: '/regular_decor/ljs/ljs9.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Dark Choco Harpsichord",
@@ -1806,7 +1806,7 @@ const decorArray = [
         points: 23,
         tags: ["Music"],
         url: '/regular_decor/ljs/ljs10.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Bottled Applie Pie Cellar",
@@ -1815,7 +1815,7 @@ const decorArray = [
         points: 23,
         tags: ["Food"],
         url: '/regular_decor/ljs/ljs11.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Luxurious Armchair Set",
@@ -1824,7 +1824,7 @@ const decorArray = [
         points: 23,
         tags: ["Cookie Interaction"],
         url: '/regular_decor/ljs/ljs12.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Modern Choco Table Set",
@@ -1833,7 +1833,7 @@ const decorArray = [
         points: 23,
         tags: ["Cookie Interaction", "Table"],
         url: '/regular_decor/ljs/ljs13.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Sparkling Cookie's Juice Bar",
@@ -1842,9 +1842,9 @@ const decorArray = [
         points: 360,
         tags: ["Cookie Decor", "Food"],
         url: '/regular_decor/ljs/ljs14.png',
-        note: `Cookie Decor for Sparkling Cookie, Milk Cookie 
-        and Vampire cookie. Up to 2 other cookies can interact 
-        with the stools.`    
+        note: `Cookie Decor for Sparkling Cookie, Milk Cookie
+        and Vampire cookie. Up to 2 other cookies can interact
+        with the stools.`
     },
     {
         name: "Brewing Laboratory",
@@ -1853,7 +1853,7 @@ const decorArray = [
         points: 400,
         tags: ["Cookie Decor"],
         url: '/regular_decor/ljs/ljs15.png',
-        note: "Cookie Decor for Espresso Cookie"    
+        note: "Cookie Decor for Espresso Cookie"
     },
     /*Start for Grand Dinner Party*/
     {
@@ -1863,7 +1863,7 @@ const decorArray = [
         points: 0,
         tags: ["Ground"],
         url: '/regular_decor/gdp/gdp1.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Red Velvet Carpet",
@@ -1872,7 +1872,7 @@ const decorArray = [
         points: 0,
         tags: ["Ground"],
         url: '/regular_decor/gdp/gdp2.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Green Tea Pillar",
@@ -1881,7 +1881,7 @@ const decorArray = [
         points: 16,
         tags: ["Food"],
         url: '/regular_decor/gdp/gdp3.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Pudding Cart",
@@ -1890,7 +1890,7 @@ const decorArray = [
         points: 16,
         tags: ["Cart", "Food"],
         url: '/regular_decor/gdp/gdp4.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Luxurious Garden Plant",
@@ -1899,7 +1899,7 @@ const decorArray = [
         points: 16,
         tags: ["Greenery"],
         url: '/regular_decor/gdp/gdp5.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Super-Luxurious Vase",
@@ -1908,7 +1908,7 @@ const decorArray = [
         points: 16,
         tags: ["Greenery"],
         url: '/regular_decor/gdp/gdp6.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Luxurious Party Vase",
@@ -1917,7 +1917,7 @@ const decorArray = [
         points: 16,
         tags: ["Greenery"],
         url: '/regular_decor/gdp/gdp7.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Luxurious Afternoon Tea Set",
@@ -1926,7 +1926,7 @@ const decorArray = [
         points: 24,
         tags: ["Food"],
         url: '/regular_decor/gdp/gdp8.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Jelly Steak Table",
@@ -1935,7 +1935,7 @@ const decorArray = [
         points: 24,
         tags: ["Table", "Food"],
         url: '/regular_decor/gdp/gdp9.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Luxurious 3-Tier Cake",
@@ -1944,7 +1944,7 @@ const decorArray = [
         points: 24,
         tags: ["Food"],
         url: '/regular_decor/gdp/gdp10.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Grand Dinner Table",
@@ -1953,7 +1953,7 @@ const decorArray = [
         points: 32,
         tags: ["Table", "Cookie Interaction", "Food"],
         url: '/regular_decor/gdp/gdp11.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Custard Cookie III's Throne",
@@ -1962,7 +1962,7 @@ const decorArray = [
         points: 800,
         tags: ["Cookie Decor"],
         url: '/regular_decor/gdp/gdp12.png',
-        note: "Cookie Decor for Custard Cookie"    
+        note: "Cookie Decor for Custard Cookie"
     },
     /*Start of Sculpture Park*/
     {
@@ -1972,7 +1972,7 @@ const decorArray = [
         points: 0,
         tags: ["Water"],
         url: '/regular_decor/sp/sp1.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Jellystone Tiles",
@@ -1981,7 +1981,7 @@ const decorArray = [
         points: 0,
         tags: ["Ground"],
         url: '/regular_decor/sp/sp2.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Almond Garden Tree",
@@ -1990,7 +1990,7 @@ const decorArray = [
         points: 17,
         tags: ["Greenery"],
         url: '/regular_decor/sp/sp3.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Conical Garden Plant",
@@ -1999,7 +1999,7 @@ const decorArray = [
         points: 17,
         tags: ["Greenery"],
         url: '/regular_decor/sp/sp4.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Wisteria Streetlight",
@@ -2008,7 +2008,7 @@ const decorArray = [
         points: 17,
         tags: ["Lamp", "Greenery"],
         url: '/regular_decor/sp/sp5.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Blue Banner Lantern",
@@ -2017,7 +2017,7 @@ const decorArray = [
         points: 17,
         tags: ["Banner", "Lamp"],
         url: '/regular_decor/sp/sp6.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Sugar Swan Statue",
@@ -2026,7 +2026,7 @@ const decorArray = [
         points: 17,
         tags: ["Statue"],
         url: '/regular_decor/sp/sp7.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Cubic Garden Plant",
@@ -2035,7 +2035,7 @@ const decorArray = [
         points: 25,
         tags: ["Greenery"],
         url: '/regular_decor/sp/sp8.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Sugar Marble Wall",
@@ -2044,7 +2044,7 @@ const decorArray = [
         points: 25,
         tags: ["Wall"],
         url: '/regular_decor/sp/sp9.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Sugar Marble Seat",
@@ -2053,7 +2053,7 @@ const decorArray = [
         points: 25,
         tags: ["Bench"],
         url: '/regular_decor/sp/sp10.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Sugar Marble Bench",
@@ -2062,7 +2062,7 @@ const decorArray = [
         points: 25,
         tags: ["Bench"],
         url: '/regular_decor/sp/sp11.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Pure Vanilla Cookie Statue",
@@ -2071,7 +2071,7 @@ const decorArray = [
         points: 25,
         tags: ["Statue", "Ancient"],
         url: '/regular_decor/sp/sp12.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Rhombic Garden Plant",
@@ -2080,7 +2080,7 @@ const decorArray = [
         points: 33,
         tags: ["Greenery"],
         url: '/regular_decor/sp/sp13.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Sugar Marble Jelly Dragon",
@@ -2089,7 +2089,7 @@ const decorArray = [
         points: 33,
         tags: ["Statue"],
         url: '/regular_decor/sp/sp14.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Sugar Marble Jelly Lion",
@@ -2098,7 +2098,7 @@ const decorArray = [
         points: 33,
         tags: ["Statue"],
         url: '/regular_decor/sp/sp15.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Dreaming Jelly Lion Statue",
@@ -2107,7 +2107,7 @@ const decorArray = [
         points: 290,
         tags: ["Landmark", "Statue"],
         url: '/regular_decor/sp/sp16.png',
-        note: ""    
+        note: ""
     },
     /*Start of St. Pastry Order*/
     {
@@ -2117,7 +2117,7 @@ const decorArray = [
         points: 20,
         tags: ["Greenery"],
         url: '/regular_decor/spo/spo1.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Tribunal Candle",
@@ -2126,7 +2126,7 @@ const decorArray = [
         points: 20,
         tags: ["Candle"],
         url: '/regular_decor/spo/spo2.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Secret Shrine",
@@ -2135,7 +2135,7 @@ const decorArray = [
         points: 36,
         tags: ["Candle"],
         url: '/regular_decor/spo/spo3.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Cathedral Pew",
@@ -2144,7 +2144,7 @@ const decorArray = [
         points: 30,
         tags: ["Bench", "Cookie Interaction"],
         url: '/regular_decor/spo/spo4.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Pie-That-Gave-Up",
@@ -2153,7 +2153,7 @@ const decorArray = [
         points: 30,
         tags: ["Table", "Food", "Cookie Interaction"],
         url: '/regular_decor/spo/spo5.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Cookie Tray of Doom",
@@ -2162,7 +2162,7 @@ const decorArray = [
         points: 30,
         tags: ["Cookie Interaction"],
         url: '/regular_decor/spo/spo6.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Strawberry Choco Pansies",
@@ -2171,7 +2171,7 @@ const decorArray = [
         points: 20,
         tags: ["Greenery", "Cookie Interaction"],
         url: '/regular_decor/spo/spo7.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Cream Cake Stand",
@@ -2180,7 +2180,7 @@ const decorArray = [
         points: 36,
         tags: ["Food"],
         url: '/regular_decor/spo/spo8.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Fluffy Barking Cake Hound",
@@ -2189,7 +2189,7 @@ const decorArray = [
         points: 350,
         tags: ["Cake Hound"],
         url: '/regular_decor/spo/spo9.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Forgotten Piece of Cake",
@@ -2198,7 +2198,7 @@ const decorArray = [
         points: 420,
         tags: ["Food", "Cookie Decor"],
         url: '/regular_decor/spo/spo10.png',
-        note: "Cookie Decor for Red Velvet Cookie"    
+        note: "Cookie Decor for Red Velvet Cookie"
     },
     {
         name: "Clandestine Rendezvous",
@@ -2207,7 +2207,7 @@ const decorArray = [
         points: 420,
         tags: ["Cookie Decor", "Cookie Interaction"],
         url: '/regular_decor/spo/spo11.png',
-        note: "Cookie Decor for Pastry Cookie; another cookies can also interact simultaneously"    
+        note: "Cookie Decor for Pastry Cookie; another cookies can also interact simultaneously"
     },
     {
         name: "Ominous Cake Tower",
@@ -2216,7 +2216,7 @@ const decorArray = [
         points: 450,
         tags: ["Landmark", "Food", "Tower"],
         url: '/regular_decor/spo/spo12.png',
-        note: ""    
+        note: ""
     },
     /*Start of Flower Garden*/
     {
@@ -2226,7 +2226,7 @@ const decorArray = [
         points: 17,
         tags: ["Greenery", "Cookie Interaction"],
         url: '/regular_decor/fg/fg1.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Hydrangea",
@@ -2235,7 +2235,7 @@ const decorArray = [
         points: 17,
         tags: ["Greenery", "Cookie Interaction"],
         url: '/regular_decor/fg/fg2.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Strawberrose Flowerbed",
@@ -2244,7 +2244,7 @@ const decorArray = [
         points: 17,
         tags: ["Greenery", "Cookie Interaction"],
         url: '/regular_decor/fg/fg3.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Cream Rose Flowerbed",
@@ -2253,7 +2253,7 @@ const decorArray = [
         points: 17,
         tags: ["Greenery", "Cookie Interaction"],
         url: '/regular_decor/fg/fg4.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Zinnia Flowerbed",
@@ -2262,7 +2262,7 @@ const decorArray = [
         points: 17,
         tags: ["Greenery", "Cookie Interaction"],
         url: '/regular_decor/fg/fg5.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Daffodil Flowerbed",
@@ -2271,7 +2271,7 @@ const decorArray = [
         points: 17,
         tags: ["Greenery", "Cookie Interaction"],
         url: '/regular_decor/fg/fg6.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Herb Terrace",
@@ -2280,7 +2280,7 @@ const decorArray = [
         points: 360,
         tags: ["Greenery", "Cookie Decor"],
         url: '/regular_decor/fg/fg7.png',
-        note: "Cookie Decor for Herb Cookie"    
+        note: "Cookie Decor for Herb Cookie"
     },
     {
         name: "Morning Dew Garden",
@@ -2289,7 +2289,7 @@ const decorArray = [
         points: 320,
         tags: ["Greenery", "Landmark"],
         url: '/regular_decor/fg/fg8.png',
-        note: ""    
+        note: ""
     },
     /*Start for Garden of Delights*/
     {
@@ -2299,7 +2299,7 @@ const decorArray = [
         points: 0,
         tags: ["Ground"],
         url: '/regular_decor/gd/gd1.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Macaron Bench",
@@ -2308,7 +2308,7 @@ const decorArray = [
         points: 18,
         tags: ["Bench", "Cookie Interaction"],
         url: '/regular_decor/gd/gd2.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Soft Serve Horsey",
@@ -2317,7 +2317,7 @@ const decorArray = [
         points: 18,
         tags: ["Animal"],
         url: '/regular_decor/gd/gd3.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Pastel Postbox",
@@ -2326,7 +2326,7 @@ const decorArray = [
         points: 18,
         tags: [],
         url: '/regular_decor/gd/gd4.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Lovely Phone Booth",
@@ -2335,7 +2335,7 @@ const decorArray = [
         points: 18,
         tags: [],
         url: '/regular_decor/gd/gd5.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Lovely Photo Zone",
@@ -2344,7 +2344,7 @@ const decorArray = [
         points: 26,
         tags: ["Cookie Interaction"],
         url: '/regular_decor/gd/gd6.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Montblanc Dessert Table",
@@ -2353,7 +2353,7 @@ const decorArray = [
         points: 26,
         tags: ["Table", "Food", "Cookie Interaction"],
         url: '/regular_decor/gd/gd7.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Cotton Candy Tree",
@@ -2362,7 +2362,7 @@ const decorArray = [
         points: 26,
         tags: ["Greenery"],
         url: '/regular_decor/gd/gd8.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Lovely Dressing Room",
@@ -2371,7 +2371,7 @@ const decorArray = [
         points: 300,
         tags: ["Cookie Decor"],
         url: '/regular_decor/gd/gd9.png',
-        note: "Cookie Decor for Princess Cookie and Knight Cookie"    
+        note: "Cookie Decor for Princess Cookie and Knight Cookie"
     },
     {
         name: "Mint Choco Cookie's Concert Hall",
@@ -2380,7 +2380,7 @@ const decorArray = [
         points: 360,
         tags: ["Cookie Decor"],
         url: '/regular_decor/gd/gd10.png',
-        note: "Cookie Decor for Mint Choco Cookie"    
+        note: "Cookie Decor for Mint Choco Cookie"
     },
     {
         name: "Grand Dessert Tower",
@@ -2389,7 +2389,7 @@ const decorArray = [
         points: 350,
         tags: ["Food", "Landmark", "Tower"],
         url: '/regular_decor/gd/gd11.png',
-        note: ""    
+        note: ""
     },
     /*Start of Bustling Amusement Park*/
     {
@@ -2399,7 +2399,7 @@ const decorArray = [
         points: 18,
         tags: [],
         url: '/regular_decor/bap/bap1.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Free Hug Bear Jelly",
@@ -2408,7 +2408,7 @@ const decorArray = [
         points: 18,
         tags: [],
         url: '/regular_decor/bap/bap2.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Water Bomb Board",
@@ -2417,7 +2417,7 @@ const decorArray = [
         points: 27,
         tags: ["Cookie Interaction"],
         url: '/regular_decor/bap/bap3.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Rocket Rider",
@@ -2426,7 +2426,7 @@ const decorArray = [
         points: 27,
         tags: [],
         url: '/regular_decor/bap/bap4.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Cherry Cream Fence",
@@ -2435,7 +2435,7 @@ const decorArray = [
         points: 27,
         tags: ["Fence"],
         url: '/regular_decor/bap/bap5.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Colorful Balloon Stand",
@@ -2444,7 +2444,7 @@ const decorArray = [
         points: 27,
         tags: ["Cart"],
         url: '/regular_decor/bap/bap6.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Jelly Horsey Carousel",
@@ -2453,7 +2453,7 @@ const decorArray = [
         points: 36,
         tags: [],
         url: '/regular_decor/bap/bap7.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Creamy Rainbow Arch",
@@ -2462,7 +2462,7 @@ const decorArray = [
         points: 400,
         tags: ["Arch", "Cookie Decor"],
         url: '/regular_decor/bap/bap8.png',
-        note: "Cookie Decor for Cream Unicorn Cookie"    
+        note: "Cookie Decor for Cream Unicorn Cookie"
     },
     {
         name: "Firecracker Cupcake",
@@ -2471,7 +2471,7 @@ const decorArray = [
         points: 300,
         tags: ["Food", "Cookie Decor"],
         url: '/regular_decor/bap/bap9.png',
-        note: "Cookie Decor for Cherry Cookie and Gumball Cookie"    
+        note: "Cookie Decor for Cherry Cookie and Gumball Cookie"
     },
     {
         name: "Ferris Wheel",
@@ -2480,7 +2480,7 @@ const decorArray = [
         points: 410,
         tags: ["Landmark"],
         url: '/regular_decor/bap/bap10.png',
-        note: ""    
+        note: ""
     },
     /*Start of Pew-pew Arcade*/
     {
@@ -2490,7 +2490,7 @@ const decorArray = [
         points: 19,
         tags: ["Machine"],
         url: '/regular_decor/ppa/ppa1.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Mighty Hammer Game",
@@ -2499,7 +2499,7 @@ const decorArray = [
         points: 19,
         tags: ["Machine"],
         url: '/regular_decor/ppa/ppa2.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Gumball Machine",
@@ -2508,7 +2508,7 @@ const decorArray = [
         points: 28,
         tags: ["Machine"],
         url: '/regular_decor/ppa/ppa3.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Bubblegum Sniper Game",
@@ -2517,7 +2517,7 @@ const decorArray = [
         points: 28,
         tags: ["Machine"],
         url: '/regular_decor/ppa/ppa4.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Muscle Cookie's Gym Machine",
@@ -2526,7 +2526,7 @@ const decorArray = [
         points: 300,
         tags: ["Cookie Decor"],
         url: '/regular_decor/ppa/ppa5.png',
-        note: "Cookie Decor for Muscle Cookie and Pancake Cookie"    
+        note: "Cookie Decor for Muscle Cookie and Pancake Cookie"
     },
     {
         name: "Gumball Arcade Machine",
@@ -2535,7 +2535,7 @@ const decorArray = [
         points: 410,
         tags: ["Machine", "Landmark"],
         url: '/regular_decor/ppa/ppa6.png',
-        note: ""    
+        note: ""
     },
     /*Start of Crimson Badlands*/
     {
@@ -2545,7 +2545,7 @@ const decorArray = [
         points: 0,
         tags: ["Ground"],
         url: '/regular_decor/cb/cb1.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Candy Cane Torch",
@@ -2554,7 +2554,7 @@ const decorArray = [
         points: 19,
         tags: [],
         url: '/regular_decor/cb/cb2.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Tilted Candy Cane Thorn",
@@ -2563,7 +2563,7 @@ const decorArray = [
         points: 29,
         tags: [],
         url: '/regular_decor/cb/cb3.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Slanted Candy Cane Thorn",
@@ -2572,7 +2572,7 @@ const decorArray = [
         points: 29,
         tags: [],
         url: '/regular_decor/cb/cb4.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Voodoo Doll",
@@ -2581,7 +2581,7 @@ const decorArray = [
         points: 29,
         tags: [],
         url: '/regular_decor/cb/cb5.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Melting Choco Tree",
@@ -2590,7 +2590,7 @@ const decorArray = [
         points: 29,
         tags: ["Greenery"],
         url: '/regular_decor/cb/cb6.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Round Table of Darkness",
@@ -2599,7 +2599,7 @@ const decorArray = [
         points: 400,
         tags: ["Table", "Cookie Decor"],
         url: '/regular_decor/cb/cb7.png',
-        note: "Cookie Decor for Dark Choco, Pomegranate, Licorice and Posion Mushroom Cookie"    
+        note: "Cookie Decor for Dark Choco, Pomegranate, Licorice and Posion Mushroom Cookie"
     },
     {
         name: "Dark Lord's Castle",
@@ -2608,7 +2608,7 @@ const decorArray = [
         points: 440,
         tags: ["Building", "Landmark"],
         url: '/regular_decor/cb/cb8.png',
-        note: ""    
+        note: ""
     },
     /*Start of Starry Night*/
     {
@@ -2618,7 +2618,7 @@ const decorArray = [
         points: 0,
         tags: ["Ground"],
         url: '/regular_decor/sn/sn1.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Milky Waterway",
@@ -2627,7 +2627,7 @@ const decorArray = [
         points: 0,
         tags: ["Water"],
         url: '/regular_decor/sn/sn2.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Starlight Lantern",
@@ -2636,7 +2636,7 @@ const decorArray = [
         points: 20,
         tags: ["Lamp"],
         url: '/regular_decor/sn/sn3.png',
-        note: ""    
+        note: ""
     },
     {
         name: "White Star Jelly Tree",
@@ -2645,7 +2645,7 @@ const decorArray = [
         points: 20,
         tags: ["Greenery"],
         url: '/regular_decor/sn/sn4.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Golden Croissant Bench",
@@ -2654,7 +2654,7 @@ const decorArray = [
         points: 20,
         tags: ["Bench", "Cookie Interaction"],
         url: '/regular_decor/sn/sn5.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Little Telescope",
@@ -2663,7 +2663,7 @@ const decorArray = [
         points: 29,
         tags: [],
         url: '/regular_decor/sn/sn6.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Starlight Carousel",
@@ -2672,7 +2672,7 @@ const decorArray = [
         points: 39,
         tags: [],
         url: '/regular_decor/sn/sn7.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Star Candy Observatory",
@@ -2681,7 +2681,7 @@ const decorArray = [
         points: 470,
         tags: ["Landmark", "Tower"],
         url: '/regular_decor/sn/sn8.png',
-        note: ""    
+        note: ""
     },
     /*Start of Industrial Adventure*/
     {
@@ -2691,7 +2691,7 @@ const decorArray = [
         points: 20,
         tags: ["Lamp"],
         url: '/regular_decor/ia/ia1.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Red Jelly Fire Hydrant",
@@ -2700,7 +2700,7 @@ const decorArray = [
         points: 20,
         tags: [],
         url: '/regular_decor/ia/ia2.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Cacao Manhole Lid",
@@ -2709,7 +2709,7 @@ const decorArray = [
         points: 30,
         tags: [],
         url: '/regular_decor/ia/ia3.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Cherry Bomb Cannon",
@@ -2718,7 +2718,7 @@ const decorArray = [
         points: 30,
         tags: [],
         url: '/regular_decor/ia/ia4.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Cacao Butter Plane",
@@ -2727,7 +2727,7 @@ const decorArray = [
         points: 30,
         tags: [],
         url: '/regular_decor/ia/ia5.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Caramel Clock Tower",
@@ -2736,7 +2736,7 @@ const decorArray = [
         points: 40,
         tags: ["Tower"],
         url: '/regular_decor/ia/ia6.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Choco-Coated Hangar",
@@ -2745,7 +2745,7 @@ const decorArray = [
         points: 50,
         tags: ["Building"],
         url: '/regular_decor/ia/ia7.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Sheriff's Office",
@@ -2754,7 +2754,7 @@ const decorArray = [
         points: 400,
         tags: ["Building", "Cookie Decor"],
         url: '/regular_decor/ia/ia8.png',
-        note: "Cookie Decor for both Rye Cookie and Chili Pepper Cookie"    
+        note: "Cookie Decor for both Rye Cookie and Chili Pepper Cookie"
     },
     {
         name: "Croissant Zeppelin",
@@ -2763,7 +2763,7 @@ const decorArray = [
         points: 500,
         tags: ["Landmark", ],
         url: '/regular_decor/ia/ia9.png',
-        note: ""    
+        note: ""
     },
     /*Start of Tropical Island*/
     {
@@ -2773,7 +2773,7 @@ const decorArray = [
         points: 0,
         tags: ["Ground"],
         url: '/regular_decor/ti/ti1.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Fruit Cocktail Bridge",
@@ -2782,7 +2782,7 @@ const decorArray = [
         points: 36,
         tags: ["Bridge", "Water"],
         url: '/regular_decor/ti/ti2.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Orange Biscuit Bridge",
@@ -2791,7 +2791,7 @@ const decorArray = [
         points: 30,
         tags: ["Bridge", "Water"],
         url: '/regular_decor/ti/ti3.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Fresh Fruit Juice Cart",
@@ -2800,7 +2800,7 @@ const decorArray = [
         points: 30,
         tags: ["Cookie Interaction", "Shop"],
         url: '/regular_decor/ti/ti4.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Welcomed Sugar Gnome",
@@ -2809,7 +2809,7 @@ const decorArray = [
         points: 20,
         tags: ["Gnome"],
         url: '/regular_decor/ti/ti5.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Welcoming Sugar Gnome",
@@ -2818,7 +2818,7 @@ const decorArray = [
         points: 20,
         tags: ["Gnome"],
         url: '/regular_decor/ti/ti6.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Hibiscus Bush",
@@ -2827,7 +2827,7 @@ const decorArray = [
         points: 20,
         tags: ["Greenery", "Cookie Interaction"],
         url: '/regular_decor/ti/ti7.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Lime Table",
@@ -2836,7 +2836,7 @@ const decorArray = [
         points: 30,
         tags: ["Greenery", "Table", "Food", "Cookie Interaction"],
         url: '/regular_decor/ti/ti8.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Bamboo Fence",
@@ -2845,7 +2845,7 @@ const decorArray = [
         points: 30,
         tags: ["Fence"],
         url: '/regular_decor/ti/ti9.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Limecoco Palm Tree",
@@ -2854,7 +2854,7 @@ const decorArray = [
         points: 30,
         tags: ["Greenery"],
         url: '/regular_decor/ti/ti10.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Candy Corn Hermit Crab",
@@ -2863,7 +2863,7 @@ const decorArray = [
         points: 20,
         tags: ["Animal"],
         url: '/regular_decor/ti/ti11.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Monstera Bush",
@@ -2872,7 +2872,7 @@ const decorArray = [
         points: 30,
         tags: ["Greenery"],
         url: '/regular_decor/ti/ti12.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Coconut Beach Welcome Sign",
@@ -2881,7 +2881,7 @@ const decorArray = [
         points: 30,
         tags: [],
         url: '/regular_decor/ti/ti13.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Watermelon Sunbed",
@@ -2890,7 +2890,7 @@ const decorArray = [
         points: 30,
         tags: ["Cookie Interaction"],
         url: '/regular_decor/ti/ti14.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Mango Fish",
@@ -2899,7 +2899,7 @@ const decorArray = [
         points: 30,
         tags: ["Animal", "Water"],
         url: '/regular_decor/ti/ti15.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Unicorn Tube",
@@ -2908,7 +2908,7 @@ const decorArray = [
         points: 30,
         tags: ["Water"],
         url: '/regular_decor/ti/ti16.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Watermelon Fish",
@@ -2917,7 +2917,7 @@ const decorArray = [
         points: 30,
         tags: ["Animal", "Water"],
         url: '/regular_decor/ti/ti17.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Jelly Shark Fin",
@@ -2926,7 +2926,7 @@ const decorArray = [
         points: 30,
         tags: ["Animal", "Water"],
         url: '/regular_decor/ti/ti18.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Faded Message in a Bottle",
@@ -2935,7 +2935,7 @@ const decorArray = [
         points: 30,
         tags: ["Water"],
         url: '/regular_decor/ti/ti19.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Conch of the Sea",
@@ -2944,7 +2944,7 @@ const decorArray = [
         points: 20,
         tags: [],
         url: '/regular_decor/ti/ti20.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Jelly Starfish",
@@ -2953,7 +2953,7 @@ const decorArray = [
         points: 20,
         tags: ["Animal"],
         url: '/regular_decor/ti/ti21.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Juicy Ice Pop Snowboard",
@@ -2962,7 +2962,7 @@ const decorArray = [
         points: 20,
         tags: [],
         url: '/regular_decor/ti/ti22.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Beach Picnic Set",
@@ -2971,7 +2971,7 @@ const decorArray = [
         points: 30,
         tags: ["Cookie Interaction"],
         url: '/regular_decor/ti/ti23.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Beachside Castle",
@@ -2980,7 +2980,7 @@ const decorArray = [
         points: 30,
         tags: [],
         url: '/regular_decor/ti/ti24.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Plumeria Flowerbed",
@@ -2989,7 +2989,7 @@ const decorArray = [
         points: 20,
         tags: ["Greenery", "Cookie Interaction"],
         url: '/regular_decor/ti/ti25.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Durianeer Tree Fort",
@@ -2998,7 +2998,7 @@ const decorArray = [
         points: 32,
         tags: ["Cookie Interaction"],
         url: '/regular_decor/ti/ti26.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Green'n'Purple Plant",
@@ -3007,7 +3007,7 @@ const decorArray = [
         points: 30,
         tags: ["Greenery", "Cookie Interaction"],
         url: '/regular_decor/ti/ti27.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Coconut Palm",
@@ -3016,7 +3016,7 @@ const decorArray = [
         points: 32,
         tags: ["Greenery"],
         url: '/regular_decor/ti/ti28.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Durianeer Crow's Nest",
@@ -3025,7 +3025,7 @@ const decorArray = [
         points: 32,
         tags: [],
         url: '/regular_decor/ti/ti29.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Durianeer Cannonball",
@@ -3034,7 +3034,7 @@ const decorArray = [
         points: 20,
         tags: ["Weapon"],
         url: '/regular_decor/ti/ti30.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Durianeer Cannon",
@@ -3043,7 +3043,7 @@ const decorArray = [
         points: 30,
         tags: ["Weapon"],
         url: '/regular_decor/ti/ti31.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Durianeer Treasure Chest",
@@ -3052,7 +3052,7 @@ const decorArray = [
         points: 30,
         tags: [],
         url: '/regular_decor/ti/ti32.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Durian Totem",
@@ -3061,7 +3061,7 @@ const decorArray = [
         points: 20,
         tags: [],
         url: '/regular_decor/ti/ti33.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Pop-up Skeleton",
@@ -3070,7 +3070,7 @@ const decorArray = [
         points: 20,
         tags: [],
         url: '/regular_decor/ti/ti34.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Sturdy Barrel",
@@ -3079,7 +3079,7 @@ const decorArray = [
         points: 20,
         tags: [],
         url: '/regular_decor/ti/ti35.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Dinghy Feast",
@@ -3088,7 +3088,7 @@ const decorArray = [
         points: 32,
         tags: ["Food", "Cookie Interaction"],
         url: '/regular_decor/ti/ti36.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Silent Palm Tree Prison",
@@ -3097,7 +3097,7 @@ const decorArray = [
         points: 30,
         tags: ["Greenery"],
         url: '/regular_decor/ti/ti37.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Oh no! It's the Durianeers!",
@@ -3106,7 +3106,7 @@ const decorArray = [
         points: 36,
         tags: ["Water"],
         url: '/regular_decor/ti/ti38.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Silk and Satin",
@@ -3115,7 +3115,7 @@ const decorArray = [
         points: 400,
         tags: ["Cookie Decor"],
         url: '/regular_decor/ti/ti39.png',
-        note: "Cookie Decor for Lilac Cookie"    
+        note: "Cookie Decor for Lilac Cookie"
     },
     {
         name: "Mango Canoe",
@@ -3124,7 +3124,7 @@ const decorArray = [
         points: 400,
         tags: ["Water", "Cookie Decor", "Cookie Interaction"],
         url: '/regular_decor/ti/ti40.png',
-        note: "Cookie Decor for Mango Cookie; a second cookie can also interact"    
+        note: "Cookie Decor for Mango Cookie; a second cookie can also interact"
     },
     {
         name: "Rookie Raft",
@@ -3133,7 +3133,7 @@ const decorArray = [
         points: 400,
         tags: ["Water", "Cookie Decor"],
         url: '/regular_decor/ti/ti41.png',
-        note: "Cookie Decor for Sorbet Shark Cookie"    
+        note: "Cookie Decor for Sorbet Shark Cookie"
     },
     {
         name: "Dream of the Tower",
@@ -3142,7 +3142,7 @@ const decorArray = [
         points: 1200,
         tags: ["Water", "Cookie Decor"],
         url: '/regular_decor/ti/ti42.png',
-        note: "Cookie Decor for Sea Fairy Cookie"    
+        note: "Cookie Decor for Sea Fairy Cookie"
     },
     {
         name: "Skull Island Resort",
@@ -3151,7 +3151,7 @@ const decorArray = [
         points: 440,
         tags: ["Landmark", "Water"],
         url: '/regular_decor/ti/ti43.png',
-        note: ""    
+        note: ""
     },
     /*Start of Summer Music Festival*/
     {
@@ -3161,7 +3161,7 @@ const decorArray = [
         points: 20,
         tags: ["Cookie Interaction"],
         url: '/regular_decor/smf/smf1.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Candy Fence",
@@ -3170,7 +3170,7 @@ const decorArray = [
         points: 30,
         tags: ["Fence"],
         url: '/regular_decor/smf/smf2.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Icy Soda Cart",
@@ -3179,7 +3179,7 @@ const decorArray = [
         points: 30,
         tags: ["Food", "Cart"],
         url: '/regular_decor/smf/smf3.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Paru Paru ☆ Goods Stand",
@@ -3188,7 +3188,7 @@ const decorArray = [
         points: 30,
         tags: ["Table"],
         url: '/regular_decor/smf/smf4.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Candy Spotlight",
@@ -3197,7 +3197,7 @@ const decorArray = [
         points: 20,
         tags: [],
         url: '/regular_decor/smf/smf5.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Cherry Cone Mic",
@@ -3206,7 +3206,7 @@ const decorArray = [
         points: 20,
         tags: ["Music"],
         url: '/regular_decor/smf/smf6.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Sweet Synth",
@@ -3215,7 +3215,7 @@ const decorArray = [
         points: 30,
         tags: ["Music"],
         url: '/regular_decor/smf/smf7.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Apple Bass",
@@ -3224,7 +3224,7 @@ const decorArray = [
         points: 20,
         tags: ["Music"],
         url: '/regular_decor/smf/smf8.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Candy Drums",
@@ -3233,7 +3233,7 @@ const decorArray = [
         points: 30,
         tags: ["Music"],
         url: '/regular_decor/smf/smf9.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Multitopping☆ Street Stage",
@@ -3242,7 +3242,7 @@ const decorArray = [
         points: 400,
         tags: ["Cookie Decor", "Music"],
         url: '/regular_decor/smf/smf10.png',
-        note: "Cookie Decor for Parfait Cookie"    
+        note: "Cookie Decor for Parfait Cookie"
     },
     /*Start of Hollyberry Garden Carnival*/
     {
@@ -3252,7 +3252,7 @@ const decorArray = [
         points: 0,
         tags: ["Ground"],
         url: '/regular_decor/hgc/hgc1.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Hollyberry Cookie Statue",
@@ -3261,7 +3261,7 @@ const decorArray = [
         points: 30,
         tags: ["Statue", "Ancient"],
         url: '/regular_decor/hgc/hgc2.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Rose Vine Sofa",
@@ -3270,7 +3270,7 @@ const decorArray = [
         points: 30,
         tags: ["Bench", "Cookie Interaction"],
         url: '/regular_decor/hgc/hgc3.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Pinkberry Mousse Piano",
@@ -3279,7 +3279,7 @@ const decorArray = [
         points: 32,
         tags: ["Music", "Cookie Interaction"],
         url: '/regular_decor/hgc/hgc4.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Blossoming Invitation",
@@ -3288,7 +3288,7 @@ const decorArray = [
         points: 30,
         tags: ["Table", "Food", "Cookie Interaction"],
         url: '/regular_decor/hgc/hgc5.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Bustling Picnic Table",
@@ -3297,7 +3297,7 @@ const decorArray = [
         points: 36,
         tags: ["Table", "Food", "Cookie Interaction"],
         url: '/regular_decor/hgc/hgc6.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Glorious Rose Vase",
@@ -3306,7 +3306,7 @@ const decorArray = [
         points: 20,
         tags: ["Greenery"],
         url: '/regular_decor/hgc/hgc7.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Blueberry Floral Hedge",
@@ -3315,7 +3315,7 @@ const decorArray = [
         points: 30,
         tags: ["Greenery"],
         url: '/regular_decor/hgc/hgc8.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Pinkberry Floral Hedge",
@@ -3324,7 +3324,7 @@ const decorArray = [
         points: 30,
         tags: ["Greenery"],
         url: '/regular_decor/hgc/hgc9.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Pinkberry Arbor",
@@ -3333,7 +3333,7 @@ const decorArray = [
         points: 36,
         tags: ["Greenery", "Arch"],
         url: '/regular_decor/hgc/hgc10.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Blueberry Floral Arbor",
@@ -3342,7 +3342,7 @@ const decorArray = [
         points: 36,
         tags: ["Greenery", "Arch"],
         url: '/regular_decor/hgc/hgc11.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Gold Choco Marble Bridge",
@@ -3351,7 +3351,7 @@ const decorArray = [
         points: 36,
         tags: ["Bridge", "Water"],
         url: '/regular_decor/hgc/hgc12.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Milk Choco Marble Railing",
@@ -3360,7 +3360,7 @@ const decorArray = [
         points: 30,
         tags: ["Fence"],
         url: '/regular_decor/hgc/hgc13.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Berry Fan Palm",
@@ -3369,7 +3369,7 @@ const decorArray = [
         points: 20,
         tags: ["Greenery"],
         url: '/regular_decor/hgc/hgc14.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Hollyberry Streetlight",
@@ -3378,7 +3378,7 @@ const decorArray = [
         points: 20,
         tags: ["Lamp"],
         url: '/regular_decor/hgc/hgc15.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Berry Palm Tree",
@@ -3387,7 +3387,7 @@ const decorArray = [
         points: 30,
         tags: ["Greenery", "Food"],
         url: '/regular_decor/hgc/hgc16.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Street Artist Set",
@@ -3396,7 +3396,7 @@ const decorArray = [
         points: 32,
         tags: ["Cookie Interaction"],
         url: '/regular_decor/hgc/hgc17.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Berries 'n' Goods",
@@ -3405,7 +3405,7 @@ const decorArray = [
         points: 32,
         tags: ["Shop"],
         url: '/regular_decor/hgc/hgc18.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Candy Cane Candlestick",
@@ -3414,7 +3414,7 @@ const decorArray = [
         points: 20,
         tags: ["Candle"],
         url: '/regular_decor/hgc/hgc19.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Greenish Red Dragon Mascot",
@@ -3423,7 +3423,7 @@ const decorArray = [
         points: 20,
         tags: [],
         url: '/regular_decor/hgc/hgc20.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Berry Boat",
@@ -3432,7 +3432,7 @@ const decorArray = [
         points: 36,
         tags: ["Food", "Water"],
         url: '/regular_decor/hgc/hgc21.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Charming Gondola",
@@ -3441,7 +3441,7 @@ const decorArray = [
         points: 36,
         tags: ["Water", "Cookie Interaction"],
         url: '/regular_decor/hgc/hgc22.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Raspberries in a Net",
@@ -3450,7 +3450,7 @@ const decorArray = [
         points: 30,
         tags: ["Food", "Water"],
         url: '/regular_decor/hgc/hgc23.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Floating Raspberries",
@@ -3459,7 +3459,7 @@ const decorArray = [
         points: 30,
         tags: ["Food", "Water"],
         url: '/regular_decor/hgc/hgc24.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Berry Tea Party",
@@ -3468,7 +3468,7 @@ const decorArray = [
         points: 400,
         tags: ["Greenery", "Table", "Cookie Decor"],
         url: '/regular_decor/hgc/hgc25.png',
-        note: "Cookie Decor for both Princess Cookie and Raspberry Cookie"    
+        note: "Cookie Decor for both Princess Cookie and Raspberry Cookie"
     },
     {
         name: "Hollyberry Pavilion",
@@ -3477,7 +3477,7 @@ const decorArray = [
         points: 400,
         tags: ["Cookie Decor", "Ancient"],
         url: '/regular_decor/hgc/hgc26.png',
-        note: "Cookie Decor for Hollyberry Cookie"    
+        note: "Cookie Decor for Hollyberry Cookie"
     },
     {
         name: "Raspberry Chateau",
@@ -3486,7 +3486,7 @@ const decorArray = [
         points: 440,
         tags: ["Landmark", "Building"],
         url: '/regular_decor/hgc/hgc27.png',
-        note: ""    
+        note: ""
     },
     /*Start of Welcome to Green Hill*/
     {
@@ -3496,7 +3496,7 @@ const decorArray = [
         points: 20,
         tags: ["Gnome", "Collab"],
         url: '/limited_decor/wgh/wgh1.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Green Hill Matcha Grass",
@@ -3505,7 +3505,7 @@ const decorArray = [
         points: 0,
         tags: ["Ground", "Collab"],
         url: '/limited_decor/wgh/wgh2.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Chili Dog Bench",
@@ -3514,7 +3514,7 @@ const decorArray = [
         points: 30,
         tags: ["Bench", "Food", "Collab"],
         url: '/limited_decor/wgh/wgh3.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Giant Ring Portal",
@@ -3523,7 +3523,7 @@ const decorArray = [
         points: 35,
         tags: ["Collab"],
         url: '/limited_decor/wgh/wgh4.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Sonic & Tails Arcade Machine",
@@ -3532,7 +3532,7 @@ const decorArray = [
         points: 32,
         tags: ["Machine", "Collab"],
         url: '/limited_decor/wgh/wgh5.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Mini-Rings",
@@ -3541,7 +3541,7 @@ const decorArray = [
         points: 30,
         tags: ["Collab"],
         url: '/limited_decor/wgh/wgh6.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Sonic's Treadmill",
@@ -3550,7 +3550,7 @@ const decorArray = [
         points: 30,
         tags: ["Collab"],
         url: '/limited_decor/wgh/wgh7.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Checkered Grass Block",
@@ -3559,7 +3559,7 @@ const decorArray = [
         points: 30,
         tags: ["Wall", "Collab"],
         url: '/limited_decor/wgh/wgh8.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Chili Dog Table",
@@ -3568,7 +3568,7 @@ const decorArray = [
         points: 30,
         tags: ["Table", "Food", "Collab"],
         url: '/limited_decor/wgh/wgh9.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Green Hill Sunflower",
@@ -3577,7 +3577,7 @@ const decorArray = [
         points: 20,
         tags: ["Greenery", "Collab"],
         url: '/limited_decor/wgh/wgh10.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Chili Dog Stand",
@@ -3586,7 +3586,7 @@ const decorArray = [
         points: 30,
         tags: ["Cart", "Food", "Collab"],
         url: '/limited_decor/wgh/wgh11.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Green Hill Palm Tree",
@@ -3595,7 +3595,7 @@ const decorArray = [
         points: 40,
         tags: ["Greenery", "Collab"],
         url: '/limited_decor/wgh/wgh12.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Sonic Photo Zone",
@@ -3604,7 +3604,7 @@ const decorArray = [
         points: 35,
         tags: ["Collab"],
         url: '/limited_decor/wgh/wgh13.png',
-        note: ""    
+        note: ""
     },
     /*Start of Abundant Harvest Festival*/
     {
@@ -3614,7 +3614,7 @@ const decorArray = [
         points: 20,
         tags: ["Lamp"],
         url: '/regular_decor/ahf/ahf1.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Rice Cake Flowerbed",
@@ -3623,7 +3623,7 @@ const decorArray = [
         points: 30,
         tags: ["Greenery"],
         url: '/regular_decor/ahf/ahf2.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Honey-Glazed Rice Cake Bridge",
@@ -3632,7 +3632,7 @@ const decorArray = [
         points: 36,
         tags: ["Bridge", "Water"],
         url: '/regular_decor/ahf/ahf3.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Colorful Okchun Tea Set",
@@ -3641,7 +3641,7 @@ const decorArray = [
         points: 30,
         tags: ["Table", "Food", "Cookie Interaction"],
         url: '/regular_decor/ahf/ahf4.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Sikhye Well",
@@ -3650,7 +3650,7 @@ const decorArray = [
         points: 32,
         tags: ["Food"],
         url: '/regular_decor/ahf/ahf5.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Rice Cake Yutnori Board",
@@ -3659,7 +3659,7 @@ const decorArray = [
         points: 30,
         tags: [],
         url: '/regular_decor/ahf/ahf6.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Autumn Glow Gazebo",
@@ -3668,7 +3668,7 @@ const decorArray = [
         points: 36,
         tags: ["Cookie Interaction"],
         url: '/regular_decor/ahf/ahf7.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Rice Cake Basket",
@@ -3677,7 +3677,7 @@ const decorArray = [
         points: 32,
         tags: ["Food", "Cookie Interaction"],
         url: '/regular_decor/ahf/ahf8.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Moon Mortar Picnic",
@@ -3686,7 +3686,7 @@ const decorArray = [
         points: 400,
         tags: ["Food", "Cookie Decor"],
         url: '/regular_decor/ahf/ahf9.png',
-        note: "Cookie Decor for Moon Rabbit Cookie"    
+        note: "Cookie Decor for Moon Rabbit Cookie"
     },
     /*Start of Mala Tribe's Turf*/
     {
@@ -3696,7 +3696,7 @@ const decorArray = [
         points: 0,
         tags: ["Ground"],
         url: '/regular_decor/mtt/mtt1.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Volcanic Succulent",
@@ -3705,7 +3705,7 @@ const decorArray = [
         points: 20,
         tags: ["Greenery"],
         url: '/regular_decor/mtt/mtt2.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Legendary Dragon Lamp",
@@ -3714,7 +3714,7 @@ const decorArray = [
         points: 20,
         tags: ["Lamp"],
         url: '/regular_decor/mtt/mtt3.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Canele Lava Vent",
@@ -3723,7 +3723,7 @@ const decorArray = [
         points: 20,
         tags: ["Food"],
         url: '/regular_decor/mtt/mtt4.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Minecart's Final Step",
@@ -3732,7 +3732,7 @@ const decorArray = [
         points: 32,
         tags: ["Cart"],
         url: '/regular_decor/mtt/mtt5.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Mala Tribe Brazier",
@@ -3741,7 +3741,7 @@ const decorArray = [
         points: 20,
         tags: ["Fire"],
         url: '/regular_decor/mtt/mtt6.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Hot Pot Cauldron",
@@ -3750,7 +3750,7 @@ const decorArray = [
         points: 32,
         tags: ["Food"],
         url: '/regular_decor/mtt/mtt7.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Barbecue Signpost",
@@ -3759,7 +3759,7 @@ const decorArray = [
         points: 20,
         tags: ["Food"],
         url: '/regular_decor/mtt/mtt8.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Hot & Spicy Arsenal",
@@ -3768,7 +3768,7 @@ const decorArray = [
         points: 32,
         tags: ["Weapon"],
         url: '/regular_decor/mtt/mtt9.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Hellfire Mala Pond",
@@ -3777,7 +3777,7 @@ const decorArray = [
         points: 32,
         tags: [],
         url: '/regular_decor/mtt/mtt10.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Boiling Lava Bridge",
@@ -3786,7 +3786,7 @@ const decorArray = [
         points: 36,
         tags: ["Bridge", "Water"],
         url: '/regular_decor/mtt/mtt11.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Dice Game Table",
@@ -3795,7 +3795,7 @@ const decorArray = [
         points: 32,
         tags: ["Cookie Interaction"],
         url: '/regular_decor/mtt/mtt12.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Chieftain's Tent",
@@ -3804,7 +3804,7 @@ const decorArray = [
         points: 400,
         tags: ["Tent", "Cookie Decor", "Cookie Interaction"],
         url: '/regular_decor/mtt/mtt13.png',
-        note: "Cookie Decor for Mala Sauce Cookie; a second cookie can also interact"    
+        note: "Cookie Decor for Mala Sauce Cookie; a second cookie can also interact"
     },
     /*Start of Sweet & Creepy*/
     {
@@ -3814,7 +3814,7 @@ const decorArray = [
         points: 0,
         tags: ["Ground"],
         url: '/regular_decor/sc/sc1.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Old Stone Tiles",
@@ -3823,7 +3823,7 @@ const decorArray = [
         points: 0,
         tags: ["Ground"],
         url: '/regular_decor/sc/sc2.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Gothic Fence",
@@ -3832,7 +3832,7 @@ const decorArray = [
         points: 30,
         tags: ["Fence"],
         url: '/regular_decor/sc/sc3.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Halloween Treat Table",
@@ -3841,7 +3841,7 @@ const decorArray = [
         points: 30,
         tags: ["Table", "Food"],
         url: '/regular_decor/sc/sc4.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Fallen Chandelier",
@@ -3850,7 +3850,7 @@ const decorArray = [
         points: 30,
         tags: [],
         url: '/regular_decor/sc/sc5.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Almost New Onion Rabbit Toy",
@@ -3859,7 +3859,7 @@ const decorArray = [
         points: 20,
         tags: [],
         url: '/regular_decor/sc/sc6.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Pumpkin Lantern Pie",
@@ -3868,7 +3868,7 @@ const decorArray = [
         points: 30,
         tags: ["Greenery"],
         url: '/regular_decor/sc/sc7.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Oddly Familiar Scarecrow",
@@ -3877,7 +3877,7 @@ const decorArray = [
         points: 20,
         tags: [],
         url: '/regular_decor/sc/sc8.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Old Sugar Tombstone",
@@ -3886,7 +3886,7 @@ const decorArray = [
         points: 20,
         tags: [],
         url: '/regular_decor/sc/sc9.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Readings with Ms. BearJelly",
@@ -3895,7 +3895,7 @@ const decorArray = [
         points: 30,
         tags: ["Table", "Food", "Cookie Interaction"],
         url: '/regular_decor/sc/sc10.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Pumpkin Tree",
@@ -3904,7 +3904,7 @@ const decorArray = [
         points: 30,
         tags: ["Greenery"],
         url: '/regular_decor/sc/sc11.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Rendezvous with Mr. BearJelly",
@@ -3913,7 +3913,7 @@ const decorArray = [
         points: 30,
         tags: ["Table", "Food", "Cookie Interaction"],
         url: '/regular_decor/sc/sc12.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Ghost Tree",
@@ -3922,7 +3922,7 @@ const decorArray = [
         points: 30,
         tags: ["Greenery"],
         url: '/regular_decor/sc/sc13.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Spooky Old Cinema",
@@ -3931,7 +3931,7 @@ const decorArray = [
         points: 80,
         tags: ["Cookie Interaction"],
         url: '/regular_decor/sc/sc14.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Pumpkin Parasol Party",
@@ -3940,7 +3940,7 @@ const decorArray = [
         points: 400,
         tags: ["Table", "Food", "Cookie Decor"],
         url: '/regular_decor/sc/sc15.png',
-        note: "Cookie Decor for Pumpkin Pie Cookie"    
+        note: "Cookie Decor for Pumpkin Pie Cookie"
     },
     /*Start of Kingdom's First Jellymart*/
     {
@@ -3950,7 +3950,7 @@ const decorArray = [
         points: 34,
         tags: ["Cart", "Food"],
         url: '/limited_decor/kfj/kfj1.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Long Shopping List",
@@ -3959,7 +3959,7 @@ const decorArray = [
         points: 28,
         tags: [],
         url: '/limited_decor/kfj/kfj2.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Jam Shelf",
@@ -3968,7 +3968,7 @@ const decorArray = [
         points: 34,
         tags: ["Food"],
         url: '/limited_decor/kfj/kfj3.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Baked Goods Aisle",
@@ -3977,7 +3977,7 @@ const decorArray = [
         points: 34,
         tags: ["Food", "Table"],
         url: '/limited_decor/kfj/kfj4.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Cereal Shelf",
@@ -3986,7 +3986,7 @@ const decorArray = [
         points: 34,
         tags: ["Food"],
         url: '/limited_decor/kfj/kfj5.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Ice Cream Fridge",
@@ -3995,7 +3995,7 @@ const decorArray = [
         points: 28,
         tags: ["Food"],
         url: '/limited_decor/kfj/kfj6.png',
-        note: ""    
+        note: ""
     },
     {
         name: "World's Kindest Cashier",
@@ -4004,7 +4004,7 @@ const decorArray = [
         points: 70,
         tags: [],
         url: '/limited_decor/kfj/kfj7.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Fulfilling Shopping Cart",
@@ -4013,7 +4013,7 @@ const decorArray = [
         points: 35,
         tags: ["Cart", "Food", "Collab"],
         url: '/limited_decor/kfj/kfj8.png',
-        note: "Collaboration with e-mart; only available on the e-mart app"    
+        note: "Collaboration with e-mart; only available on the e-mart app"
     },
     /*Start of Cozy Snowfall Village*/
     {
@@ -4023,7 +4023,7 @@ const decorArray = [
         points: 30,
         tags: ["Animal"],
         url: '/regular_decor/csv/csv1.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Fresh Snow Angel",
@@ -4032,7 +4032,7 @@ const decorArray = [
         points: 32,
         tags: [],
         url: '/regular_decor/csv/csv2.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Cream Cotton Sheep",
@@ -4041,7 +4041,7 @@ const decorArray = [
         points: 20,
         tags: ["Animal"],
         url: '/regular_decor/csv/csv3.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Glacial Thorns",
@@ -4050,7 +4050,7 @@ const decorArray = [
         points: 30,
         tags: [],
         url: '/regular_decor/csv/csv4.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Cotton Puff Tree",
@@ -4059,7 +4059,7 @@ const decorArray = [
         points: 30,
         tags: ["Greenery"],
         url: '/regular_decor/csv/csv5.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Frosted Snow Bridge",
@@ -4068,7 +4068,7 @@ const decorArray = [
         points: 36,
         tags: ["Bridge", "Water"],
         url: '/regular_decor/csv/csv6.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Frozen Birch Tree",
@@ -4077,7 +4077,7 @@ const decorArray = [
         points: 30,
         tags: ["Greenery"],
         url: '/regular_decor/csv/csv7.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Snowy Lantern",
@@ -4086,7 +4086,7 @@ const decorArray = [
         points: 20,
         tags: ["Lamp"],
         url: '/regular_decor/csv/csv8.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Sugar Glace Berry",
@@ -4095,7 +4095,7 @@ const decorArray = [
         points: 20,
         tags: ["Greenery", "Food"],
         url: '/regular_decor/csv/csv9.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Icicle Arch",
@@ -4104,7 +4104,7 @@ const decorArray = [
         points: 36,
         tags: ["Arch"],
         url: '/regular_decor/csv/csv10.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Candy Cane Sledge",
@@ -4113,7 +4113,7 @@ const decorArray = [
         points: 35,
         tags: ["Cookie Interaction"],
         url: '/regular_decor/csv/csv11.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Cozy Cotton Rug",
@@ -4122,7 +4122,7 @@ const decorArray = [
         points: 38,
         tags: ["Cookie Interaction"],
         url: '/regular_decor/csv/csv12.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Ice Fishing Spot",
@@ -4131,7 +4131,7 @@ const decorArray = [
         points: 40,
         tags: ["Food", "Cookie Interaction"],
         url: '/regular_decor/csv/csv13.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Snow Blossom Hill",
@@ -4140,7 +4140,7 @@ const decorArray = [
         points: 400,
         tags: ["Animal", "Cookie Decor"],
         url: '/regular_decor/csv/csv14.png',
-        note: "Cookie Decor for Cotton Cookie"    
+        note: "Cookie Decor for Cotton Cookie"
     },
     {
         name: "Timeless Throne of Ice",
@@ -4149,7 +4149,7 @@ const decorArray = [
         points: 400,
         tags: ["Cookie Decor"],
         url: '/regular_decor/csv/csv15.png',
-        note: "Cookie Decor for Frost Queen Cookie"    
+        note: "Cookie Decor for Frost Queen Cookie"
     },
     /*Start of Jolly Year-End Festivities*/
     {
@@ -4159,7 +4159,7 @@ const decorArray = [
         points: 20,
         tags: ["Gnome"],
         url: '/regular_decor/jyf/jyf1.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Fruit Bread Wall",
@@ -4168,7 +4168,7 @@ const decorArray = [
         points: 30,
         tags: ["Wall"],
         url: '/regular_decor/jyf/jyf2.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Hot Cocoa Vending Machine",
@@ -4177,7 +4177,7 @@ const decorArray = [
         points: 20,
         tags: ["Machine", "Food"],
         url: '/regular_decor/jyf/jyf3.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Candle of Wishes",
@@ -4186,7 +4186,7 @@ const decorArray = [
         points: 20,
         tags: ["Candle"],
         url: '/regular_decor/jyf/jyf4.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Mint Cocoa Vending Machine",
@@ -4195,7 +4195,7 @@ const decorArray = [
         points: 20,
         tags: ["Machine", "Food"],
         url: '/regular_decor/jyf/jyf5.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Hot Choco Fountain",
@@ -4204,7 +4204,7 @@ const decorArray = [
         points: 36,
         tags: ["Food", "Fountain"],
         url: '/regular_decor/jyf/jyf6.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Season's Greetings Photo Wall",
@@ -4213,7 +4213,7 @@ const decorArray = [
         points: 38,
         tags: ["Cookie Interaction"],
         url: '/regular_decor/jyf/jyf7.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Holly Cupcake Stand",
@@ -4222,7 +4222,7 @@ const decorArray = [
         points: 30,
         tags: ["Cart", "Food"],
         url: '/regular_decor/jyf/jyf8.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Jingling Churros Arbor",
@@ -4231,7 +4231,7 @@ const decorArray = [
         points: 36,
         tags: ["Arch", "Greenery"],
         url: '/regular_decor/jyf/jyf9.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Holly Streetlight",
@@ -4240,7 +4240,7 @@ const decorArray = [
         points: 20,
         tags: ["Lamp"],
         url: '/regular_decor/jyf/jyf10.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Twinkling Snowy Tree",
@@ -4249,7 +4249,7 @@ const decorArray = [
         points: 30,
         tags: ["Greenery"],
         url: '/regular_decor/jyf/jyf11.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Candy Cane Bench",
@@ -4258,7 +4258,7 @@ const decorArray = [
         points: 25,
         tags: ["Bench", "Cookie Interaction"],
         url: '/regular_decor/jyf/jyf12.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Velvet Sleigh of Presents",
@@ -4267,7 +4267,7 @@ const decorArray = [
         points: 35,
         tags: ["Cookie Interaction"],
         url: '/regular_decor/jyf/jyf13.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Holiday Candy Table",
@@ -4276,7 +4276,7 @@ const decorArray = [
         points: 30,
         tags: ["Table", "Cookie Interaction"],
         url: '/regular_decor/jyf/jyf14.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Pile of Presents",
@@ -4285,7 +4285,7 @@ const decorArray = [
         points: 30,
         tags: [],
         url: '/regular_decor/jyf/jyf15.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Holly Biscuit Reindeer",
@@ -4294,7 +4294,7 @@ const decorArray = [
         points: 30,
         tags: ["Animal"],
         url: '/regular_decor/jyf/jyf16.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Snowflakes & Cocoa Cafe",
@@ -4303,7 +4303,7 @@ const decorArray = [
         points: 400,
         tags: ["Cookie Decor", "Cookie Interaction"],
         url: '/regular_decor/jyf/jyf17.png',
-        note: "Cookie Decor for Cocoa Cookie; a second cookie can also interact"    
+        note: "Cookie Decor for Cocoa Cookie; a second cookie can also interact"
     },
     /*Start of Kingdom of the Unwavering*/
     {
@@ -4313,7 +4313,7 @@ const decorArray = [
         points: 0,
         tags: ["Ground"],
         url: '/regular_decor/ku/ku1.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Ornate Citadel Tiles",
@@ -4322,7 +4322,7 @@ const decorArray = [
         points: 0,
         tags: ["Ground"],
         url: '/regular_decor/ku/ku2.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Licorice Sea Waterway",
@@ -4331,7 +4331,7 @@ const decorArray = [
         points: 0,
         tags: ["Water"],
         url: '/regular_decor/ku/ku3.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Citadel Banner",
@@ -4340,7 +4340,7 @@ const decorArray = [
         points: 20,
         tags: ["Banner"],
         url: '/regular_decor/ku/ku4.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Underworld General Idol",
@@ -4349,7 +4349,7 @@ const decorArray = [
         points: 20,
         tags: ["Statue"],
         url: '/regular_decor/ku/ku5.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Modest Table Platform",
@@ -4358,7 +4358,7 @@ const decorArray = [
         points: 32,
         tags: ["Table", "Cookie Interaction"],
         url: '/regular_decor/ku/ku6.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Sky General Idol",
@@ -4367,7 +4367,7 @@ const decorArray = [
         points: 20,
         tags: ["Statue"],
         url: '/regular_decor/ku/ku7.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Star Jelly Flower",
@@ -4376,7 +4376,7 @@ const decorArray = [
         points: 20,
         tags: ["Greenery"],
         url: '/regular_decor/ku/ku8.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Cacao Pagoda",
@@ -4385,7 +4385,7 @@ const decorArray = [
         points: 38,
         tags: [],
         url: '/regular_decor/ku/ku9.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Choco Bamboo",
@@ -4394,7 +4394,7 @@ const decorArray = [
         points: 30,
         tags: ["Greenery"],
         url: '/regular_decor/ku/ku10.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Bridge of Harmony",
@@ -4403,7 +4403,7 @@ const decorArray = [
         points: 36,
         tags: ["Bridge", "Water"],
         url: '/regular_decor/ku/ku11.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Choco Cone Spruce",
@@ -4412,7 +4412,7 @@ const decorArray = [
         points: 30,
         tags: ["Greenery"],
         url: '/regular_decor/ku/ku12.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Cacao Tile Wall",
@@ -4421,7 +4421,7 @@ const decorArray = [
         points: 30,
         tags: ["Wall"],
         url: '/regular_decor/ku/ku13.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Cacao Tile Gate",
@@ -4430,7 +4430,7 @@ const decorArray = [
         points: 40,
         tags: ["Gate"],
         url: '/regular_decor/ku/ku14.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Dragon Roar Buk Drum",
@@ -4439,7 +4439,7 @@ const decorArray = [
         points: 30,
         tags: ["Music"],
         url: '/regular_decor/ku/ku15.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Folding Screen with a Landscape Painting",
@@ -4448,7 +4448,7 @@ const decorArray = [
         points: 30,
         tags: [],
         url: '/regular_decor/ku/ku16.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Purple Stone Lantern",
@@ -4457,7 +4457,7 @@ const decorArray = [
         points: 20,
         tags: ["Lamp"],
         url: '/regular_decor/ku/ku17.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Dark Cacao Bench",
@@ -4466,7 +4466,7 @@ const decorArray = [
         points: 30,
         tags: ["Bench", "Cookie Interaction"],
         url: '/regular_decor/ku/ku18.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Purple Brazier",
@@ -4475,7 +4475,7 @@ const decorArray = [
         points: 20,
         tags: ["Fire"],
         url: '/regular_decor/ku/ku19.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Royal Feast Table",
@@ -4484,7 +4484,7 @@ const decorArray = [
         points: 38,
         tags: ["Table", "Food"],
         url: '/regular_decor/ku/ku20.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Cacao & Cream Cannon",
@@ -4493,7 +4493,7 @@ const decorArray = [
         points: 30,
         tags: ["Weapon"],
         url: '/regular_decor/ku/ku21.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Licorice Jelly Dummy",
@@ -4502,7 +4502,7 @@ const decorArray = [
         points: 20,
         tags: [],
         url: '/regular_decor/ku/ku22.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Kingdom Defender's Weapon Rack",
@@ -4511,7 +4511,7 @@ const decorArray = [
         points: 30,
         tags: ["Weapon"],
         url: '/regular_decor/ku/ku23.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Heroic Founder's Statue",
@@ -4520,7 +4520,7 @@ const decorArray = [
         points: 30,
         tags: ["Statue", "Ancient"],
         url: '/regular_decor/ku/ku24.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Licorice Oozeling",
@@ -4529,7 +4529,7 @@ const decorArray = [
         points: 32,
         tags: ["Water"],
         url: '/regular_decor/ku/ku25.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Statue of a Vow",
@@ -4538,7 +4538,7 @@ const decorArray = [
         points: 30,
         tags: ["Statue"],
         url: '/regular_decor/ku/ku26.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Rice Cake Hound Kennel",
@@ -4547,7 +4547,7 @@ const decorArray = [
         points: 20,
         tags: ["Cake Hound"],
         url: '/regular_decor/ku/ku27.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Practice Target",
@@ -4556,7 +4556,7 @@ const decorArray = [
         points: 30,
         tags: [],
         url: '/regular_decor/ku/ku28.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Dark Cacao Stove",
@@ -4565,7 +4565,7 @@ const decorArray = [
         points: 32,
         tags: [],
         url: '/regular_decor/ku/ku29.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Caramel Watchtower",
@@ -4574,7 +4574,7 @@ const decorArray = [
         points: 400,
         tags: ["Tower", "Cookie Decor"],
         url: '/regular_decor/ku/ku30.png',
-        note: "Cookie Decor for Caramel Arrow Cookie"    
+        note: "Cookie Decor for Caramel Arrow Cookie"
     },
     {
         name: "Altar of Bittersweet Rituals",
@@ -4583,7 +4583,7 @@ const decorArray = [
         points: 400,
         tags: ["Cookie Decor"],
         url: '/regular_decor/ku/ku31.png',
-        note: "Cookie Decor for Affogato Cookie"    
+        note: "Cookie Decor for Affogato Cookie"
     },
     {
         name: "Shelter of Solitude",
@@ -4592,7 +4592,7 @@ const decorArray = [
         points: 400,
         tags: ["Cookie Decor", "Ancient"],
         url: '/regular_decor/ku/ku32.png',
-        note: "Cookie Decor for Dark Cacao Cookie"    
+        note: "Cookie Decor for Dark Cacao Cookie"
     },
     {
         name: "Chocolate Altar of the Fallen",
@@ -4601,7 +4601,7 @@ const decorArray = [
         points: 500,
         tags: ["Landmark", "Cookie Interaction"],
         url: '/regular_decor/ku/ku33.png',
-        note: ""    
+        note: ""
     },
     /*Start of Springtime Blossom Picnic Party*/
     {
@@ -4611,7 +4611,7 @@ const decorArray = [
         points: 25,
         tags: ["Fence"],
         url: '/limited_decor/sbpp/sbpp1.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Pink Blossom Streetlight",
@@ -4620,7 +4620,7 @@ const decorArray = [
         points: 25,
         tags: ["Lamp"],
         url: '/limited_decor/sbpp/sbpp2.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Golden Bell Hedge",
@@ -4629,7 +4629,7 @@ const decorArray = [
         points: 25,
         tags: ["Greenery"],
         url: '/limited_decor/sbpp/sbpp3.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Pink Icing Radio",
@@ -4638,7 +4638,7 @@ const decorArray = [
         points: 30,
         tags: [],
         url: '/limited_decor/sbpp/sbpp4.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Pleasant Picnic Basket",
@@ -4647,7 +4647,7 @@ const decorArray = [
         points: 30,
         tags: [],
         url: '/limited_decor/sbpp/sbpp5.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Blooming Cherry Blossom Tree",
@@ -4656,7 +4656,7 @@ const decorArray = [
         points: 30,
         tags: ["Greenery"],
         url: '/limited_decor/sbpp/sbpp6.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Budding Flower Bike",
@@ -4665,7 +4665,7 @@ const decorArray = [
         points: 45,
         tags: [],
         url: '/limited_decor/sbpp/sbpp7.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Spring Picnic Cart",
@@ -4674,7 +4674,7 @@ const decorArray = [
         points: 45,
         tags: ["Cart"],
         url: '/limited_decor/sbpp/sbpp8.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Pink Macaron Table Set",
@@ -4683,7 +4683,7 @@ const decorArray = [
         points: 50,
         tags: ["Table", "Cookie Interaction"],
         url: '/limited_decor/sbpp/sbpp9.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Dandelion Trailer",
@@ -4692,7 +4692,7 @@ const decorArray = [
         points: 50,
         tags: [],
         url: '/limited_decor/sbpp/sbpp10.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Springtime Picnic Mat",
@@ -4701,7 +4701,7 @@ const decorArray = [
         points: 50,
         tags: ["Cookie Interaction"],
         url: '/limited_decor/sbpp/sbpp11.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Spring Bouquet Truck",
@@ -4710,7 +4710,7 @@ const decorArray = [
         points: 60,
         tags: [],
         url: '/limited_decor/sbpp/sbpp12.png',
-        note: ""    
+        note: ""
     },
     /*Start of First Steps Towards Peace*/
     {
@@ -4720,7 +4720,7 @@ const decorArray = [
         points: 30,
         tags: ["Table", "Cookie Interaction"],
         url: '/regular_decor/fstp/fstp1.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Crow's Nest Sign",
@@ -4729,7 +4729,7 @@ const decorArray = [
         points: 30,
         tags: ["Lamp"],
         url: '/regular_decor/fstp/fstp2.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Vanilla Cone Tree",
@@ -4738,7 +4738,7 @@ const decorArray = [
         points: 30,
         tags: ["Greenery"],
         url: '/regular_decor/fstp/fstp3.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Crow's Nest Inn",
@@ -4747,7 +4747,7 @@ const decorArray = [
         points: 38,
         tags: ["Food", "Cookie Interaction"],
         url: '/regular_decor/fstp/fstp4.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Magic Academy Combo Desk",
@@ -4756,7 +4756,7 @@ const decorArray = [
         points: 35,
         tags: ["Cookie Interaction"],
         url: '/regular_decor/fstp/fstp5.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Banner of Eternal Unity",
@@ -4765,7 +4765,7 @@ const decorArray = [
         points: 20,
         tags: ["Banner"],
         url: '/regular_decor/fstp/fstp6.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Magic Academy Chalkboard",
@@ -4774,7 +4774,7 @@ const decorArray = [
         points: 32,
         tags: ["Cookie Interaction"],
         url: '/regular_decor/fstp/fstp7.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Vanilla Orchid Garland Fence",
@@ -4783,7 +4783,7 @@ const decorArray = [
         points: 30,
         tags: ["Fence"],
         url: '/regular_decor/fstp/fstp8.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Dark Cacao Tent",
@@ -4792,7 +4792,7 @@ const decorArray = [
         points: 38,
         tags: ["Tent"],
         url: '/regular_decor/fstp/fstp9.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Council Banquet Table",
@@ -4801,7 +4801,7 @@ const decorArray = [
         points: 38,
         tags: ["Table", "Food", "Cookie Interaction"],
         url: '/regular_decor/fstp/fstp10.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Snowfield Choco Chip Cairn",
@@ -4810,7 +4810,7 @@ const decorArray = [
         points: 300,
         tags: ["Banner", "Cookie Decor"],
         url: '/regular_decor/fstp/fstp11.png',
-        note: "Cookie Decor for Crunchy Chip Cookie"    
+        note: "Cookie Decor for Crunchy Chip Cookie"
     },
     {
         name: "Quiet Garden Corner",
@@ -4819,7 +4819,7 @@ const decorArray = [
         points: 400,
         tags: ["Greenery", "Cookie Decor"],
         url: '/regular_decor/fstp/fstp12.png',
-        note: "Cookie Decor for Wildberry Cookie"    
+        note: "Cookie Decor for Wildberry Cookie"
     },
     /*Start of The Republic's Azure Streets*/
     {
@@ -4829,7 +4829,7 @@ const decorArray = [
         points: 0,
         tags: ["Ground"],
         url: '/regular_decor/tras/tras1.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Dome of the Light",
@@ -4838,7 +4838,7 @@ const decorArray = [
         points: 40,
         tags: [],
         url: '/regular_decor/tras/tras2.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Luxurious Shell Parasol",
@@ -4847,7 +4847,7 @@ const decorArray = [
         points: 30,
         tags: ["Cookie Interaction"],
         url: '/regular_decor/tras/tras3.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Seaside Dining Table",
@@ -4856,7 +4856,7 @@ const decorArray = [
         points: 35,
         tags: ["Table", "Food", "Cookie Interaction"],
         url: '/regular_decor/tras/tras4.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Conch Shell Street Lamp",
@@ -4865,7 +4865,7 @@ const decorArray = [
         points: 20,
         tags: ["Lamp"],
         url: '/regular_decor/tras/tras5.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Jelly Cube Bougainvillea",
@@ -4874,7 +4874,7 @@ const decorArray = [
         points: 20,
         tags: ["Greenery"],
         url: '/regular_decor/tras/tras6.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Sandshell Bench",
@@ -4883,7 +4883,7 @@ const decorArray = [
         points: 30,
         tags: ["Bench", "Cookie Interaction"],
         url: '/regular_decor/tras/tras7.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Gold Azure Banners",
@@ -4892,7 +4892,7 @@ const decorArray = [
         points: 30,
         tags: ["Banner"],
         url: '/regular_decor/tras/tras8.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Creme Seashell Bridge",
@@ -4901,7 +4901,7 @@ const decorArray = [
         points: 36,
         tags: ["Bridge", "Water"],
         url: '/regular_decor/tras/tras9.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Republic Daily Stand",
@@ -4910,7 +4910,7 @@ const decorArray = [
         points: 35,
         tags: [],
         url: '/regular_decor/tras/tras10.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Seashell Fence",
@@ -4919,7 +4919,7 @@ const decorArray = [
         points: 30,
         tags: [],
         url: '/regular_decor/tras/tras11.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Olive Skewer Tree",
@@ -4928,7 +4928,7 @@ const decorArray = [
         points: 20,
         tags: ["Greenery"],
         url: '/regular_decor/tras/tras12.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Azure Ocean Arch",
@@ -4937,7 +4937,7 @@ const decorArray = [
         points: 36,
         tags: ["Arch"],
         url: '/regular_decor/tras/tras13.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Ivory Pearl Fountain",
@@ -4946,7 +4946,7 @@ const decorArray = [
         points: 400,
         tags: ["Cookie Decor", "Fountain"],
         url: '/regular_decor/tras/tras14.png',
-        note: "Cookie Decor for Oyster Cookie"    
+        note: "Cookie Decor for Oyster Cookie"
     },
     {
         name: "Paladin's Altar",
@@ -4955,7 +4955,7 @@ const decorArray = [
         points: 400,
         tags: ["Cookie Decor"],
         url: '/regular_decor/tras/tras15.png',
-        note: "Cookie Decor for Financier Cookie"    
+        note: "Cookie Decor for Financier Cookie"
     },
     {
         name: "Waterfall of Contemplation",
@@ -4964,7 +4964,7 @@ const decorArray = [
         points: 400,
         tags: ["Cookie Decor"],
         url: '/regular_decor/tras/tras16.png',
-        note: "Cookie Decor for Clotted Cream Cookie"    
+        note: "Cookie Decor for Clotted Cream Cookie"
     },
     /*Start of other*/
     {
@@ -4974,25 +4974,25 @@ const decorArray = [
         points: 9,
         tags: [],
         url: '/limited_decor/other/o1.png',
-        note: "Rewarded for Trick or Treat! Bear-O'-Lantern event"    
+        note: "Rewarded for Trick or Treat! Bear-O'-Lantern event"
     },
     {
         name: "Bonus Time Bench",
         theme: "Ovenbreak",
         size: "12x12",
         points: 1,
-        tags: ["Collab"],
+        tags: ["Collab", "Bench"],
         url: '/limited_decor/other/o2.png',
-        note: "Given during cross-promotion event with Cookie Run: Ovenbreak"    
+        note: "Given during cross-promotion event with Cookie Run: Ovenbreak"
     },
     {
         name: "Brick Oven Wall",
         theme: "Ovenbreak",
         size: "8x8",
         points: 1,
-        tags: ["Collab"],
+        tags: ["Collab", "Wall"],
         url: '/limited_decor/other/o3.png',
-        note: "Given during cross-promotion event with Cookie Run: Ovenbreak"    
+        note: "Given during cross-promotion event with Cookie Run: Ovenbreak"
     },
     {
         name: "Cake Baked from the Heart",
@@ -5001,16 +5001,16 @@ const decorArray = [
         points: 400,
         tags: ["Food"],
         url: '/limited_decor/other/o4.png',
-        note: "Given during Bake the Holiday Cake event"    
+        note: "Given during Bake the Holiday Cake event"
     },
     {
         name: "Cookievorous Pet Plant",
         theme: "Other",
         size: "2x2",
         points: 1,
-        tags: ["Cookie Interaction"],
+        tags: ["Cookie Interaction", "Greenery"],
         url: '/limited_decor/other/o5.png',
-        note: "Given in the cookie story Herb Cookie's New Plant"    
+        note: "Given in the cookie story Herb Cookie's New Plant"
     },
     {
         name: "Dried Mandragonion",
@@ -5019,7 +5019,7 @@ const decorArray = [
         points: 1,
         tags: ["Collab"],
         url: '/limited_decor/other/o6.png',
-        note: "Given during cross-promotion event with Cookie Run: Ovenbreak"    
+        note: "Given during cross-promotion event with Cookie Run: Ovenbreak"
     },
     {
         name: "Explorer's Hot Air Balloon",
@@ -5028,7 +5028,7 @@ const decorArray = [
         points: 1,
         tags: ["Collab"],
         url: '/limited_decor/other/o7.png',
-        note: "Available from Google Play store for 500 Google Play Points"    
+        note: "Available from Google Play store for 500 Google Play Points"
     },
     {
         name: "Farseeing Longan Eyes",
@@ -5037,7 +5037,7 @@ const decorArray = [
         points: 30,
         tags: ["Collab"],
         url: '/limited_decor/other/o8.png',
-        note: "Given during cross-promotion event with Cookie Run: Ovenbreak"    
+        note: "Given during cross-promotion event with Cookie Run: Ovenbreak"
     },
     {
         name: "Magic Scroll of Golden Tart",
@@ -5046,7 +5046,7 @@ const decorArray = [
         points: 20,
         tags: ["Collab"],
         url: '/limited_decor/other/o9.png',
-        note: "Given during cross-promotion event with Cookie Run: Ovenbreak"    
+        note: "Given during cross-promotion event with Cookie Run: Ovenbreak"
     },
     {
         name: "Seal Scroll of Triangular Tart",
@@ -5055,7 +5055,7 @@ const decorArray = [
         points: 20,
         tags: ["Collab"],
         url: '/limited_decor/other/o10.png',
-        note: "Given during cross-promotion event with Cookie Run: Ovenbreak"    
+        note: "Given during cross-promotion event with Cookie Run: Ovenbreak"
     },
     {
         name: "Golden Throne of Ancient Legends",
@@ -5064,16 +5064,16 @@ const decorArray = [
         points: 40,
         tags: ["Collab", "Cookie Interaction"],
         url: '/limited_decor/other/o11.png',
-        note: "Given during cross-promotion event with Cookie Run: Ovenbreak"    
+        note: "Given during cross-promotion event with Cookie Run: Ovenbreak"
     },
     {
         name: "Good Boy Cream Wolf",
         theme: "Other",
         size: "4x4",
         points: 300,
-        tags: [],
+        tags: ["Animal"],
         url: '/limited_decor/other/o12.png',
-        note: "Limited time shop exclusive"    
+        note: "Limited time shop exclusive"
     },
     {
         name: "Jelly Conga",
@@ -5082,7 +5082,7 @@ const decorArray = [
         points: 1,
         tags: ["Collab"],
         url: '/limited_decor/other/o13.png',
-        note: "Given during cross-promotion event with Cookie Run: Ovenbreak"    
+        note: "Given during cross-promotion event with Cookie Run: Ovenbreak"
     },
     {
         name: "New Sugar Gnome",
@@ -5091,7 +5091,7 @@ const decorArray = [
         points: 1,
         tags: ["Gnome"],
         url: '/limited_decor/other/o14.png',
-        note: "Given with coupon codes"    
+        note: "Given with coupon codes"
     },
     {
         name: "Olive Tacks",
@@ -5100,25 +5100,25 @@ const decorArray = [
         points: 1,
         tags: ["Collab"],
         url: '/limited_decor/other/o15.png',
-        note: "Given during cross-promotion event with Cookie Run: Ovenbreak"    
+        note: "Given during cross-promotion event with Cookie Run: Ovenbreak"
     },
     {
         name: "Rice Cake Stand",
         theme: "Other",
         size: "8x8",
         points: 9,
-        tags: [],
+        tags: ["Shop"],
         url: '/limited_decor/other/o16.png',
-        note: "Given during Honey Rice Cakes event"    
+        note: "Given during Honey Rice Cakes event"
     },
     {
         name: "Sausage on a Fork",
         theme: "Ovenbreak",
         size: "2x2",
         points: 1,
-        tags: ["Collab"],
+        tags: ["Collab", "Food"],
         url: '/limited_decor/other/o17.png',
-        note: "Given during cross-promotion event with Cookie Run: Ovenbreak"    
+        note: "Given during cross-promotion event with Cookie Run: Ovenbreak"
     },
     {
         name: "Strange Vials",
@@ -5127,16 +5127,16 @@ const decorArray = [
         points: 1,
         tags: ["Collab"],
         url: '/limited_decor/other/o18.png',
-        note: "Given during cross-promotion event with Cookie Run: Ovenbreak"    
+        note: "Given during cross-promotion event with Cookie Run: Ovenbreak"
     },
     {
         name: "Sweet Honey Jar",
         theme: "Other",
         size: "8x8",
         points: 1,
-        tags: [],
+        tags: ["Food"],
         url: '/limited_decor/other/o19.png',
-        note: "Given during Honey Sweet Honey event"    
+        note: "Given during Honey Sweet Honey event"
     },
     {
         name: "Magic Music Box Castle",
@@ -5145,7 +5145,16 @@ const decorArray = [
         points: 1,
         tags: ["Landmark"],
         url: '/limited_decor/other/o20.png',
-        note: "Given during Pre-Registration Event or from purchasing the Art Book Package"    
+        note: "Given during Pre-Registration Event or from purchasing the Art Book Package"
+    },
+    {
+        name: "Pink Valentine Box",
+        theme: "Other",
+        size: "8x8",
+        points: 40,
+        tags: [],
+        url: '/limited_decor/other/o21.png',
+        note: "Limited time shop exclusive"
     },
     /*Start of Arena*/
     // {
@@ -5155,7 +5164,7 @@ const decorArray = [
     //     points: 33,
     //     tags: ["Statue"],
     //     url: '/limited_decor/arena/a1.png',
-    //     note: "reach Master in Brave Season 1"    
+    //     note: "reach Master in Brave Season 1"
     // },
     // {
     //     name: "Legendary Black Knight",
@@ -5164,7 +5173,7 @@ const decorArray = [
     //     points: 33,
     //     tags: ["Statue"],
     //     url: '/limited_decor/arena/a2.png',
-    //     note: "reach Master in Brave Season 2"    
+    //     note: "reach Master in Brave Season 2"
     // },
     // {
     //     name: "",
@@ -5173,7 +5182,7 @@ const decorArray = [
     //     points: ,
     //     tags: [],
     //     url: '/limited_decor/arena/a.png',
-    //     note: ""    
+    //     note: ""
     // },
     /*Start of World of Magic & Dreams*/
     {
@@ -5183,7 +5192,7 @@ const decorArray = [
         points: 0,
         tags: ["Water", "Collab"],
         url: '/limited_decor/wmd/wmd1.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Midsummer Tiles of Dreams",
@@ -5192,7 +5201,7 @@ const decorArray = [
         points: 0,
         tags: ["Ground", "Collab"],
         url: '/limited_decor/wmd/wmd2.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Mickey's Cheese Tiles",
@@ -5201,7 +5210,7 @@ const decorArray = [
         points: 0,
         tags: ["Ground", "Collab"],
         url: '/limited_decor/wmd/wmd3.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Mickey's Biscuit Tiles",
@@ -5210,7 +5219,7 @@ const decorArray = [
         points: 0,
         tags: ["Ground", "Collab"],
         url: '/limited_decor/wmd/wmd4.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Wavy Jelly Coral",
@@ -5219,7 +5228,7 @@ const decorArray = [
         points: 22,
         tags: ["Water", "Collab"],
         url: '/limited_decor/wmd/wmd5.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Fairy Ice Cream Cart",
@@ -5228,7 +5237,7 @@ const decorArray = [
         points: 22,
         tags: ["Cart", "Food", "Collab"],
         url: '/limited_decor/wmd/wmd6.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Artisan Pie Bench",
@@ -5237,7 +5246,7 @@ const decorArray = [
         points: 22,
         tags: ["Bench", "Cookie Interaction", "Collab"],
         url: '/limited_decor/wmd/wmd7.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Choco \"Gnome\" of Clubs",
@@ -5246,7 +5255,7 @@ const decorArray = [
         points: 20,
         tags: ["Gnome", "Collab"],
         url: '/limited_decor/wmd/wmd8.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Strawberry \"Gnome\" of Hearts",
@@ -5255,7 +5264,7 @@ const decorArray = [
         points: 20,
         tags: ["Gnome", "Collab"],
         url: '/limited_decor/wmd/wmd9.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Painted Wonderland Tree",
@@ -5264,7 +5273,7 @@ const decorArray = [
         points: 22,
         tags: ["Greenery", "Collab"],
         url: '/limited_decor/wmd/wmd10.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Pink Fence",
@@ -5273,7 +5282,7 @@ const decorArray = [
         points: 22,
         tags: ["Fence", "Collab"],
         url: '/limited_decor/wmd/wmd11.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Mickey's Brick Wall",
@@ -5282,7 +5291,7 @@ const decorArray = [
         points: 22,
         tags: ["Wall", "Collab"],
         url: '/limited_decor/wmd/wmd12.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Dreamy Royal Fence",
@@ -5291,7 +5300,7 @@ const decorArray = [
         points: 22,
         tags: ["Fence", "Collab"],
         url: '/limited_decor/wmd/wmd13.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Golden Mickey Streetlight",
@@ -5300,7 +5309,7 @@ const decorArray = [
         points: 20,
         tags: ["Lamp", "Collab"],
         url: '/limited_decor/wmd/wmd14.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Candied Flowerbed",
@@ -5309,7 +5318,7 @@ const decorArray = [
         points: 22,
         tags: ["Greenery", "Collab"],
         url: '/limited_decor/wmd/wmd15.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Mickey's Garden Tree",
@@ -5318,7 +5327,7 @@ const decorArray = [
         points: 22,
         tags: ["Greenery", "Collab"],
         url: '/limited_decor/wmd/wmd16.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Mickey's Bench",
@@ -5327,7 +5336,7 @@ const decorArray = [
         points: 22,
         tags: ["Bench", "Cookie Interaction", "Collab"],
         url: '/limited_decor/wmd/wmd17.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Sugar Gnome Parademaster",
@@ -5336,7 +5345,7 @@ const decorArray = [
         points: 20,
         tags: ["Gnome", "Collab"],
         url: '/limited_decor/wmd/wmd18.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Mickey's Roadsign",
@@ -5345,7 +5354,7 @@ const decorArray = [
         points: 20,
         tags: ["Collab"],
         url: '/limited_decor/wmd/wmd19.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Candy Apple Stand",
@@ -5354,7 +5363,7 @@ const decorArray = [
         points: 32,
         tags: ["Food", "Collab"],
         url: '/limited_decor/wmd/wmd20.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Financier Cake Canoe",
@@ -5363,7 +5372,7 @@ const decorArray = [
         points: 36,
         tags: ["Water", "Cookie Interaction", "Collab"],
         url: '/limited_decor/wmd/wmd21.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Kiteseller's Cart",
@@ -5372,7 +5381,7 @@ const decorArray = [
         points: 32,
         tags: ["Cart", "Collab"],
         url: '/limited_decor/wmd/wmd22.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Genie's Cotton Candy Cart",
@@ -5381,7 +5390,7 @@ const decorArray = [
         points: 32,
         tags: ["Cart", "Food", "Collab"],
         url: '/limited_decor/wmd/wmd23.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Sunday in Never Land",
@@ -5390,7 +5399,7 @@ const decorArray = [
         points: 34,
         tags: ["Cookie Interaction", "Collab"],
         url: '/limited_decor/wmd/wmd24.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Mont Blanc Parasol",
@@ -5399,7 +5408,7 @@ const decorArray = [
         points: 32,
         tags: ["Cookie Interaction", "Collab"],
         url: '/limited_decor/wmd/wmd25.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Disney Friends Balloons",
@@ -5408,7 +5417,7 @@ const decorArray = [
         points: 32,
         tags: ["Cart", "Collab"],
         url: '/limited_decor/wmd/wmd26.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Dreamy Castle Bridge",
@@ -5417,7 +5426,7 @@ const decorArray = [
         points: 36,
         tags: ["Bridge", "Water", "Collab"],
         url: '/limited_decor/wmd/wmd27.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Mickey's Billboard",
@@ -5426,7 +5435,7 @@ const decorArray = [
         points: 34,
         tags: ["Collab"],
         url: '/limited_decor/wmd/wmd28.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Mickey's Fountain",
@@ -5435,7 +5444,7 @@ const decorArray = [
         points: 36,
         tags: ["Collab", "Fountain"],
         url: '/limited_decor/wmd/wmd29.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Trainee's Horsey Ride",
@@ -5444,7 +5453,7 @@ const decorArray = [
         points: 32,
         tags: ["Cookie Interaction", "Collab"],
         url: '/limited_decor/wmd/wmd30.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Royal Dressing Room",
@@ -5453,7 +5462,7 @@ const decorArray = [
         points: 34,
         tags: ["Cookie Interaction", "Collab"],
         url: '/limited_decor/wmd/wmd31.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Juice Can Spaceship",
@@ -5462,7 +5471,7 @@ const decorArray = [
         points: 34,
         tags: ["Cookie Interaction", "Collab"],
         url: '/limited_decor/wmd/wmd32.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Magic Mirror of Fate",
@@ -5471,7 +5480,7 @@ const decorArray = [
         points: 140,
         tags: ["Cookie Interaction", "Collab"],
         url: '/limited_decor/wmd/wmd33.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Happily Ever After Photo Zone",
@@ -5480,7 +5489,7 @@ const decorArray = [
         points: 160,
         tags: ["Cookie Interaction", "Collab"],
         url: '/limited_decor/wmd/wmd34.png',
-        note: ""    
+        note: ""
     },
     {
         name: "Praline Pumpkin Coach",
@@ -5489,7 +5498,7 @@ const decorArray = [
         points: 160,
         tags: ["Cookie Decor", "Collab"],
         url: '/limited_decor/wmd/wmd35.png',
-        note: "Cookie Decor for Cinderella Cookie"    
+        note: "Cookie Decor for Cinderella Cookie"
     },
     {
         name: "Little Ocean Globe",
@@ -5498,7 +5507,7 @@ const decorArray = [
         points: 600,
         tags: ["Cookie Decor", "Disney Crystals", "Water", "Collab"],
         url: '/limited_decor/wmd/wmd36.png',
-        note: "Cookie Decor for Ariel Cookie; produced Wishing Star Crystals during Disney crossover"    
+        note: "Cookie Decor for Ariel Cookie; produced Wishing Star Crystals during Disney crossover"
     },
     {
         name: "Grandmother Willow",
@@ -5507,7 +5516,7 @@ const decorArray = [
         points: 650,
         tags: ["Cookie Decor", "Disney Crystals", "Water", "Greenery", "Collab"],
         url: '/limited_decor/wmd/wmd37.png',
-        note: "Cookie Decor for Pocahontas Cookie; produced Wishing Star Crystals during Disney crossover"    
+        note: "Cookie Decor for Pocahontas Cookie; produced Wishing Star Crystals during Disney crossover"
     },
     {
         name: "Tower of Fireworks",
@@ -5516,7 +5525,7 @@ const decorArray = [
         points: 600,
         tags: ["Disney Crystals", "Tower", "Collab"],
         url: '/limited_decor/wmd/wmd38.png',
-        note: "produced Wishing Star Crystals during Disney crossover"    
+        note: "produced Wishing Star Crystals during Disney crossover"
     },
     {
         name: "Midnight Merry-go-round",
@@ -5525,7 +5534,7 @@ const decorArray = [
         points: 600,
         tags: ["Disney Crystals", "Collab"],
         url: '/limited_decor/wmd/wmd39.png',
-        note: "produced Wishing Star Crystals during Disney crossover"    
+        note: "produced Wishing Star Crystals during Disney crossover"
     },
     {
         name: "Ballroom as Old as Time",
@@ -5534,7 +5543,7 @@ const decorArray = [
         points: 700,
         tags: ["Cookie Decor", "Disney Crystals", "Collab"],
         url: '/limited_decor/wmd/wmd40.png',
-        note: "Cookie Decor for Beast Cookie and Belle Cookie; produced Wishing Star Crystals during Disney crossover"    
+        note: "Cookie Decor for Beast Cookie and Belle Cookie; produced Wishing Star Crystals during Disney crossover"
     },
     {
         name: "Magic Carpet Ride",
@@ -5543,7 +5552,7 @@ const decorArray = [
         points: 600,
         tags: ["Cookie Interaction", "Disney Crystals", "Collab"],
         url: '/limited_decor/wmd/wmd41.png',
-        note: "produced Wishing Star Crystals during Disney crossover"    
+        note: "produced Wishing Star Crystals during Disney crossover"
     },
     {
         name: "Golden Cheese Pirate Ship",
@@ -5552,7 +5561,7 @@ const decorArray = [
         points: 650,
         tags: ["Cookie Interaction", "Disney Crystals", "Collab"],
         url: '/limited_decor/wmd/wmd42.png',
-        note: "produced Wishing Star Crystals during Disney crossover"    
+        note: "produced Wishing Star Crystals during Disney crossover"
     },
     {
         name: "Stage Aloha",
@@ -5561,7 +5570,7 @@ const decorArray = [
         points: 600,
         tags: ["Cookie Decor", "Disney Crystals", "Collab"],
         url: '/limited_decor/wmd/wmd43.png',
-        note: "Cookie Decor for Stitch Cookie and Lilo Cookie; produced Wishing Star Crystals during Disney crossover"    
+        note: "Cookie Decor for Stitch Cookie and Lilo Cookie; produced Wishing Star Crystals during Disney crossover"
     },
     {
         name: "Carrot Pie House",
@@ -5570,7 +5579,7 @@ const decorArray = [
         points: 600,
         tags: ["Cookie Decor", "Disney Crystals", "Collab"],
         url: '/limited_decor/wmd/wmd44.png',
-        note: "Cookie Decor for Alice Cookie; produced Wishing Star Crystals during Disney crossover"    
+        note: "Cookie Decor for Alice Cookie; produced Wishing Star Crystals during Disney crossover"
     },
     {
         name: "Twirly Sky Cupcakes",
@@ -5579,7 +5588,7 @@ const decorArray = [
         points: 700,
         tags: ["Disney Crystals", "Collab"],
         url: '/limited_decor/wmd/wmd45.png',
-        note: "produced Wishing Star Crystals during Disney crossover"    
+        note: "produced Wishing Star Crystals during Disney crossover"
     },
     {
         name: "Disney Ice Cream Truck",
@@ -5588,7 +5597,7 @@ const decorArray = [
         points: 36,
         tags: ["Collab"],
         url: '/limited_decor/wmd/wmd46.png',
-        note: "produced items during Disney Cookies' Wishlist event"    
+        note: "produced items during Disney Cookies' Wishlist event"
     },
 ];
 
@@ -5601,7 +5610,7 @@ const decorArray = [
 //     points: ,
 //     tags: [],
 //     url: '/regular_decor/tras/tras.png',
-//     note: ""    
+//     note: ""
 // },
 
 // {
@@ -5611,7 +5620,7 @@ const decorArray = [
 //     points: ,
 //     tags: [],
 //     url: '/limited_decor/arena/a.png',
-//     note: ""    
+//     note: ""
 // },
 
 const themeArray = [
@@ -5657,7 +5666,8 @@ const themeArray = [
     "Springtime Blossom Picnic Party",
     "First Steps Towards Peace",
     "The Republic's Azure Streets",
-    "World of Magic & Dreams"
+    "World of Magic & Dreams",
+    "Other",
 ];
 
 // Kingdom pass reward: https://cookierunkingdom.fandom.com/wiki/Kingdom_Pass || https://cookierunkingdom.fandom.com/wiki/Landmarks
