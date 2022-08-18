@@ -5152,9 +5152,9 @@ const decorArray = [
         theme: "Other",
         size: "8x8",
         points: 40,
-        tags: [],
+        tags: ["Cookie Interaction"],
         url: '/limited_decor/other/o21.png',
-        note: "Limited time shop exclusive"
+        note: "Limited time shop exclusive; up to two cookies can interact at once"
     },
     /*Start of Arena*/
     // {
