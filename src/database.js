@@ -4013,7 +4013,7 @@ const decorArray = [
         points: 35,
         tags: ["Cart", "Food", "Collab"],
         url: '/limited_decor/kfj/kfj8.png',
-        note: "Collaboration with e-mart; only available on the e-mart app"
+        note: "Collaboration with e-mart; only available with membership on the e-mart app"
     },
     /*Start of Cozy Snowfall Village*/
     {
@@ -5156,34 +5156,413 @@ const decorArray = [
         url: '/limited_decor/other/o21.png',
         note: "Limited time shop exclusive; up to two cookies can interact at once"
     },
+    {
+        name: "The Stylish Brothers",
+        theme: "Other",
+        size: "4x4",
+        points: 1,
+        tags: ["Statue", "Collab"],
+        url: '/limited_decor/other/o22.png',
+        note: "Collaboration with Ebbets/Musinsa; given with purchase of Ebbets clothes"
+    },
+    {
+        name: "Dreamy Picnic with Vinyls",
+        theme: "Other",
+        size: "4x4",
+        points: 30,
+        tags: ["Gnome"],
+        url: '/limited_decor/other/o23.png',
+        note: "Given with CRK 1st Anniversary OST Bundle"
+    },
+    {
+        name: "Star Jelly Tree of Hopes and Dreams",
+        theme: "Other",
+        size: "8x8",
+        points: 400,
+        tags: ["Landmark", "Greenery"],
+        url: '/limited_decor/other/o24.png',
+        note: "Limited time shop exclusive"
+    },
     /*Start of Arena*/
-    // {
-    //     name: "Greenish Red Dragon Statue",
-    //     theme: "Arena",
-    //     size: "8x8",
-    //     points: 33,
-    //     tags: ["Statue"],
-    //     url: '/limited_decor/arena/a1.png',
-    //     note: "reach Master in Brave Season 1"
-    // },
-    // {
-    //     name: "Legendary Black Knight",
-    //     theme: "Arena",
-    //     size: "8x8",
-    //     points: 33,
-    //     tags: ["Statue"],
-    //     url: '/limited_decor/arena/a2.png',
-    //     note: "reach Master in Brave Season 2"
-    // },
-    // {
-    //     name: "",
-    //     theme: "Arena",
-    //     size: "",
-    //     points: ,
-    //     tags: [],
-    //     url: '/limited_decor/arena/a.png',
-    //     note: ""
-    // },
+    {
+        name: "Greenish Red Dragon Statue",
+        theme: "Arena",
+        size: "8x8",
+        points: 33,
+        tags: ["Statue"],
+        url: '/limited_decor/arena/a1.png',
+        note: "reach Master in Brave Season 1"
+    },
+    {
+        name: "Legendary Black Knight",
+        theme: "Arena",
+        size: "8x8",
+        points: 33,
+        tags: ["Statue"],
+        url: '/limited_decor/arena/a2.png',
+        note: "reach Master in Brave Season 2"
+    },
+    {
+        name: "Crimson Dessert Party",
+        theme: "Arena",
+        size: "8x8",
+        points: 33,
+        tags: ["Food", "Table", "Cooke Interaction"],
+        url: '/limited_decor/arena/a3.png',
+        note: "reach Master in Brave Season 3"
+    },
+    {
+        name: "Eternal Candy Jail",
+        theme: "Arena",
+        size: "8x8",
+        points: 33,
+        tags: ["Cookie Interaction"],
+        url: '/limited_decor/arena/a4.png',
+        note: "reach Master in Pure Vanilla Season 1"
+    },
+    {
+        name: "Angelic Clarion Quartet",
+        theme: "Arena",
+        size: "6x6",
+        points: 33,
+        tags: [],
+        url: '/limited_decor/arena/a5.png',
+        note: "reach Master in Pure Vanilla Season 2"
+    },
+    {
+        name: "Watchful Vanilla Orchid",
+        theme: "Arena",
+        size: "8x8",
+        points: 33,
+        tags: ["Statue", "Ancient"],
+        url: '/limited_decor/arena/a6.png',
+        note: "reach Master in Pure Vanilla Season 3"
+    },
+    {
+        name: "Chest of the Depths",
+        theme: "Arena",
+        size: "8x8",
+        points: 33,
+        tags: ["Water"],
+        url: '/limited_decor/arena/a7.png',
+        note: "reach Master in Sea Fairy Season 1"
+    },
+    {
+        name: "Robust Bear Jelly Statue",
+        theme: "Arena",
+        size: "8x8",
+        points: 33,
+        tags: ["Water", "Statue"],
+        url: '/limited_decor/arena/a8.png',
+        note: "reach Master in Sea Fairy Season 2"
+    },
+    {
+        name: "Tidal Equestrian Statue",
+        theme: "Arena",
+        size: "8x8",
+        points: 33,
+        tags: ["Water", "Statue"],
+        url: '/limited_decor/arena/a9.png',
+        note: "reach Master in Sea Fairy Season 3"
+    },
+    {
+        name: "Shield of the Kingdom",
+        theme: "Arena",
+        size: "8x8",
+        points: 33,
+        tags: ["Statue", "Ancient"],
+        url: '/limited_decor/arena/a10.png',
+        note: "reach Master in Hollyberry Season 1"
+    },
+    {
+        name: "Goblet of the Noble Oath",
+        theme: "Arena",
+        size: "6x6",
+        points: 33,
+        tags: ["Fountain"],
+        url: '/limited_decor/arena/a11.png',
+        note: "reach Master in Hollyberrry Season 2"
+    },
+    {
+        name: "Huntress's Wintering Hut",
+        theme: "Arena",
+        size: "8x8",
+        points: 33,
+        tags: ["Cookie Interaction", "Ancient", "Weapon"],
+        url: '/limited_decor/arena/a12.png',
+        note: "reach Master in Hollyberry Season 3"
+    },
+    {
+        name: "Blizzard Howler",
+        theme: "Arena",
+        size: "6x6",
+        points: 33,
+        tags: ["Statue", "Cake Hound"],
+        url: '/limited_decor/arena/a13.png',
+        note: "reach Master in Frost Queen Season 1"
+    },
+    {
+        name: "Ice Cream Catapult",
+        theme: "Arena",
+        size: "8x8",
+        points: 33,
+        tags: ["Food", "Weapon"],
+        url: '/limited_decor/arena/a14.png',
+        note: "reach Master in Frost Queen Season 2"
+    },
+    {
+        name: "Reflection of the Frost Guardian",
+        theme: "Arena",
+        size: "6x6",
+        points: 33,
+        tags: ["Statue"],
+        url: '/limited_decor/arena/a15.png',
+        note: "reach Master in Frost Queen Season 3"
+    },
+    {
+        name: "Bell of the Twin Dragons",
+        theme: "Arena",
+        size: "8x8",
+        points: 33,
+        tags: ["Ancient", "Music"],
+        url: '/limited_decor/arena/a16.png',
+        note: "reach Master in Dark Cacao Season 1"
+    },
+    {
+        name: "Twin Dragon Memorial Statue",
+        theme: "Arena",
+        size: "6x6",
+        points: 33,
+        tags: ["Ancient", "Statue"],
+        url: '/limited_decor/arena/a17.png',
+        note: "reach Master in Dark Cacao Season 2"
+    },
+    {
+        name: "Portrait of the Resolute King",
+        theme: "Arena",
+        size: "6x6",
+        points: 33,
+        tags: ["Ancient"],
+        url: '/limited_decor/arena/a18.png',
+        note: "reach Master in Dark Cacao Season 3"
+    },
+    {
+        name: "Slumbering Paladin's Sanctuary",
+        theme: "Arena",
+        size: "6x6",
+        points: 33,
+        tags: ["Water", "Statue"],
+        url: '/limited_decor/arena/a19.png',
+        note: "reach Master in Radiant Heroes Season 1"
+    },
+    {
+        name: "Warrior-Goddess of the Ocean",
+        theme: "Arena",
+        size: "8x8",
+        points: 33,
+        tags: ["Water", "Statue"],
+        url: '/limited_decor/arena/a20.png',
+        note: "reach Master in Radiant Heroes Season 2"
+    },
+    {
+        name: "Dawnstrider's Guide",
+        theme: "Arena",
+        size: "6x6",
+        points: 33,
+        tags: ["Water", "Statue"],
+        url: '/limited_decor/arena/a21.png',
+        note: "reach Master in Radiant Heroes Season 3"
+    },
+    /*Start of Kingdom Pass*/
+    {
+        name: "Every Cookie's Garden House",
+        theme: "Kingdom Pass",
+        size: "16x16",
+        points: 50,
+        tags: ["Landmark", "Building"],
+        url: '/limited_decor/kp/kp1.png',
+        note: "Brave Season 1"
+    },
+    {
+        name: "Angel's Fountain",
+        theme: "Kingdom Pass",
+        size: "16x16",
+        points: 400,
+        tags: ["Landmark", "Fountain"],
+        url: '/limited_decor/kp/kp2.png',
+        note: "Brave Season 2"
+    },
+    {
+        name: "Big Squishy Visitor",
+        theme: "Kingdom Pass",
+        size: "12x12",
+        points: 400,
+        tags: ["Landmark"],
+        url: '/limited_decor/kp/kp3.png',
+        note: "Brave Season 3"
+    },
+    {
+        name: "Spring Wisteria Bridge",
+        theme: "Kingdom Pass",
+        size: "8x8",
+        points: 400,
+        tags: ["Landmark", "Greenery", "Bridge", "Cookie Interaction"],
+        url: '/limited_decor/kp/kp4.png',
+        note: "Pure Vanilla Season 1"
+    },
+    {
+        name: "Biscuit Playground",
+        theme: "Kingdom Pass",
+        size: "8x8",
+        points: 400,
+        tags: ["Landmark", "Cookie Interaction"],
+        url: '/limited_decor/kp/kp5.png',
+        note: "Pure Vanilla Season 2"
+    },
+    {
+        name: "Gnominator Statue",
+        theme: "Kingdom Pass",
+        size: "8x8",
+        points: 400,
+        tags: ["Landmark", "Statue"],
+        url: '/limited_decor/kp/kp6.png',
+        note: "Pure Vanilla Season 3"
+    },
+    {
+        name: "Quackity Quack Jelly Boat",
+        theme: "Kingdom Pass",
+        size: "8x8",
+        points: 400,
+        tags: ["Landmark", "Water", "Cookie Interaction"],
+        url: '/limited_decor/kp/kp7.png',
+        note: "Sea Fairy Season 1"
+    },
+    {
+        name: "Ship in a Safe Bottle",
+        theme: "Kingdom Pass",
+        size: "8x8",
+        points: 400,
+        tags: ["Landmark"],
+        url: '/limited_decor/kp/kp8.png',
+        note: "Sea Fairy Season 2"
+    },
+    {
+        name: "Romantic Rose Gazebo",
+        theme: "Kingdom Pass",
+        size: "8x8",
+        points: 400,
+        tags: ["Landmark", "Water", "Cookie Interaction"],
+        url: '/limited_decor/kp/kp9.png',
+        note: "Sea Fairy Season 3"
+    },
+    {
+        name: "Sugar Gnome's Pretzel Carriage",
+        theme: "Kingdom Pass",
+        size: "8x8",
+        points: 400,
+        tags: ["Landmark", "Cookie Interaction", "Gnome", "Animal"],
+        url: '/limited_decor/kp/kp10.png',
+        note: "Hollyberry Season 1"
+    },
+    {
+        name: "Autumn Breeze Camping Site",
+        theme: "Kingdom Pass",
+        size: "8x8",
+        points: 400,
+        tags: ["Landmark", "Greenery", "Cookie Interaction"],
+        url: '/limited_decor/kp/kp11.png',
+        note: "Hollyberry Season 2"
+    },
+    {
+        name: "Holiday Wish Tree",
+        theme: "Kingdom Pass",
+        size: "12x12",
+        points: 400,
+        tags: ["Landmark", "Greenery"],
+        url: '/limited_decor/kp/kp12.png',
+        note: "Hollyberry Season 3"
+    },
+    {
+        name: "Golden Cookie Awards",
+        theme: "Kingdom Pass",
+        size: "8x8",
+        points: 400,
+        tags: ["Landmark", "Cookie Interaction"],
+        url: '/limited_decor/kp/kp13.png',
+        note: "Frost Queen Season 1"
+    },
+    {
+        name: "New Year Tiger Statue",
+        theme: "Kingdom Pass",
+        size: "8x8",
+        points: 400,
+        tags: ["Landmark", "Greenery", "Statue"],
+        url: '/limited_decor/kp/kp14.png',
+        note: "Frost Queen Season 2"
+    },
+    {
+        name: "Popcorn Magnolia Swing",
+        theme: "Kingdom Pass",
+        size: "8x8",
+        points: 400,
+        tags: ["Landmark", "Greenery", "Cookie Interaction"],
+        url: '/limited_decor/kp/kp15.png',
+        note: "Frost Queen Season 3"
+    },
+    {
+        name: "Pink Choco Cherry Tree",
+        theme: "Kingdom Pass",
+        size: "8x8",
+        points: 400,
+        tags: ["Landmark", "Greenery", "Cookie Interaction"],
+        url: '/limited_decor/kp/kp16.png',
+        note: "Dark Cacao Season 1"
+    },
+    {
+        name: "Springtime Floral Terrace",
+        theme: "Kingdom Pass",
+        size: "8x8",
+        points: 400,
+        tags: ["Landmark", "Building", "Cookie Interaction"],
+        url: '/limited_decor/kp/kp17.png',
+        note: "Dark Cacao Season 2"
+    },
+    {
+        name: "Bagel Sandwich Greenhouse",
+        theme: "Kingdom Pass",
+        size: "8x8",
+        points: 400,
+        tags: ["Landmark", "Building", "Cookie Interaction"],
+        url: '/limited_decor/kp/kp18.png',
+        note: "Dark Cacao Season 3"
+    },
+    {
+        name: "Magic Clockwork Yacht",
+        theme: "Kingdom Pass",
+        size: "8x8",
+        points: 400,
+        tags: ["Landmark", "Cookie Interaction", "Water"],
+        url: '/limited_decor/kp/kp19.png',
+        note: "Radiant Heroes Season 1"
+    },
+    {
+        name: "Rooftop Juice Bar",
+        theme: "Kingdom Pass",
+        size: "8x8",
+        points: 400,
+        tags: ["Landmark", "Cookie Interaction", "Building"],
+        url: '/limited_decor/kp/kp20.png',
+        note: "Radiant Heroes Season 2"
+    },
+    {
+        name: "Bear Jelly Carnival",
+        theme: "Kingdom Pass",
+        size: "8x8",
+        points: 400,
+        tags: ["Landmark", "Cookie Interaction"],
+        url: '/limited_decor/kp/kp21.png',
+        note: "Radiant Heroes Season 3"
+    },
     /*Start of World of Magic & Dreams*/
     {
         name: "Waterway of Dreams",
@@ -5615,17 +5994,17 @@ const decorArray = [
 
 // {
 //     name: "",
-//     theme: "Arena",
+//     theme: "Kingdom Pass",
 //     size: "",
 //     points: ,
 //     tags: [],
-//     url: '/limited_decor/arena/a.png',
+//     url: '/limited_decor/kp/kp.png',
 //     note: ""
 // },
 
 const themeArray = [
-    // "Arena",
-    // "Kingdom Pass",
+    "Arena",
+    "Kingdom Pass",
     "Ovenbreak",
     "Crispy Cookie Town",
     "Camping Time",
@@ -5671,8 +6050,6 @@ const themeArray = [
 ];
 
 // Kingdom pass reward: https://cookierunkingdom.fandom.com/wiki/Kingdom_Pass || https://cookierunkingdom.fandom.com/wiki/Landmarks
-// Arena Reward: https://cookierunkingdom.fandom.com/wiki/Category:Kingdom_Arena_Decorations
-// Ebbets collab statue? https://scontent-lax3-1.xx.fbcdn.net/v/t1.6435-9/142672277_1698623740318638_594091252463177286_n.jpg?stp=cp0_dst-jpg_e15_fr_q65&_nc_cat=102&ccb=1-7&_nc_sid=8024bb&_nc_ohc=ccQm3174Dn0AX_HOq0G&_nc_ht=scontent-lax3-1.xx&oh=00_AT9V7wn2nTdySvT1bbN6GLEau3vqShtZHkViIMbusbUzGQ&oe=631AF486
 
 const sizeArray = [
     "2x2",

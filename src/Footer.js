@@ -3,23 +3,15 @@ import './Footer.css';
 import {decorArray} from './database'
 
 const Footer = () => {
-    if(decorArray.length % 4 === 0)
-    {
-      return (
-        <footer className="footerLess">
-          <p>Made with love by a proud Highlander &#x1F43B;&#x2764;</p>
+    return (
+      <footer className="footerLess">
+        <p>Made with love by a proud Highlander &#x1F43B;&#x2764;</p>
+        <div>
           <p>Decor image credits to CRK wiki!</p>
-        </footer>
-      )
-    }
-    else {
-      return (
-        <footer className="footerMore">
-          <p>Made with love by a proud Highlander &#x1F43B;&#x2764;</p>
-          <p>Decor image credits to CRK wiki!</p>
-        </footer>
-      )
-    }  
+          <p>Special thanks to luvin and averyzzz &#x2764;</p>
+        </div>          
+      </footer>
+    )
   }
 
 export default Footer
