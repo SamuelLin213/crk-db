@@ -1,6 +1,5 @@
 import React from 'react'
 import './Footer.css';
-import {decorArray} from './database'
 
 const Footer = () => {
     return (

@@ -5207,7 +5207,7 @@ const decorArray = [
         theme: "Arena",
         size: "8x8",
         points: 33,
-        tags: ["Food", "Table", "Cooke Interaction"],
+        tags: ["Food", "Table", "Cookie Interaction"],
         url: '/limited_decor/arena/a3.png',
         note: "reach Master in Brave Season 3"
     },
