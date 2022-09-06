@@ -1413,7 +1413,7 @@ const decorArray = [
         theme: "Tea Cup Hamlet",
         size: "4x4",
         points: 20,
-        tags: ["Water"],
+        tags: [],
         url: '/regular_decor/tch/tch5.png',
         note: ""
     },
@@ -3023,7 +3023,7 @@ const decorArray = [
         theme: "Tropical Island",
         size: "6x6",
         points: 32,
-        tags: [],
+        tags: ["Flag"],
         url: '/regular_decor/ti/ti29.png',
         note: ""
     },
@@ -3104,7 +3104,7 @@ const decorArray = [
         theme: "Tropical Island",
         size: "8x8",
         points: 36,
-        tags: ["Water"],
+        tags: ["Water", "Flag"],
         url: '/regular_decor/ti/ti38.png',
         note: ""
     },
@@ -3131,7 +3131,7 @@ const decorArray = [
         theme: "Tropical Island",
         size: "8x8",
         points: 400,
-        tags: ["Water", "Cookie Decor"],
+        tags: ["Water", "Cookie Decor", "Flag"],
         url: '/regular_decor/ti/ti41.png',
         note: "Cookie Decor for Sorbet Shark Cookie"
     },
@@ -5281,7 +5281,7 @@ const decorArray = [
         points: 33,
         tags: ["Fountain"],
         url: '/limited_decor/arena/a11.png',
-        note: "reach Master in Hollyberrry Season 2"
+        note: "reach Master in Hollyberry Season 2"
     },
     {
         name: "Huntress's Wintering Hut",
@@ -5978,17 +5978,108 @@ const decorArray = [
         url: '/limited_decor/wmd/wmd46.png',
         note: "produced items during Disney Cookies' Wishlist event"
     },
+    /*Start of Treacherous Duskgloom Sea*/
+    {
+        name: "Duskgloom Waterway",
+        theme: "Treacherous Duskgloom Sea",
+        size: "4x4",
+        points: 0,
+        tags: ["Water"],
+        url: '/regular_decor/tds/tds1.png',
+        note: ""
+    },
+    {
+        name: "Sinking Boat",
+        theme: "Treacherous Duskgloom Sea",
+        size: "8x8",
+        points: 40,
+        tags: ["Cookie Interaction", "Water"],
+        url: '/regular_decor/tds/tds2.png',
+        note: ""
+    },
+    {
+        name: "TIp of the Rock",
+        theme: "Treacherous Duskgloom Sea",
+        size: "6x6",
+        points: 32,
+        tags: ["Water"],
+        url: '/regular_decor/tds/tds3.png',
+        note: ""
+    },
+    {
+        name: "Seawater Juice Barrel",
+        theme: "Treacherous Duskgloom Sea",
+        size: "6x6",
+        points: 38,
+        tags: ["Water"],
+        url: '/regular_decor/tds/tds4.png',
+        note: ""
+    },
+    {
+        name: "Floating Wood",
+        theme: "Treacherous Duskgloom Sea",
+        size: "4x4",
+        points: 30,
+        tags: ["Water"],
+        url: '/regular_decor/tds/tds5.png',
+        note: ""
+    },
+    {
+        name: "Salty Shark's Flag",
+        theme: "Treacherous Duskgloom Sea",
+        size: "4x4",
+        points: 30,
+        tags: ["Flag"],
+        url: '/regular_decor/tds/tds6.png',
+        note: ""
+    },
+    {
+        name: "Secure Lantern Brig",
+        theme: "Treacherous Duskgloom Sea",
+        size: "4x4",
+        points: 35,
+        tags: ["Cookie Interaction"],
+        url: '/regular_decor/tds/tds7.png',
+        note: ""
+    },
+    {
+        name: "Gilded Candy Globe",
+        theme: "Treacherous Duskgloom Sea",
+        size: "4x4",
+        points: 30,
+        tags: [],
+        url: '/regular_decor/tds/tds8.png',
+        note: ""
+    },
+    {
+        name: "Navigator's Desk",
+        theme: "Treacherous Duskgloom Sea",
+        size: "4x4",
+        points: 30,
+        tags: ["Cookie Interaction"],
+        url: '/regular_decor/tds/tds9.png',
+        note: ""
+    },
+    {
+        name: "The Republic's Navy Needs You!",
+        theme: "Treacherous Duskgloom Sea",
+        size: "4x4",
+        points: 30,
+        tags: [],
+        url: '/regular_decor/tds/tds10.png',
+        note: ""
+    },
 ];
 
 /**/
 
 // {
 //     name: "",
-//     theme: "The Republic's Azure Streets",
+//     theme: "Treacherous Duskgloom Sea",
 //     size: "",
 //     points: ,
 //     tags: [],
-//     url: '/regular_decor/tras/tras.png',
+//     url: '/regular_decor/tds/tds.png',
 //     note: ""
 // },
 
@@ -6047,9 +6138,8 @@ const themeArray = [
     "The Republic's Azure Streets",
     "World of Magic & Dreams",
     "Other",
+    "Treacherous Duskgloom Sea"
 ];
-
-// Kingdom pass reward: https://cookierunkingdom.fandom.com/wiki/Kingdom_Pass || https://cookierunkingdom.fandom.com/wiki/Landmarks
 
 const sizeArray = [
     "2x2",
