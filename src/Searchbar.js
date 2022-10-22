@@ -204,6 +204,8 @@ let pageLeft = (count) => {
   max -= pageElems;
 
   pagination(count);
+
+  document.body.scrollTop = document.documentElement.scrollTop = 0;
 }
 let arrowR;
 let pageRight = (count) => {
@@ -217,6 +219,8 @@ let pageRight = (count) => {
   max += pageElems;
 
   pagination(count);
+
+  document.body.scrollTop = document.documentElement.scrollTop = 0;
 }
 
 let defaultTiles = (count) => {
