@@ -30,3 +30,45 @@ body {
     width: 100%;
     height: 100vh;
 }
+
+.arrow {
+  position: fixed;
+  bottom: 10%;
+  z-index: 999;
+  background-color:#fbe9ae;
+  border-radius: 50px; 
+  padding: 0.5vw;
+  width: 5vw;
+}
+
+.arrowLeft {
+  transform: rotate(-90deg);
+  left: 1%;  
+}
+
+.arrowRight {
+  transform: rotate(90deg);
+  right: 1%;
+}
+
+.pageBot {
+  position: fixed;
+  bottom: 4%;
+  left: 45%;
+  z-index: 999;
+  border-radius: 50px; 
+  padding: 0.5vw;
+  width: 10vw;
+  text-align: center;
+  font-size: 1.2vw;
+  color: white;
+}
+
+.pageImg {
+  position: fixed;
+  bottom: 1%;
+  left: 44%;
+  z-index: 998;
+  padding: 0.5vw;
+  width: 12vw;
+}

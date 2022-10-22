@@ -7443,7 +7443,7 @@ const decorArray = [
     {
         name: "Planetary Street Light",
         theme: "We are Purple, We are Together!",
-        size: "4x",
+        size: "4x4",
         points: 20,
         tags: ["Collab", "Lamp"],
         url: '/limited_decor/wpwt/wpwt12.png',

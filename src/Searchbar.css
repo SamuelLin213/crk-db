@@ -92,11 +92,11 @@ input, select{
     width: 11vw;
 }
 
-.resultNum {
-    text-align: center;
-    /* padding: 10px 0px; */
-    padding-bottom: 3vw;
+.searchbarInfo {
+    display: flex;
+    justify-content: space-evenly;
     color: #2dd3d6;
+    padding-bottom: 3vw;
 }
 
 .gridClass {
@@ -141,11 +141,8 @@ input, select{
         gap: 1vw;
     }
 
-    .resultNum {
-        padding-top: 4vw;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+    .searchbarInfo {
+        padding-top: 3vw;
     }
 
     .pointText {

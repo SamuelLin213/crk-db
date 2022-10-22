@@ -4,49 +4,26 @@ import {decorArray, themeArray, sizeArray, tagsArray, colorArray} from './databa
 import Tile from "./Tile.js"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faDiscord } from '@fortawesome/free-brands-svg-icons'
+import { render } from '@testing-library/react';
 
 var _ = require('lodash');
 let numResults = decorArray.length;
-let results;
+//let results;
 
-const findElement = (searchKey, array) => {
-  let key = searchKey;
+let displayVal = [];
 
-  for(let x = 0; x < array.length; x++)
-  {
-    if(array[x].name.toLowerCase() === key.toString().toLowerCase())
-    {
-      return x;
-    }
-  }
-  return -1;
-}
-
-const updateResults = () =>
-{    
-  let gridItems = document.querySelector('.decorGrid').getElementsByClassName('decorTile');
-
-  results = [];
-
-  for(let x = 0; x < gridItems.length; x++)
-  {
-    if(gridItems[x].style.display !== "none")
-    {
-      
-      let index = findElement(gridItems[x].querySelector('.decorName').textContent, decorArray);
-      
-      results.push(decorArray[index]);
-    }
-  }
-}
+let pageElems = 24;
+let min = 1, max = pageElems;
+let page = 1;
 
 class Searchbar extends React.Component
-{
+{  
   constructor(props) 
   {
     super(props);
     this.state = {
-      stateArr: _.cloneDeep(decorArray).reverse()
+      stateArr: _.cloneDeep(decorArray).reverse(),
+      countProp: null
     };
     this.pointFilter = this.pointFilter.bind(this);
     this.resetTiles = this.resetTiles.bind(this);
@@ -78,22 +55,35 @@ class Searchbar extends React.Component
     }    
   };
 
+  componentDidMount() {
+    countBot = document.querySelector('.pageBot');
+    this.setState({ countProp: countBot });
+
+    arrowL = document.querySelector('.arrowLeft');
+    arrowL.addEventListener("click", function() { pageLeft(countBot) });
+
+    arrowR = document.querySelector('.arrowRight');
+    arrowR.addEventListener("click", function() { pageRight(countBot) });
+
+  }
+
   resetTiles = (param = null) => {
-    let grid = document.querySelector('.decorGrid');
-    let gridItems = grid.getElementsByClassName('decorTile');
+    // let grid = document.querySelector('.decorGrid');
+    // let gridItems = grid.getElementsByClassName('decorTile');
 
-    // if(param === null)
-    // {
-    //   document.getElementById("pointFilter").checked = false;
+    // // if(param === null)
+    // // {
+    // //   document.getElementById("pointFilter").checked = false;
 
-    //   this.pointFilter();
+    // //   this.pointFilter();
+    // // }
+
+    // for (let i = 0; i < gridItems.length; i++) {
+    //   gridItems[i].style.display = "";
     // }
-
-    for (let i = 0; i < gridItems.length; i++) {
-      gridItems[i].style.display = "";
-    }
-    const result = document.querySelector('.resultNum');
-    result.textContent = ("Results: " + decorArray.length);
+    // const result = document.querySelector('.resultNum');
+    // result.textContent = ("Results: " + decorArray.length);
+    defaultTiles(this.state.countProp);
   }
 
   render()
@@ -109,10 +99,10 @@ class Searchbar extends React.Component
               </div>    
               <div className="headerRight">
                 {/*input menu for decor string*/}
-                <input className="searchText" type="text" id="searchBarId" placeholder="Search through decors..." onKeyDown={checkName} onKeyUp={checkName}></input> 
+                <input className="searchText" type="text" id="searchBarId" placeholder="Search through decors..." onKeyDown={(e) => checkName(e, this.state.countProp)} onKeyUp={(e) => checkName(e, this.state.countProp)}></input> 
                   
                 {/*select menu for themes*/}
-                <select name="themes" id="themeList" onChange={searchFunc}>
+                <select name="themes" id="themeList" onChange={() => searchFunc(this.state.countProp)}>
                   <option value="select">Filter using theme...</option>
                   {themeArray.sort().map((decor, index) => (
                     <option value={decor.toLowerCase()} key={index}>{decor}</option>
@@ -120,7 +110,7 @@ class Searchbar extends React.Component
                 </select>
 
                 {/*select menu for sizes*/}
-                <select name="sizes" id="sizeList" onChange={searchFunc}>
+                <select name="sizes" id="sizeList" onChange={() => searchFunc(this.state.countProp)}>
                   <option value="select">Filter using size...</option>
                   {sizeArray.sort(function(a, b) {
                     return a - b;
@@ -130,7 +120,7 @@ class Searchbar extends React.Component
                 </select>
 
                 {/* select menu for tags */}
-                <select name="tags" id="tagList" onChange={searchFunc}>
+                <select name="tags" id="tagList" onChange={() => searchFunc(this.state.countProp)}>
                   <option value="select">Filter using tags...</option>
                   {tagsArray.sort().map((tag, index) => (
                     <option value={tag.toLowerCase()} key={index}>{tag}</option>
@@ -138,7 +128,7 @@ class Searchbar extends React.Component
                 </select>
 
                 {/* select menu for color */}
-                <select name="tags" id="colorList" onChange={searchFunc}>
+                <select name="tags" id="colorList" onChange={() => searchFunc(this.state.countProp)}>
                   <option value="select">Filter using color...</option>
                   {colorArray.sort().map((color, index) => (
                     <option value={color.toLowerCase()} key={index}>{color}</option>
@@ -155,7 +145,10 @@ class Searchbar extends React.Component
                 <input type="reset" value="Clear Filters" onClick={()=>this.resetTiles()}></input>
               </div>
             </div>
-            <div className="resultNum">Results: {numResults}</div>
+            <div className="searchbarInfo">
+              <div className="resultNum">Results: {numResults}</div>
+              <div className="pageNum">Page: {page} of {(Math.ceil(numResults / pageElems) <= 1) ? 1 : Math.ceil(numResults / pageElems)}</div>
+            </div>            
           </form>
         </header>
         <TilesGrid className="gridClass" array={this.state.stateArr}/>
@@ -164,9 +157,129 @@ class Searchbar extends React.Component
   }
 }
 
-// ()=>this.pointFilter()
+let pagination = (countProp = null) => {
+  let gridItems = document.querySelector('.decorGrid').getElementsByClassName('decorTile');
+  let count = 0;
 
-function searchFunc() {
+  for(let x = 0; x < gridItems.length; x++)
+  {
+    if(displayVal[x])
+    {
+      count++;
+      if(count >= min && count <= max)
+      {
+        gridItems[x].style.display = "";
+      }
+      else 
+      {
+        gridItems[x].style.display = "none";
+      }
+    }
+    else 
+    {
+      gridItems[x].style.display = "none";
+    }    
+  }
+  const pages = document.querySelector('.pageNum');
+  let maxPage = (Math.ceil(count / pageElems) <= 1) ? 1 : Math.ceil(count / pageElems);
+  pages.textContent = ("Page: " + page + " of " + maxPage);
+  if(countProp)
+  {
+    countProp.textContent = ("Page: " + page + " of " + maxPage);
+  }  
+}
+
+let countBot;
+
+let arrowL;
+let pageLeft = (count) => {
+
+  if(page == 1)
+  {
+    return;
+  }
+
+  page -= 1;
+  min -= pageElems;
+  max -= pageElems;
+
+  pagination(count);
+}
+let arrowR;
+let pageRight = (count) => {
+  if(page >= Math.ceil(numResults / pageElems))
+  {
+    return;
+  }
+  
+  page++;
+  min += pageElems;
+  max += pageElems;
+
+  pagination(count);
+}
+
+let defaultTiles = (count) => {
+  let grid = document.querySelector('.decorGrid');
+  let gridItems = grid.getElementsByClassName('decorTile');
+
+  // for (let i = 0; i < pageElems; i++) {
+  //   gridItems[i].style.display = "";
+  // }
+  // for(let i = pageElems; i < gridItems.length; i++)
+  // {
+  //   gridItems[i].style.display = "none";
+  // }
+
+  for(let x = 0; x < gridItems.length; x++)
+  {
+    displayVal[x] = true;
+  }
+  min = 1;
+  max = pageElems;
+  page = 1;
+  pagination(count);
+  
+  const result = document.querySelector('.resultNum');
+  result.textContent = ("Results: " + decorArray.length);
+
+  const pages = document.querySelector('.pageNum');
+  let maxPage = (Math.ceil(decorArray.length / pageElems) <= 1) ? 1 : Math.ceil(decorArray.length / pageElems);
+  pages.textContent = ("Page: " + page + " of " + maxPage);
+}
+
+// const findElement = (searchKey, array) => {
+//   let key = searchKey;
+
+//   for(let x = 0; x < array.length; x++)
+//   {
+//     if(array[x].name.toLowerCase() === key.toString().toLowerCase())
+//     {
+//       return x;
+//     }
+//   }
+//   return -1;
+// }
+
+// const updateResults = () => 
+// {   
+//   let gridItems = document.querySelector('.decorGrid').getElementsByClassName('decorTile');
+
+//   results = [];
+
+//   for(let x = 0; x < gridItems.length; x++)
+//   {
+//     if(gridItems[x].style.display !== "none")
+//     {
+//       let index = findElement(gridItems[x].querySelector('.decorName').textContent, decorArray);
+      
+//       results.push(decorArray[index]);
+//     }
+//   }
+//   pagination();
+// };
+
+function searchFunc(cnt = null) {
     let input = document.getElementById('searchBarId');
     let searchKey = input.value.toUpperCase();
     let grid = document.querySelector('.decorGrid');
@@ -179,7 +292,12 @@ function searchFunc() {
     // {
     //   console.log("Checked!");
     // }
-  
+
+    for(let x = 0; x < gridItems.length; x++)
+    {
+      displayVal[x] = false;
+    }
+
     numResults = 0;
   
     let checker = arr => arr.every(Boolean);
@@ -278,14 +396,20 @@ function searchFunc() {
       {
         numResults = numResults + 1;
         
-        gridItems[i].style.display = "";
+        // gridItems[i].style.display = "";
+        displayVal[i] = true;
       }
       else {
-        gridItems[i].style.display = "none";
+        displayVal[i] = false;
       }
       bools = [true, true, true, true];
     }
-    updateResults();
+    min = 1;
+    max = pageElems;
+    page = 1;
+    // updateResults();
+
+    pagination(cnt);
     
     const result = document.querySelector('.resultNum');
     result.textContent = ("Results: " + numResults); 
@@ -304,35 +428,65 @@ function searchFunc() {
 //   result.textContent = ("Results: " + decorArray.length); 
 // }
 
-function checkName(event) {
+function checkName(event, cnt) {
 if(event.keyCode === 13)
 {
     event.preventDefault();
 }
+searchFunc(cnt);
+// let elem = document.getElementById('tagList');
+// let value = elem.value;
+// if(value !== 'select')
+// {
+//     searchFunc(value, cnt);
+// }
+// else {
+//     searchFunc(null, cnt);
+// }
+}
 
-let elem = document.getElementById('tagList');
-let value = elem.value;
-if(value !== 'select')
+// const TilesGrid = (props) => {
+//     let initialArr = props.array.map((decor, index) => {
+//       return <Tile key={index} decor={decor} />
+//     });
+  
+//     // let temp = [...decorArray].reverse(); // last working version; pre-points filter
+  
+//     return (
+//       <div className="decorGrid">
+//         {initialArr}
+//       </div>
+//     )
+// }
+
+class TilesGrid extends React.Component 
 {
-    searchFunc(value, 4);
-}
-else {
-    searchFunc();
-}
-}
+  componentDidMount()
+  {
+    countBot = document.querySelector('.pageBot');
 
-const TilesGrid = (props) => {
-    let initialArr = props.array.map((decor, index) => {
+    defaultTiles(countBot);
+  }
+
+  // let temp = [...decorArray].reverse(); // last working version; pre-points filter
+  render() {
+    let initialArr = this.props.array.map((decor, index) => {
       return <Tile key={index} decor={decor} />
     });
-  
-    // let temp = [...decorArray].reverse(); // last working version; pre-points filter
-  
+
     return (
-      <div className="decorGrid">
-        {initialArr}
-      </div>
-    )
+    <div className="decorGrid">
+      {initialArr}
+    </div>
+  )
+  }
+  
 } 
+
+export {
+  numResults,
+  page,
+  pageElems
+};
 
 export default Searchbar
