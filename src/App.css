@@ -62,6 +62,8 @@ body {
   text-align: center;
   font-size: 1.2vw;
   color: white;
+  -webkit-text-stroke: 1px black;
+
 }
 
 .pageImg {

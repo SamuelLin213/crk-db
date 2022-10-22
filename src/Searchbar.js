@@ -238,6 +238,8 @@ let defaultTiles = (count) => {
   min = 1;
   max = pageElems;
   page = 1;
+  numResults = decorArray.length;
+  
   pagination(count);
   
   const result = document.querySelector('.resultNum');
