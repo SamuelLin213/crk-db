@@ -142,7 +142,7 @@ input, select{
     }
 
     .resultNum {
-        padding: 2vw 0px;
+        padding-top: 4vw;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -180,10 +180,6 @@ input, select{
         padding: 5vw;
         margin: 0;
     }  
-
-    .resultNum {
-        padding: 2vw 0px;
-    }
 }
 
 @media screen and (max-width: 500px)

@@ -64,6 +64,10 @@
     background-image: url(../public/disneyBackground.png);
 }
 
+.btsTile {
+    background-image: url(../public/btsBackground.png);
+}
+
 .decorImage {
     position: absolute;
   
@@ -123,6 +127,10 @@
 
 .disneyInfo {
     background-color: #c7caed;
+}
+
+.btsInfo {
+    background-color: #ded2f7;
 }
 
 .tileInfo .decorTheme, .tileInfo .decorSize, .tileInfo .decorPoint{

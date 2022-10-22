@@ -3,6 +3,7 @@ import "./Tile.css"
 
 const TileInfo = (props) => {
   let decor = props.decor;
+  let colors = decor.color.join(' ');
 
   if(decor.theme === "World of Magic & Dreams")
   {
@@ -13,6 +14,20 @@ const TileInfo = (props) => {
         <div className="decorPoints"><img className="tagLogo" src={process.env.PUBLIC_URL + "/points.png"} alt="Point logo"></img> {decor.points}</div>
         <Tag tag={decor.tags}/>
         <Note note={decor.note}/>
+        <div id="decorColor" className={`${decor.color}`}></div>
+      </div>
+    )
+  }
+  else if(decor.theme === "The Tales of Bangtan Kingdom" || decor.theme === "The Happy Kingdom Life of BTS" || decor.theme === "We are Purple, We are Together!")
+  {
+    return (
+      <div className="tileInfo btsInfo">
+        <div className="decorTheme">Theme: {decor.theme}</div>
+        <div className="decorSize"><img className="tagLogo" src={process.env.PUBLIC_URL + "/size.png"} alt="Size logo"></img> {decor.size}</div>
+        <div className="decorPoints"><img className="tagLogo" src={process.env.PUBLIC_URL + "/points.png"} alt="Point logo"></img> {decor.points}</div>
+        <Tag tag={decor.tags}/>
+        <Note note={decor.note}/>
+        <div id="decorColor" className={`${decor.color}`}></div>
       </div>
     )
   }
@@ -24,6 +39,7 @@ const TileInfo = (props) => {
         <div className="decorPoints"><img className="tagLogo" src={process.env.PUBLIC_URL + "/points.png"} alt="Point logo"></img> {decor.points}</div>
         <Tag tag={decor.tags}/>
         <Note note={decor.note}/>
+        <div id="decorColor" className={colors}></div>
       </div>
     )
   }
@@ -57,6 +73,13 @@ const TileImage = (props) => {
       </div>
     )
   }
+  else if(theme === "The Tales of Bangtan Kingdom" || theme === "The Happy Kingdom Life of BTS" || theme === "We are Purple, We are Together!")
+  {
+    return (
+      <div className="tileImage btsTile">
+      </div>
+    )
+  }
   else{
     return (
       <div className="tileImage regularTile">
@@ -73,6 +96,10 @@ function RenderTop(props) {
     {
       return <img className="borderImg" src={process.env.PUBLIC_URL + "/disneyTop.png"} alt="Border Top"></img> 
     }
+    else if(theme === "The Tales of Bangtan Kingdom" || theme === "The Happy Kingdom Life of BTS" || theme === "We are Purple, We are Together!")
+    {
+      return <img className="borderImg" src={process.env.PUBLIC_URL + "/btsTop.png"} alt="Border Top"></img>
+    }
     else
     {
       return <img className="borderImg" src={process.env.PUBLIC_URL + "/borderTop.png"} alt="Border Top"></img>
@@ -85,6 +112,10 @@ function RenderBottom(props) {
     if(theme === "World of Magic & Dreams")
     {
       return <img className="borderImg" src={process.env.PUBLIC_URL + "/disneyBottom.png"} alt="Border Bottom"></img> 
+    }
+    else if(theme === "The Tales of Bangtan Kingdom" || theme === "The Happy Kingdom Life of BTS" || theme === "We are Purple, We are Together!")
+    {
+      return <img className="borderImg" src={process.env.PUBLIC_URL + "/btsBottom.png"} alt="Border Bottom"></img>
     }
     else
     {
@@ -192,14 +223,16 @@ function TagIcon(props) {
     }
     else if(icon.toLowerCase() === 'disney crystals' && array.indexOf(icon) !== -1)
     {
-      return <div className="decorTag"><img className="tagLogo epLogo" src={process.env.PUBLIC_URL + "/production.png"} alt="Event Production logo"></img></div>
+      return <div className="decorTag"><img className="tagLogo dcLogo" src={process.env.PUBLIC_URL + "/disney.png"} alt="Event Production logo"></img></div>
+    }
+    else if(icon.toLowerCase() === 'army bombs' && array.indexOf(icon) !== -1)
+    {
+      return <div className="decorTag"><img className="tagLogo abLogo" src={process.env.PUBLIC_URL + "/bts.png"} alt="Event Production logo"></img></div>
     }
     else {
       return <div className="decorTag"><div className="tagText">{icon}</div></div>
     }
 }
-  
-
     
 const Note = (props) => {
     if(props.note !== "")

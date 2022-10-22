@@ -1,6 +1,6 @@
 import React from 'react'
 import './Searchbar.css';
-import {decorArray, themeArray, sizeArray, tagsArray} from './database'
+import {decorArray, themeArray, sizeArray, tagsArray, colorArray} from './database'
 import Tile from "./Tile.js"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faDiscord } from '@fortawesome/free-brands-svg-icons'
@@ -137,6 +137,14 @@ class Searchbar extends React.Component
                   ))}
                 </select>
 
+                {/* select menu for color */}
+                <select name="tags" id="colorList" onChange={searchFunc}>
+                  <option value="select">Filter using color...</option>
+                  {colorArray.sort().map((color, index) => (
+                    <option value={color.toLowerCase()} key={index}>{color}</option>
+                  ))}
+                </select>
+
                 { /*filter by largest decor points*/}
                 {/* <div className="pointsFilter">
                   <input type="checkbox" id="pointFilter" name="pointFilter" onChange={()=>this.pointFilter()}></input>
@@ -175,7 +183,7 @@ function searchFunc() {
     numResults = 0;
   
     let checker = arr => arr.every(Boolean);
-    let bools = [true, true, true, true];
+    let bools = [true, true, true, true, true];
   
     for(let i = 0; i < gridItems.length; i++)
     {
@@ -217,26 +225,13 @@ function searchFunc() {
           childrenArr = childrenArr.concat(Array.from(childrenElem[x].firstChild.classList));
         }
         
-        if (txtValue.toLowerCase().indexOf(val) > -1 || val === "select") {
-          bools[3] = true;
-        } 
-        else if(val === 'landmark' && childrenArr.indexOf('landmarkLogo') !== -1)
-        {
-          bools[3] = true;
-        }
-        else if(val === 'water' && childrenArr.indexOf('waterLogo') !== -1)
-        {
-          bools[3] = true;
-        }
-        else if(val === 'cookie decor' && childrenArr.indexOf('cdLogo') !== -1)
-        {
-          bools[3] = true;
-        }
-        else if(val === 'cookie interaction' && childrenArr.indexOf('ciLogo') !== -1)
-        {
-          bools[3] = true;
-        }
-        else if(val === 'disney crystals' && childrenArr.indexOf('epLogo') !== -1)
+        if ( (txtValue.toLowerCase().indexOf(val) > -1 || val === "select") || 
+        (val === 'landmark' && childrenArr.indexOf('landmarkLogo') !== -1) ||
+        (val === 'water' && childrenArr.indexOf('waterLogo') !== -1) ||
+        (val === 'cookie decor' && childrenArr.indexOf('cdLogo') !== -1) ||
+        (val === 'cookie interaction' && childrenArr.indexOf('ciLogo') !== -1) ||
+        (val === 'disney crystals' && childrenArr.indexOf('dcLogo') !== -1) ||
+        (val === 'army bombs' && childrenArr.indexOf('abLogo') !== -1))
         {
           bools[3] = true;
         }
@@ -264,6 +259,18 @@ function searchFunc() {
           bools[2] = true;
         } else {
           bools[2] = false;
+        }
+      }
+      val = document.querySelector('#colorList').value;
+      if(val !== 'select')
+      {
+        gridElem = gridItems[i].querySelector('#decorColor');
+        val = val.toLowerCase();
+        // let colorVal = gridElem.textContent || gridElem.innerText;
+        if (gridElem.classList.contains(`${val}`)) {
+          bools[4] = true;
+        } else {
+          bools[4] = false;
         }
       }
   
