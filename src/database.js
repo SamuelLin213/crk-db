@@ -7710,6 +7710,26 @@ const decorArray = [
         note: "Cookie Decor for BTS Cookies; music unlocked upon leveling up and starring BTS cookies; music available until September 2023",
         color: ["purple"],
     },
+    {
+        name: "Silent Night Cabin",
+        theme: "Kingdom Pass",
+        size: "8x8",
+        points: 400,
+        tags: ["Landmark", "Building"],
+        url: '/limited_decor/kp/kp25.png',
+        note: "Precious Feeling Season 1",
+        color: ["brown", "white"],
+    },
+    {
+        name: "Festive Tree of the Dark",
+        theme: "Arena",
+        size: "6x6",
+        points: 33,
+        tags: ["Greenery"],
+        url: '/limited_decor/arena/a25.png',
+        note: "reach Master in Precious Feeling Season 1",
+        color: ["white"],
+    },
 ];
 
 // {
@@ -7723,14 +7743,25 @@ const decorArray = [
 //     color: [""],
 // },
 
+// update format
 // {
 //     name: "",
-//     theme: "We are Purple, We are Together!",
+//     theme: "Kingdom Pass",
 //     size: "",
 //     points: ,
-//     tags: ["Collab"],
-//     url: '/limited_decor/wpwt/wpwt.png',
+//     tags: ["Landmark", "Building"],
+//     url: '/limited_decor/kp/kp.png',
 //     note: "",
+//     color: [""],
+// },
+// {
+//     name: "",
+//     theme: "Arena",
+//     size: "",
+//     points: ,
+//     tags: [""],
+//     url: '/limited_decor/arena/a.png',
+//     note: "reach Master in ",
 //     color: [""],
 // },
 
