@@ -4589,6 +4589,16 @@ const decorArray = [
         color: ["white", "blue"],
     },
     {
+        name: "Lantern Tree",
+        theme: "Cozy Snowfall Village",
+        size: "8x8",
+        points: 400,
+        tags: ["Greenery", "Cookie Decor"],
+        url: '/regular_decor/csv/csv16.png',
+        note: "Cookie Decor for Sherbet Cookie",
+        color: ["white", "green"],
+    },
+    {
         name: "Snow Blossom Hill",
         theme: "Cozy Snowfall Village",
         size: "8x8",
