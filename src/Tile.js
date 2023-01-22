@@ -45,27 +45,62 @@ const TileInfo = (props) => {
   }
 }
 
-const Tile = props => { 
+class Tile extends React.Component
+{
+  // componentDidMount()
+  // {
+  //   let tempName = this.props.decor.name;
+  //   if(tempName.length > 35)
+  //   {
+  //     document.querySelector(".decorName").classList.add(".smallText");
+  //   }
+  // }
+  render() {
     return (
       <div className="decorTile">
-        <div className="decorName">{props.decor.name}</div>
-        <RenderTop theme={props.decor.theme}/>
+        <div className="decorName">{this.props.decor.name}</div>
+        <RenderTop theme={this.props.decor.theme}/>
         <div className="flexTile">
           <div className="imageContainer">
-            <TileImage theme={props.decor.theme}/>
-            <DecorImage decor={props.decor}/>
+            <TileImage theme={this.props.decor.theme}/>
+            <DecorImage decor={this.props.decor}/>
           </div>
-          
-          <TileInfo decor={props.decor}/>
+
+          <TileInfo decor={this.props.decor}/>
         </div>
-        <RenderBottom theme={props.decor.theme}/>
+        <RenderBottom theme={this.props.decor.theme}/>
       </div>
     )
-};
+  }
+}
+
+// const Tile = props => {
+//     let tempName = props.decor.name;
+//     if(tempName.length > 35)
+//     {
+//       document.querySelector(".decorName").classList.add(".smallText");
+//     }
+//
+//     return (
+//       <div className="decorTile">
+//         <div className="decorName">{props.decor.name}</div>
+//         <RenderTop theme={props.decor.theme}/>
+//         <div className="flexTile">
+//           <div className="imageContainer">
+//             <TileImage theme={props.decor.theme}/>
+//             <DecorImage decor={props.decor}/>
+//           </div>
+//
+//           <TileInfo decor={props.decor}/>
+//         </div>
+//         <RenderBottom theme={props.decor.theme}/>
+//       </div>
+//     )
+// };
 
 const TileImage = (props) => {
   let theme = props.theme;
-  
+
   if(theme === 'World of Magic & Dreams')
   {
     return (
@@ -86,15 +121,15 @@ const TileImage = (props) => {
       </div>
     )
   }
-  
+
 }
 
 function RenderTop(props) {
     let theme = props.theme;
-  
+
     if(theme === "World of Magic & Dreams")
     {
-      return <img className="borderImg" src={process.env.PUBLIC_URL + "/disneyTop.png"} alt="Border Top"></img> 
+      return <img className="borderImg" src={process.env.PUBLIC_URL + "/disneyTop.png"} alt="Border Top"></img>
     }
     else if(theme === "The Tales of Bangtan Kingdom" || theme === "The Happy Kingdom Life of BTS" || theme === "We are Purple, We are Together!")
     {
@@ -105,13 +140,13 @@ function RenderTop(props) {
       return <img className="borderImg" src={process.env.PUBLIC_URL + "/borderTop.png"} alt="Border Top"></img>
     }
 }
-  
+
 function RenderBottom(props) {
     let theme = props.theme;
-  
+
     if(theme === "World of Magic & Dreams")
     {
-      return <img className="borderImg" src={process.env.PUBLIC_URL + "/disneyBottom.png"} alt="Border Bottom"></img> 
+      return <img className="borderImg" src={process.env.PUBLIC_URL + "/disneyBottom.png"} alt="Border Bottom"></img>
     }
     else if(theme === "The Tales of Bangtan Kingdom" || theme === "The Happy Kingdom Life of BTS" || theme === "We are Purple, We are Together!")
     {
@@ -125,7 +160,7 @@ function RenderBottom(props) {
 
 const DecorImage = (props) => {
     let size = props.decor.size;
-  
+
     if(size === "16x16")
     {
       return (
@@ -192,7 +227,7 @@ const Tag = props => {
             <TagShape key={index} tagElem={elem} tagArray={props.tag}/>
           ))
         }
-      </div>    
+      </div>
     )
 }
 
@@ -207,7 +242,7 @@ function TagIcon(props) {
     let array = props.tagArray;
     if(icon.toLowerCase() === 'landmark' && array.indexOf(icon) !== -1)
     {
-      return <div className="decorTag"><img className="tagLogo landmarkLogo" src={process.env.PUBLIC_URL + "/landmark.png"} alt="Landmark logo"></img></div> 
+      return <div className="decorTag"><img className="tagLogo landmarkLogo" src={process.env.PUBLIC_URL + "/landmark.png"} alt="Landmark logo"></img></div>
     }
     else if(icon.toLowerCase() === 'water' && array.indexOf(icon) !== -1)
     {
@@ -233,7 +268,7 @@ function TagIcon(props) {
       return <div className="decorTag"><div className="tagText">{icon}</div></div>
     }
 }
-    
+
 const Note = (props) => {
     if(props.note !== "")
     {
@@ -243,7 +278,7 @@ const Note = (props) => {
             <div className="noteContent">{props.note}</div>
         </div>
         )
-    }  
+    }
 }
 
 export default Tile

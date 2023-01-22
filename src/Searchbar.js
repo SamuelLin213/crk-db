@@ -4,7 +4,6 @@ import {decorArray, themeArray, sizeArray, tagsArray, colorArray} from './databa
 import Tile from "./Tile.js"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faDiscord } from '@fortawesome/free-brands-svg-icons'
-import { render } from '@testing-library/react';
 
 var _ = require('lodash');
 let numResults = decorArray.length;
@@ -17,8 +16,8 @@ let min = 1, max = pageElems;
 let page = 1;
 
 class Searchbar extends React.Component
-{  
-  constructor(props) 
+{
+  constructor(props)
   {
     super(props);
     this.state = {
@@ -40,7 +39,7 @@ class Searchbar extends React.Component
       this.resetTiles(1);
       document.getElementById("pointFilter").checked = true;
 
-      let {stateArr} = this.state;      
+      let {stateArr} = this.state;
 
       stateArr.sort((a,b) => {
         return a.points < b.points ? 1 : -1});
@@ -51,8 +50,8 @@ class Searchbar extends React.Component
       const stateArr = _.cloneDeep(decorArray).reverse();
       // const stateArr = _.cloneDeep(results);
 
-      this.setState({stateArr}); 
-    }    
+      this.setState({stateArr});
+    }
   };
 
   componentDidMount() {
@@ -96,11 +95,11 @@ class Searchbar extends React.Component
               <div className="headerLeft">
                 <img className="crkLogo" src={process.env.PUBLIC_URL + "/logo.png"} alt="CRK logo"></img>
                 <a className="discordIcon" href="https://discordapp.com/users/474649200622043138" rel="noopener noreferrer" target="_blank" title="Contact me on Discord!"><FontAwesomeIcon icon={faDiscord} /></a>
-              </div>    
+              </div>
               <div className="headerRight">
                 {/*input menu for decor string*/}
-                <input className="searchText" type="text" id="searchBarId" placeholder="Search through decors..." onKeyDown={(e) => checkName(e, this.state.countProp)} onKeyUp={(e) => checkName(e, this.state.countProp)}></input> 
-                  
+                <input className="searchText" type="text" id="searchBarId" placeholder="Search through decors..." onKeyDown={(e) => checkName(e, this.state.countProp)} onKeyUp={(e) => checkName(e, this.state.countProp)}></input>
+
                 {/*select menu for themes*/}
                 <select name="themes" id="themeList" onChange={() => searchFunc(this.state.countProp)}>
                   <option value="select">Filter using theme...</option>
@@ -148,7 +147,7 @@ class Searchbar extends React.Component
             <div className="searchbarInfo">
               <div className="resultNum">Results: {numResults}</div>
               <div className="pageNum">Page: {page} of {(Math.ceil(numResults / pageElems) <= 1) ? 1 : Math.ceil(numResults / pageElems)}</div>
-            </div>            
+            </div>
           </form>
         </header>
         <TilesGrid className="gridClass" array={this.state.stateArr}/>
@@ -170,15 +169,15 @@ let pagination = (countProp = null) => {
       {
         gridItems[x].style.display = "";
       }
-      else 
+      else
       {
         gridItems[x].style.display = "none";
       }
     }
-    else 
+    else
     {
       gridItems[x].style.display = "none";
-    }    
+    }
   }
   const pages = document.querySelector('.pageNum');
   let maxPage = (Math.ceil(count / pageElems) <= 1) ? 1 : Math.ceil(count / pageElems);
@@ -186,7 +185,7 @@ let pagination = (countProp = null) => {
   if(countProp)
   {
     countProp.textContent = ("Page: " + page + " of " + maxPage);
-  }  
+  }
 }
 
 let countBot;
@@ -194,7 +193,7 @@ let countBot;
 let arrowL;
 let pageLeft = (count) => {
 
-  if(page == 1)
+  if(page === 1)
   {
     return;
   }
@@ -213,7 +212,7 @@ let pageRight = (count) => {
   {
     return;
   }
-  
+
   page++;
   min += pageElems;
   max += pageElems;
@@ -243,9 +242,9 @@ let defaultTiles = (count) => {
   max = pageElems;
   page = 1;
   numResults = decorArray.length;
-  
+
   pagination(count);
-  
+
   const result = document.querySelector('.resultNum');
   result.textContent = ("Results: " + decorArray.length);
 
@@ -267,8 +266,8 @@ let defaultTiles = (count) => {
 //   return -1;
 // }
 
-// const updateResults = () => 
-// {   
+// const updateResults = () =>
+// {
 //   let gridItems = document.querySelector('.decorGrid').getElementsByClassName('decorTile');
 
 //   results = [];
@@ -278,7 +277,7 @@ let defaultTiles = (count) => {
 //     if(gridItems[x].style.display !== "none")
 //     {
 //       let index = findElement(gridItems[x].querySelector('.decorName').textContent, decorArray);
-      
+
 //       results.push(decorArray[index]);
 //     }
 //   }
@@ -305,10 +304,10 @@ function searchFunc(cnt = null) {
     }
 
     numResults = 0;
-  
+
     let checker = arr => arr.every(Boolean);
     let bools = [true, true, true, true, true];
-  
+
     for(let i = 0; i < gridItems.length; i++)
     {
       let noteValue = gridItems[i].querySelector('.noteContent');
@@ -318,38 +317,38 @@ function searchFunc(cnt = null) {
       {
         gridElem = gridItems[i].querySelector('.decorName');
         let txtValue = gridElem.textContent || gridElem.innerText;
-        
+
         if(noteValue)
         {
           noteText = noteValue.textContent;
         }
-        
+
         if (txtValue.replace(/\s/g, "").toUpperCase().indexOf(searchKey.replace(/\s/g, "").toUpperCase()) > -1) {
           bools[0] = true;
-        } 
+        }
         else if(noteText !== "" && (noteText.replace(/\s/g, "").toUpperCase().indexOf(searchKey.replace(/\s/g, "").toUpperCase()) > -1))
         {
           bools[0] = true;
         }
         else {
           bools[0] = false;
-        }      
+        }
       }
       let val = document.querySelector('#tagList').value;
       if(val !== "select")
       {
         gridElem = gridItems[i].querySelector('.tagClass');
         let txtValue = gridElem.textContent || gridElem.innerText;
-        
+
         let childrenElem = gridElem.children;
-  
+
         let childrenArr = [];
         for(let x = 0; x < childrenElem.length; x++)
         {
           childrenArr = childrenArr.concat(Array.from(childrenElem[x].firstChild.classList));
         }
-        
-        if ( (txtValue.toLowerCase().indexOf(val) > -1 || val === "select") || 
+
+        if ( (txtValue.toLowerCase().indexOf(val) > -1 || val === "select") ||
         (val === 'landmark' && childrenArr.indexOf('landmarkLogo') !== -1) ||
         (val === 'water' && childrenArr.indexOf('waterLogo') !== -1) ||
         (val === 'cookie decor' && childrenArr.indexOf('cdLogo') !== -1) ||
@@ -397,11 +396,11 @@ function searchFunc(cnt = null) {
           bools[4] = false;
         }
       }
-  
+
       if(checker(bools))
       {
         numResults = numResults + 1;
-        
+
         // gridItems[i].style.display = "";
         displayVal[i] = true;
       }
@@ -416,9 +415,9 @@ function searchFunc(cnt = null) {
     // updateResults();
 
     pagination(cnt);
-    
+
     const result = document.querySelector('.resultNum');
-    result.textContent = ("Results: " + numResults); 
+    result.textContent = ("Results: " + numResults);
 };
 
 // const resetTiles = () => {
@@ -431,7 +430,7 @@ function searchFunc(cnt = null) {
 //     gridItems[i].style.display = "";
 //   }
 //   const result = document.querySelector('.resultNum');
-//   result.textContent = ("Results: " + decorArray.length); 
+//   result.textContent = ("Results: " + decorArray.length);
 // }
 
 function checkName(event, cnt) {
@@ -455,9 +454,9 @@ searchFunc(cnt);
 //     let initialArr = props.array.map((decor, index) => {
 //       return <Tile key={index} decor={decor} />
 //     });
-  
+
 //     // let temp = [...decorArray].reverse(); // last working version; pre-points filter
-  
+
 //     return (
 //       <div className="decorGrid">
 //         {initialArr}
@@ -465,7 +464,7 @@ searchFunc(cnt);
 //     )
 // }
 
-class TilesGrid extends React.Component 
+class TilesGrid extends React.Component
 {
   componentDidMount()
   {
@@ -486,8 +485,8 @@ class TilesGrid extends React.Component
     </div>
   )
   }
-  
-} 
+
+}
 
 export {
   numResults,

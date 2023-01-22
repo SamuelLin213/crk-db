@@ -7,16 +7,21 @@
 .decorName {
     z-index: 99;
     position: relative;
-    margin: 0 auto; 
+    margin: 0 auto;
     text-align: center;
     line-height: 4vw;
     height: 0px;
-    font-size: 1.1vw;
-  
+    font-size: 0.9vw;
+
     color: #fff;
     width: 100%;
-  
+
     padding: 0;
+    word-wrap: break-all;
+}
+
+.smallText {
+  font-size: 1.0vw;
 }
 
 .borderImg {
@@ -70,14 +75,14 @@
 
 .decorImage {
     position: absolute;
-  
+
     margin: auto;
     left: 0;
     right: 0;
     top: 0;
     bottom: 0;
     text-align: center;
-  
+
     z-index: 2;
     max-width: 80%;
     height: auto;
@@ -117,8 +122,8 @@
     font-size: 0.8vw;
     padding: 0px;
     margin: 0px;
-    
-    width: 50%; 
+
+    width: 50%;
 }
 
 .regularInfo {
@@ -157,7 +162,7 @@
     width: auto;
     color: black;
     border-radius: 10px;
-  
+
     margin: 0.2vw;
     padding: 0.3vw;
     height: auto;
@@ -180,7 +185,7 @@
     margin: 0.5vw;
     font-size: 0.6vw;
 }
-  
+
 .noteText {
     background-color: silver;
     height: 1.2vw;
@@ -189,41 +194,41 @@
     align-items: center;
     border-radius: 10px;
 }
-  
+
 .noteContent {
     padding-top: 0.3vw;
-} 
+}
 
 @media screen and (max-width: 1024px)
-{     
+{
     .decorName {
         line-height: 4.5vw;
     }
-    
+
     .flexTile {
         height: 20vw;
     }
-    
+
     .tileInfo {
         font-size: 1.3vw;
     }
-    
+
     .tileInfo .decorTheme, .tileInfo .decorSize, .tileInfo .decorPoint{
         padding: 1vw;
     }
-    
+
     .decorPoints {
         padding-left: 1.2vw;
     }
-    
+
     .tagClass {
         font-size: 1.0vw;
-    
+
         margin-top: 1vw;
         margin-left: 0.8vw;
     }
 
-    .decorTag {      
+    .decorTag {
         margin: 0.2vw;
         padding: 0.3vw;
     }
@@ -231,16 +236,16 @@
     .tagLogo {
         height: 1.3vw;
     }
-    
+
     .tagText{
         height: 1.5vw;
     }
-    
+
     .noteClass {
         margin: 0.5vw;
         font-size: 0.7vw;
     }
-      
+
     .noteText {
         height: 1.2vw;
         padding: 0.5vw;
@@ -248,12 +253,12 @@
 }
 
 @media screen and (max-width: 768px)
-{     
+{
     .decorName {
         line-height: 5.5vw;
         font-size: 1.3vw;
     }
-    
+
     .flexTile {
         height: 30vw;
     }
@@ -261,27 +266,27 @@
     .borderImg {
         height: 5vw;
     }
-    
+
     .tileInfo {
         font-size: 1.5vw;
     }
-    
+
     .tileInfo .decorTheme, .tileInfo .decorSize, .tileInfo .decorPoint{
         padding: 1.5vw;
     }
-    
+
     .decorPoints {
         padding-left: 1.8vw;
     }
-    
+
     .tagClass {
         font-size: 1.3vw;
-    
+
         margin-top: 2vw;
         margin-left: 1.3vw;
     }
 
-    .decorTag {      
+    .decorTag {
         margin: 0.3vw;
         padding: 0.7vw;
     }
@@ -289,16 +294,16 @@
     .tagLogo {
         height: 1.3vw;
     }
-    
+
     .tagText{
         height: 1.5vw;
     }
-    
+
     .noteClass {
         margin: 1.5vw;
         font-size: 1.2vw;
     }
-      
+
     .noteText {
         height: 1.2vw;
         padding: 0.5vw;
@@ -306,5 +311,5 @@
 
     .noteContent {
         padding-top: 0vw;
-    } 
+    }
 }

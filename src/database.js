@@ -7841,6 +7841,26 @@ const decorArray = [
         note: "",
         color: ["brown", "white", "green"],
     },
+    {
+        name: "Master Black Rabbit's Fortune-telling Parlor",
+        theme: "Kingdom Pass",
+        size: "8x8",
+        points: 400,
+        tags: ["Landmark", "Cookie Interaction"],
+        url: '/limited_decor/kp/kp26.png',
+        note: "Precious Feeling Season 2",
+        color: ["brown", "black", "orange"],
+    },
+    {
+        name: "Hidden Away Relics",
+        theme: "Arena",
+        size: "6x6",
+        points: 33,
+        tags: ["Statue"],
+        url: '/limited_decor/arena/a26.png',
+        note: "reach Master in Precious Feeling Season 2",
+        color: ["cream"],
+    },
 ];
 
 // {
