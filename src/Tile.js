@@ -165,7 +165,7 @@ const DecorImage = (props) => {
     {
       return (
         <div>
-          <img alt="16x16" className="decorImage image16" src={props.decor.url}></img>
+          <img loading="lazy" alt="16x16" className="decorImage image16" src={props.decor.url}></img>
         </div>
       )
     }
@@ -173,7 +173,7 @@ const DecorImage = (props) => {
     {
       return (
         <div>
-          <img alt="12x12" className="decorImage image12" src={props.decor.url}></img>
+          <img loading="lazy" alt="12x12" className="decorImage image12" src={props.decor.url}></img>
         </div>
       )
     }
@@ -181,7 +181,7 @@ const DecorImage = (props) => {
     {
       return (
         <div>
-          <img alt="8x8" className="decorImage image8" src={props.decor.url}></img>
+          <img loading="lazy" alt="8x8" className="decorImage image8" src={props.decor.url}></img>
         </div>
       )
     }
@@ -189,7 +189,7 @@ const DecorImage = (props) => {
     {
       return (
         <div>
-          <img alt="6x6" className="decorImage image6" src={props.decor.url}></img>
+          <img loading="lazy" alt="6x6" className="decorImage image6" src={props.decor.url}></img>
         </div>
       )
     }
@@ -197,7 +197,7 @@ const DecorImage = (props) => {
     {
       return (
         <div>
-          <img alt="4x4" className="decorImage image4" src={props.decor.url}></img>
+          <img loading="lazy" alt="4x4" className="decorImage image4" src={props.decor.url}></img>
         </div>
       )
     }
@@ -205,7 +205,7 @@ const DecorImage = (props) => {
     {
       return (
         <div>
-          <img alt="3x3" className="decorImage image3" src={props.decor.url}></img>
+          <img loading="lazy" alt="3x3" className="decorImage image3" src={props.decor.url}></img>
         </div>
       )
     }
@@ -213,7 +213,7 @@ const DecorImage = (props) => {
     {
       return (
         <div>
-          <img  alt="2x2" className="decorImage image2" src={props.decor.url}></img>
+          <img  loading="lazy" alt="2x2" className="decorImage image2" src={props.decor.url}></img>
         </div>
       )
     }
