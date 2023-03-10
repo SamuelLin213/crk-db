@@ -12,7 +12,7 @@
 
 body {
   background-color: #fdbf1f;
-  background-image: url(../public/cutter.png);
+  background-image: url("https://cdn.jsdelivr.net/gh/SamuelLin213/crk_db_assets@main/cutter.png");
   background-repeat: space;
   margin: 0px;
   padding: 0px;

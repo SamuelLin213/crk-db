@@ -93,7 +93,7 @@ class Searchbar extends React.Component
           <form className="searchBar">
             <div className="searchBarFilters">
               <div className="headerLeft">
-                <img className="crkLogo" src={process.env.PUBLIC_URL + "/logo.png"} alt="CRK logo"></img>
+                <img className="crkLogo" src={"https://cdn.jsdelivr.net/gh/SamuelLin213/crk_db_assets@main/logo.png"} alt="CRK logo"></img>
                 <a className="discordIcon" href="https://discordapp.com/users/474649200622043138" rel="noopener noreferrer" target="_blank" title="Contact me on Discord!"><FontAwesomeIcon icon={faDiscord} /></a>
               </div>
               <div className="headerRight">
