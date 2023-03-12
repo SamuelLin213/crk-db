@@ -7886,7 +7886,7 @@ const decorArray = [
         theme: "Merry Jingle Squirrel Shop",
         size: "2x2",
         points: 30,
-        tags: [""],
+        tags: [],
         url: 'https://cdn.jsdelivr.net/gh/SamuelLin213/crk_db_assets@main/limited_decor/mjss/mjss7.png',
         note: "",
         color: ["brown"],
