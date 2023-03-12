@@ -8024,7 +8024,7 @@ const decorArray = [
     },
     {
         name: "Blue Crystal Crescent",
-        theme: "Other", 
+        theme: "Kingdom Pass", 
         size: "8x8",
         points: 400,
         tags: ["Landmark", "Water", "Cookie Interaction"],
