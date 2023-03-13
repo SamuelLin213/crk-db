@@ -8033,16 +8033,16 @@ const decorArray = [
         color: ["blue"],
     },
     /*Start of Starry Dream Station*/
-    // {
-    //     name: "Railroad of Endless Dreams(Curved Track 4)",
-    //     theme: "Starry Dream Station",
-    //     size: "4x4",
-    //     points: 0,
-    //     tags: ["Track", "Ground"],
-    //     url: 'https://cdn.jsdelivr.net/gh/SamuelLin213/crk_db_assets@main/regular_decor/sds/sds1.png',
-    //     note: "Use with the Dream Train decors",
-    //     color: ["purple", "blue"],
-    // },
+    {
+        name: "Railroad of Endless Dreams(Curved Track 4)",
+        theme: "Starry Dream Station",
+        size: "4x4",
+        points: 0,
+        tags: ["Track", "Ground"],
+        url: 'https://cdn.jsdelivr.net/gh/SamuelLin213/crk_db_assets@main/regular_decor/sds/sds1.png',
+        note: "Use with the Dream Train decors",
+        color: ["purple", "blue"],
+    },
 ];
 
 // {
