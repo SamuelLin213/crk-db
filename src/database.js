@@ -8348,7 +8348,7 @@ const decorArray = [
         theme: "Starry Dream Station",
         size: "8x8",
         points: 440,
-        tags: ["Landmark"],
+        tags: ["Landmark", "Fountain"],
         url: 'https://cdn.jsdelivr.net/gh/SamuelLin213/crk_db_assets@main/regular_decor/sds/sds32.png',
         note: "Reward for completeing Crunchy Dreams event",
         color: ["blue"],
