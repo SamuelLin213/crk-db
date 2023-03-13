@@ -62,15 +62,15 @@
 }
 
 .regularTile {
-    background-image: url(../public/decorBackground.png);
+    background-image: url("https://cdn.jsdelivr.net/gh/SamuelLin213/crk_db_assets@main/decorBackground.png");
 }
 
 .disneyTile {
-    background-image: url(../public/disneyBackground.png);
+    background-image: url("https://cdn.jsdelivr.net/gh/SamuelLin213/crk_db_assets@main/disneyBackground.png");
 }
 
 .btsTile {
-    background-image: url(../public/btsBackground.png);
+    background-image: url("https://cdn.jsdelivr.net/gh/SamuelLin213/crk_db_assets@main/btsBackground.png");
 }
 
 .decorImage {
