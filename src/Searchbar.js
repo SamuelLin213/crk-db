@@ -355,7 +355,7 @@ function searchFunc(cnt = null) {
         (val === 'cookie interaction' && childrenArr.indexOf('ciLogo') !== -1) ||
         (val === 'disney crystals' && childrenArr.indexOf('dcLogo') !== -1) ||
         (val === 'army bombs' && childrenArr.indexOf('abLogo') !== -1) || 
-        (val === 'float' && childrenArr.indexOf('floatLogo') !== -1))
+        (val === 'floating' && childrenArr.indexOf('floatLogo') !== -1))
         {
           bools[3] = true;
         }
