@@ -264,6 +264,10 @@ function TagIcon(props) {
     {
       return <div className="decorTag"><img className="tagLogo abLogo" src={"https://cdn.jsdelivr.net/gh/SamuelLin213/crk_db_assets@main/bts.png"} alt="Event Production logo"></img></div>
     }
+    else if(icon.toLowerCase() === 'float' && array.indexOf(icon) !== -1)
+    {
+      return <div className="decorTag"><img className="tagLogo floatLogo" src={"https://cdn.jsdelivr.net/gh/SamuelLin213/crk_db_assets@main/float.png"} alt="Floating logo"></img></div>
+    }
     else {
       return <div className="decorTag"><div className="tagText">{icon}</div></div>
     }
