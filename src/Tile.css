@@ -189,7 +189,7 @@
 .noteText {
     background-color: silver;
     height: 1.2vw;
-    padding: 0.5vw;
+    padding: 0.3vw;
     display: flex;
     align-items: center;
     border-radius: 10px;
@@ -197,6 +197,7 @@
 
 .noteContent {
     padding-top: 0.3vw;
+     
 }
 
 @media screen and (max-width: 1024px)
