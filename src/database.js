@@ -8326,7 +8326,7 @@ const decorArray = [
     /*Start of City of Wizards*/
     {
         name: "Dream Train Aurora Engine Room",
-        theme: "City of Wizards",
+        theme: "Starry Dream Station",
         size: "6x6",
         points: 400,
         tags: ["Train", "Landmark", "Floating"],
@@ -8336,7 +8336,7 @@ const decorArray = [
     },
     {
         name: "Dream Train Aurora Standard Car",
-        theme: "City of Wizards",
+        theme: "Starry Dream Station",
         size: "6x6",
         points: 38,
         tags: ["Train", "Floating"],
@@ -8346,7 +8346,7 @@ const decorArray = [
     },
     {
         name: "Cosmic Fountain",
-        theme: "Starry Dream Station",
+        theme: "City of Wizards",
         size: "8x8",
         points: 440,
         tags: ["Landmark", "Fountain"],
